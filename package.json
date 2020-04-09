@@ -1,0 +1,81 @@
+{
+  "name": "@newhighsco/storybook-preset",
+  "description": "New High Score shareable Storybook preset",
+  "version": "1.0.0",
+  "author": "New High Score <hello@newhighsco.re>",
+  "license": "ISC",
+  "private": true,
+  "config": {
+    "title": "storybook-preset"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newhighsco/storybook-preset.git"
+  },
+  "homepage": "https://github.com/newhighsco/storybook-preset#readme",
+  "bugs": {
+    "url": "https://github.com/newhighsco/storybook-preset/issues"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "start-storybook --port 6006 --docs --ci --quiet",
+    "test": "npm run lint",
+    "lint": "npm-run-all --parallel lint:*",
+    "lint:js": "eslint --cache --ext .js,.jsx,.json .",
+    "format": "npm-run-all --parallel format:*",
+    "format:js": "npm run lint:js -- --fix"
+  },
+  "dependencies": {
+    "@newhighsco/chipset": "2.1.1",
+    "@storybook/addon-docs": "5.3.18",
+    "@storybook/addons": "5.3.18",
+    "@storybook/preset-scss": "1.0.2",
+    "@svgr/webpack": "5.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.9.0",
+    "@commitlint/cli": "8.3.5",
+    "@newhighsco/commitlint-config": "1.0.0",
+    "@newhighsco/editor-config": "1.1.0",
+    "@newhighsco/eslint-config": "2.0.6",
+    "@newhighsco/prettier-config": "2.0.1",
+    "@newhighsco/release-config": "1.0.19",
+    "@storybook/react": "5.3.18",
+    "babel-loader": "8.1.0",
+    "eslint": "6.8.0",
+    "husky": "4.2.3",
+    "node-sass": "4.13.1",
+    "npm-run-all": "4.1.5",
+    "prettier": "2.0.4",
+    "react-is": "16.13.1",
+    "sass-loader": "8.0.2",
+    "semantic-release": "17.0.4"
+  },
+  "peerDependencies": {
+    "@storybook/react": "5.3.18"
+  },
+  "commitlint": {
+    "extends": [
+      "@newhighsco"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "@newhighsco/eslint-config/react"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "prettier": "@newhighsco/prettier-config",
+  "release": {
+    "extends": "@newhighsco/release-config"
+  },
+  "renovate": {
+    "extends": [
+      "@newhighsco"
+    ]
+  }
+}
