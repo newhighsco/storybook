@@ -7,7 +7,7 @@ New High Score [shareable preset](https://storybook.js.org/docs/presets/introduc
 Install Storybook and `@newhighsco/storybook-preset`:
 
 ```
-npm install --save @storybook/react @newhighsco/storybook-preset
+npm install --save-dev @storybook/react @newhighsco/storybook-preset
 ```
 
 ## Usage
