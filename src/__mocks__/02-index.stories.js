@@ -6,12 +6,19 @@ export default {
   component: Button
 }
 
-export const Text = () => <Button>Text</Button>
+export const text = () => <Button>Text</Button>
 
-export const Emoji = () => (
-  <Button>
-    <span role="img" aria-label="so cool">
-      😀 😎 👍 💯
-    </span>
-  </Button>
+export const emoji = () => (
+  <>
+    <Button>
+      <span role="img" aria-label="so cool">
+        😀 😎 👍 💯
+      </span>
+    </Button>
+    <Button>
+      <span role="img" aria-label="so cool">
+        😀 😎 👍 💯
+      </span>
+    </Button>
+  </>
 )

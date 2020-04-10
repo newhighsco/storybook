@@ -1,16 +1,7 @@
 const { resolve } = require('path')
-const { svgLoaders, svgRegExp } = require('./svg-loaders')
 
-const addons = ['@storybook/addon-docs']
-
-const entries = (entry = []) => [...entry, resolve(__dirname, './preview')]
-
-const managerEntries = (entry = []) => [
-  ...entry,
-  resolve(__dirname, './manager')
-]
-
-const presets = [
+const addons = [
+  { name: '@storybook/addon-docs', options: { configureJSX: true } },
   {
     name: '@storybook/preset-scss',
     options: {
@@ -19,24 +10,31 @@ const presets = [
         modules: true
       }
     }
+  },
+  {
+    name: resolve(__dirname, './addons/preset-svgr'),
+    options: {
+      svgrLoaderOptions: {
+        svgoConfig: {
+          plugins: [{ prefixIds: false }]
+        }
+      },
+      urlLoaderOptions: {
+        limit: 1
+      }
+    }
   }
 ]
 
-const webpackFinal = async config => {
-  const existingSvgRule = config.module.rules.findIndex(rule =>
-    rule.test.toString().includes('svg')
-  )
+const entries = (entry = []) => [...entry, resolve(__dirname, './preview')]
 
-  config.module.rules[existingSvgRule].exclude = svgRegExp
-  config.module.rules.push(...svgLoaders())
-
-  return config
-}
+const managerEntries = (entry = []) => [
+  ...entry,
+  resolve(__dirname, './manager')
+]
 
 module.exports = {
   addons,
   entries,
-  managerEntries,
-  presets,
-  webpackFinal
+  managerEntries
 }

@@ -51,7 +51,10 @@
     "semantic-release": "17.0.4"
   },
   "peerDependencies": {
-    "@storybook/react": "5.3.18"
+    "@storybook/react": "5.3.18",
+    "node-sass": "4.13.1",
+    "react-is": "16.13.1",
+    "sass-loader": "8.0.2"
   },
   "commitlint": {
     "extends": [
