@@ -1,3 +1,21 @@
+# [2.0.0](https://github.com/newhighsco/storybook-preset/compare/v1.1.0...v2.0.0) (2020-04-11)
+
+
+### Bug Fixes
+
+* **docspage:** simplifies useage ([46be5a2](https://github.com/newhighsco/storybook-preset/commit/46be5a2a0698942a59a47a16073fd80b03bce48a))
+
+
+### Features
+
+* **deps:** adds some useful storybook addons ([f3d44b8](https://github.com/newhighsco/storybook-preset/commit/f3d44b88f1e307feb7b41620b5aaa5b1e390e7b9))
+* **sass:** switches to Dart Sass ([3e176d0](https://github.com/newhighsco/storybook-preset/commit/3e176d0d75f4dfb00ecc9e5321ce0dc8400fa54a))
+
+
+### BREAKING CHANGES
+
+* **sass:** may introduce backwards compatibility issues
+
 # [1.1.0](https://github.com/newhighsco/storybook-preset/compare/v1.0.0...v1.1.0) (2020-04-10)
 
 
