@@ -6,7 +6,11 @@ import { wrapper } from './Example.module.scss'
 /**
  * The `Example` component
  */
-const Example = ({ children }) => <div className={wrapper}>{children}</div>
+const Example = ({ children }) => (
+  <div className={wrapper}>
+    <ExampleChild>{children}</ExampleChild>
+  </div>
+)
 
 Example.propTypes = {
   /**
@@ -15,5 +19,11 @@ Example.propTypes = {
   children: node
 }
 
+const ExampleChild = ({ children }) => <div>{children}</div>
+
+ExampleChild.propTypes = {
+  children: node
+}
+
 export default Example
-export { Example }
+export { Example, ExampleChild }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Example } from './Example'
+import { Example, ExampleChild } from './Example'
 
 import LogoSvg from './logo.svg'
 import logoSvgUrl from './logo.url.svg'
@@ -8,6 +8,7 @@ import logoPngUrl from './logo.png'
 export default {
   title: 'Components/Example',
   component: Example,
+  subcomponents: { ExampleChild },
   parameters: {
     componentSubtitle: 'Some subtitle'
   }
