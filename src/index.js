@@ -6,8 +6,10 @@ const addons = [
     name: '@storybook/preset-scss',
     options: {
       cssLoaderOptions: {
-        importLoaders: 1,
         modules: true
+      },
+      sassLoaderOptions: {
+        implementation: require('sass')
       }
     }
   },

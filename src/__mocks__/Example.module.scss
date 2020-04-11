@@ -1,5 +1,8 @@
+@use 'base';
+
 .wrapper {
-  background: red;
+  @include base.rounded;
+
   font-family: sans-serif;
-  padding: 20px;
+  padding: 20px + base.$radius;
 }
