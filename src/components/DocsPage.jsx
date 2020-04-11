@@ -1,5 +1,6 @@
 import React from 'react'
-import { bool } from 'prop-types'
+import { themes } from '@storybook/theming'
+import { object } from 'prop-types'
 import {
   Description,
   Primary,
@@ -10,12 +11,12 @@ import {
   Title
 } from '@storybook/addon-docs/blocks'
 
-const DocsPage = ({ dark }) => (
+const DocsPage = ({ theme }) => (
   <>
     <Title />
     <Subtitle />
     <Description />
-    <Source id="." dark={dark} />
+    <Source id="." dark={theme.base !== themes.dark.base} />
     <Props />
     <Primary />
     <Stories />
@@ -23,7 +24,7 @@ const DocsPage = ({ dark }) => (
 )
 
 DocsPage.propTypes = {
-  dark: bool
+  theme: object
 }
 
 export default DocsPage

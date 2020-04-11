@@ -5,11 +5,10 @@ import theme from '../src/theme'
 
 addParameters({
   docs: {
-    page: () => <DocsPage dark={theme.base !== 'dark'} />
+    page: () => <DocsPage theme={theme} />
   },
   options: {
     showRoots: true,
     theme
-  },
-  viewMode: 'docs'
+  }
 })
