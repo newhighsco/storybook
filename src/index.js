@@ -1,7 +1,9 @@
 const { resolve } = require('path')
 
 const addons = [
+  '@storybook/addon-actions/register',
   { name: '@storybook/addon-docs', options: { configureJSX: true } },
+  '@storybook/addon-links/register',
   {
     name: '@storybook/preset-scss',
     options: {
@@ -28,8 +30,6 @@ const addons = [
   }
 ]
 
-const entries = (entry = []) => [...entry, resolve(__dirname, './preview')]
-
 const managerEntries = (entry = []) => [
   ...entry,
   resolve(__dirname, './manager')
@@ -37,6 +37,5 @@ const managerEntries = (entry = []) => [
 
 module.exports = {
   addons,
-  entries,
   managerEntries
 }
