@@ -7,5 +7,6 @@ addParameters({
   },
   options: {
     showRoots: true
-  }
+  },
+  viewMode: 'docs'
 })
