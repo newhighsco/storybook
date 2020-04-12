@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/newhighsco/storybook-preset/compare/v2.1.0...v2.1.1) (2020-04-12)
+
+
+### Bug Fixes
+
+* updates output ([f755b3b](https://github.com/newhighsco/storybook-preset/commit/f755b3be41c663460a2b2acf3c14bafd4a1ea9e8))
+
 # [2.1.0](https://github.com/newhighsco/storybook-preset/compare/v2.0.1...v2.1.0) (2020-04-12)
 
 
