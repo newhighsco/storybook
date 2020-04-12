@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/newhighsco/storybook-preset/compare/v2.0.1...v2.1.0) (2020-04-12)
+
+
+### Features
+
+* **viewmode:** sets default to docs ([2093739](https://github.com/newhighsco/storybook-preset/commit/20937390c133c1023ec86b32c7b8a02424aef5b2))
+
 ## [2.0.1](https://github.com/newhighsco/storybook-preset/compare/v2.0.0...v2.0.1) (2020-04-12)
 
 
