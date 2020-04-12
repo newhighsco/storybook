@@ -12,9 +12,12 @@
   "bugs": {
     "url": "https://github.com/newhighsco/storybook-preset/issues"
   },
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "start-storybook --port 6006 --docs --ci --quiet",
+    "prepare": "npm run build",
+    "prebuild": "rm -rf dist",
+    "build": "babel src --out-dir dist --ignore '**/__mocks__'",
     "test": "npm run lint",
     "lint": "npm-run-all --parallel lint:*",
     "lint:js": "eslint --cache --ext .js,.jsx,.json .",
@@ -33,6 +36,7 @@
     "sass-loader": "8.0.2"
   },
   "devDependencies": {
+    "@babel/cli": "7.8.4",
     "@babel/core": "7.9.0",
     "@commitlint/cli": "8.3.5",
     "@newhighsco/commitlint-config": "1.0.0",
