@@ -30,12 +30,9 @@ const addons = [
   }
 ]
 
-const managerEntries = (entry = []) => [
-  ...entry,
-  resolve(__dirname, './manager')
-]
+const config = (entry = []) => [...entry, resolve(__dirname, './preview')]
 
 module.exports = {
   addons,
-  managerEntries
+  config
 }

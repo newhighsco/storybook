@@ -1,14 +1,10 @@
-import React from 'react'
+import { create } from '@storybook/theming/create'
 import { addParameters } from '@storybook/react'
-import { DocsPage } from '../src/components/DocsPage'
-import theme from '../src/theme'
 
 addParameters({
-  docs: {
-    page: () => <DocsPage theme={theme} />
-  },
   options: {
-    showRoots: true,
-    theme
+    theme: create({
+      base: 'light'
+    })
   }
 })

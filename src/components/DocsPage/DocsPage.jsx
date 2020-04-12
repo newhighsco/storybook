@@ -27,5 +27,4 @@ DocsPage.propTypes = {
   theme: object
 }
 
-export default DocsPage
 export { DocsPage }

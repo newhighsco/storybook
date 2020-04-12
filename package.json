@@ -4,9 +4,6 @@
   "version": "2.0.0",
   "author": "New High Score <hello@newhighsco.re>",
   "license": "ISC",
-  "config": {
-    "title": "storybook-preset"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/newhighsco/storybook-preset.git"
