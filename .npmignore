@@ -1,6 +1,10 @@
 .*
 npm-debug.log
 yarn-error.log
+babel.config.js
+jest.config.js
 __mocks__
+__tests__
+config
 coverage
 src

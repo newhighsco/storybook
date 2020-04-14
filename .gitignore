@@ -22,4 +22,5 @@ yarn-error.log
 
 # Project specific
 .eslintcache
+coverage
 dist

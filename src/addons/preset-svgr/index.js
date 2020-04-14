@@ -1,51 +1,47 @@
 const svgRegExp = /\.svg$/
 const svgUrlRegExp = /\.url\.svg$/
 
-const svgrLoaders = ({ svgrLoaderOptions = {}, urlLoaderOptions = {} }) => {
+const svgrLoaders = ({ svgrLoaderOptions, urlLoader }) => {
   const svgrLoader = {
     loader: require.resolve('@svgr/webpack'),
-    options: {
-      ...svgrLoaderOptions
-    }
+    options: svgrLoaderOptions
   }
 
   return [
-    {
+    urlLoader && {
       test: svgUrlRegExp,
-      use: [
-        svgrLoader,
-        {
-          loader: require.resolve('url-loader'),
-          options: {
-            ...urlLoaderOptions
-          }
-        }
-      ]
+      use: [svgrLoader, urlLoader]
     },
     {
       test: svgRegExp,
       exclude: svgUrlRegExp,
       use: svgrLoader
     }
-  ]
+  ].filter(r => r)
 }
 
 const webpackFinal = (config = {}, options = {}) => {
   const { module = {} } = config
-  const { urlLoaderOptions = {} } = options
+  const { urlLoaderOptions } = options
 
-  // Find existing file-loader rule that handle SVGs
-  const existingSvgRule = module.rules.findIndex(rule =>
-    rule.test.toString().includes('svg')
-  )
+  // Find existing rule that handle SVGs
+  const existingSvgRuleIndex =
+    module.rules &&
+    module.rules.findIndex(rule => rule.test.toString().includes('svg'))
 
-  // Tell existing rule to ignore SVGs
-  module.rules[existingSvgRule].exclude = svgRegExp
+  if (existingSvgRuleIndex) {
+    const existingSvgRule = module.rules[existingSvgRuleIndex]
 
-  options.urlLoaderOptions = {
-    // Copy file name pattern from existing rule
-    name: module.rules[existingSvgRule].query.name,
-    ...urlLoaderOptions
+    // Tell existing rule to ignore SVGs
+    existingSvgRule.exclude = svgRegExp
+
+    // Use existing loader to load SVG URLs
+    options.urlLoader = {
+      loader: existingSvgRule.loader,
+      ...(urlLoaderOptions
+        ? { options: { ...existingSvgRule.options, ...urlLoaderOptions } }
+        : { options: existingSvgRule.options })
+    }
   }
 
   return {
