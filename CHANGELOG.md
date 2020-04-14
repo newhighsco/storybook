@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/newhighsco/storybook-preset/compare/v2.1.1...v2.2.0) (2020-04-14)
+
+
+### Features
+
+* **preset-svg:** uses existing storybook loader settings ([47350ff](https://github.com/newhighsco/storybook-preset/commit/47350ff3874abcc7d61aee58dac5f8b7acea045a))
+
 ## [2.1.1](https://github.com/newhighsco/storybook-preset/compare/v2.1.0...v2.1.1) (2020-04-12)
 
 
