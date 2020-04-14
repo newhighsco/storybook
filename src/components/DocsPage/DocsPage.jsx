@@ -11,7 +11,7 @@ import {
   Title
 } from '@storybook/addon-docs/blocks'
 
-const DocsPage = ({ theme }) => (
+const DocsPage = ({ theme = {} }) => (
   <>
     <Title />
     <Subtitle />
