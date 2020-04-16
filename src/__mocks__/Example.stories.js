@@ -14,6 +14,16 @@ export default {
   }
 }
 
+export const Hidden = () => <Example>Hidden</Example>
+
+Hidden.story = {
+  parameters: {
+    docs: {
+      disable: true
+    }
+  }
+}
+
 export const Text = () => <Example>Text</Example>
 
 export const InlineSVG = () => (
@@ -21,6 +31,14 @@ export const InlineSVG = () => (
     <LogoSvg />
   </Example>
 )
+
+InlineSVG.story = {
+  parameters: {
+    docs: {
+      storyDescription: 'Some story description'
+    }
+  }
+}
 
 export const ImageSVGSrc = () => (
   <Example>
