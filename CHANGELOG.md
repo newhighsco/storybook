@@ -1,3 +1,10 @@
+## [2.2.1](https://github.com/newhighsco/storybook-preset/compare/v2.2.0...v2.2.1) (2020-04-16)
+
+
+### Bug Fixes
+
+* **docspage:** better handles hidden primary stories ([42c4edd](https://github.com/newhighsco/storybook-preset/commit/42c4edd42966cc163762f494ff11ea00409689d3))
+
 # [2.2.0](https://github.com/newhighsco/storybook-preset/compare/v2.1.1...v2.2.0) (2020-04-14)
 
 
