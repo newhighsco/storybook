@@ -27,6 +27,12 @@ const addons = [
         limit: 1
       }
     }
+  },
+  {
+    name: resolve(__dirname, './addons/addon-transpile-modules'),
+    options: {
+      transpileModules: ['@newhighsco/chipset']
+    }
   }
 ]
 
