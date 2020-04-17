@@ -1,7 +1,7 @@
 import presetSvgr from '../index'
 import { createDefaultWebpackConfig } from '@storybook/core/dist/server/preview/base-webpack.config'
 
-describe('presetSvgr2', () => {
+describe('preset-svg', () => {
   it('should return webpackFinal', () => {
     const preset = presetSvgr
 

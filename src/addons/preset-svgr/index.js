@@ -29,7 +29,7 @@ const webpackFinal = (config = {}, options = {}) => {
     module.rules &&
     module.rules.findIndex(rule => rule.test.toString().includes('svg'))
 
-  if (existingSvgRuleIndex) {
+  if (existingSvgRuleIndex >= 0) {
     const existingSvgRule = module.rules[existingSvgRuleIndex]
 
     // Tell existing rule to ignore SVGs
