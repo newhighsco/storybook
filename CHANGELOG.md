@@ -1,3 +1,15 @@
+# [2.3.0](https://github.com/newhighsco/storybook-preset/compare/v2.2.1...v2.3.0) (2020-04-17)
+
+
+### Bug Fixes
+
+* **preset-svgr:** fixes typo ([1110678](https://github.com/newhighsco/storybook-preset/commit/1110678892b0eed19e598e9bd5428bdfd914d902))
+
+
+### Features
+
+* **addon:** adds addon for transpiling modules ([88e7558](https://github.com/newhighsco/storybook-preset/commit/88e7558ff89f529f4a2f510222a2516e8289624d))
+
 ## [2.2.1](https://github.com/newhighsco/storybook-preset/compare/v2.2.0...v2.2.1) (2020-04-16)
 
 
