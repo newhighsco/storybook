@@ -22,7 +22,7 @@
     "test": "npm-run-all --parallel test:*",
     "test:js": "jest --coverage",
     "lint": "npm-run-all --parallel lint:*",
-    "lint:js": "eslint --cache --ext .js,.jsx,.json .",
+    "lint:js": "eslint --cache --ext .js,.json,.jsx,.mdx .",
     "format": "npm-run-all --parallel format:*",
     "format:js": "npm run lint:js -- --fix"
   },
@@ -44,7 +44,7 @@
     "@commitlint/cli": "8.3.5",
     "@newhighsco/commitlint-config": "1.0.1",
     "@newhighsco/editor-config": "1.1.1",
-    "@newhighsco/eslint-config": "2.0.8",
+    "@newhighsco/eslint-config": "2.1.0",
     "@newhighsco/prettier-config": "2.0.2",
     "@newhighsco/release-config": "1.0.20",
     "@storybook/react": "5.3.18",
