@@ -32,7 +32,7 @@
     "@storybook/addon-links": "5.3.18",
     "@storybook/addons": "5.3.18",
     "@storybook/preset-scss": "1.0.2",
-    "@svgr/webpack": "5.3.1",
+    "@svgr/webpack": "5.4.0",
     "react-is": "16.13.1",
     "sass": "1.26.5",
     "sass-loader": "8.0.2"
