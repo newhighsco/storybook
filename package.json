@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@babel/cli": "7.10.1",
-    "@babel/core": "7.10.1",
+    "@babel/core": "7.10.2",
     "@babel/polyfill": "7.10.1",
     "@commitlint/cli": "8.3.5",
     "@newhighsco/commitlint-config": "1.0.1",
