@@ -46,7 +46,7 @@
     "@newhighsco/editor-config": "1.1.1",
     "@newhighsco/eslint-config": "2.2.4",
     "@newhighsco/prettier-config": "2.0.3",
-    "@newhighsco/release-config": "1.0.25",
+    "@newhighsco/release-config": "1.0.26",
     "@storybook/react": "5.3.19",
     "babel-jest": "26.1.0",
     "babel-loader": "8.1.0",
