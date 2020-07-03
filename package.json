@@ -35,7 +35,7 @@
     "@svgr/webpack": "5.4.0",
     "react-is": "16.13.1",
     "sass": "1.26.9",
-    "sass-loader": "8.0.2"
+    "sass-loader": "9.0.1"
   },
   "devDependencies": {
     "@babel/cli": "7.10.4",
