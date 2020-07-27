@@ -38,23 +38,26 @@ const webpackFinal = (config = {}, options = {}) => {
   // Find existing rule that handles CSS
   const existingCssRule =
     module.rules &&
-    module.rules.find(rule => rule?.test?.toString().includes('css'))
+    module.rules.find(rule => rule.test.toString().includes('css'))
 
   if (existingCssRule) {
-    const existingCssLoader = existingCssRule.use.find(use =>
-      use?.loader?.includes('/css-loader/')
-    )
-    const existingPostcssLoader = existingCssRule.use.find(use =>
-      use?.loader?.includes('/postcss-loader/')
+    // Inherit any existing css-loader options
+    const existingCssLoader = existingCssRule.use.find(
+      use => use && use.loader && use.loader.includes('/css-loader/')
     )
 
     options.cssLoaderOptions = {
-      ...existingCssLoader?.options,
+      ...existingCssLoader.options,
       ...cssLoaderOptions
     }
 
+    // Inherit any existing postcss-loader options
+    const existingPostcssLoader = existingCssRule.use.find(
+      use => use && use.loader && use.loader.includes('/postcss-loader/')
+    )
+
     options.postcssLoaderOptions = {
-      ...existingPostcssLoader?.options,
+      ...existingPostcssLoader.options,
       ...postcssLoaderOptions
     }
   }

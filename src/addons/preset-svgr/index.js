@@ -27,7 +27,7 @@ const webpackFinal = (config = {}, options = {}) => {
   // Find existing rule that handles SVGs
   const existingSvgRule =
     module.rules &&
-    module.rules.find(rule => rule?.test?.toString().includes('svg'))
+    module.rules.find(rule => rule.test.toString().includes('svg'))
 
   if (existingSvgRule) {
     // Tell existing rule to ignore SVGs
