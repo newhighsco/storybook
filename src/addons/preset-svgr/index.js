@@ -24,14 +24,12 @@ const webpackFinal = (config = {}, options = {}) => {
   const { module = {} } = config
   const { urlLoaderOptions } = options
 
-  // Find existing rule that handle SVGs
-  const existingSvgRuleIndex =
+  // Find existing rule that handles SVGs
+  const existingSvgRule =
     module.rules &&
-    module.rules.findIndex(rule => rule.test.toString().includes('svg'))
+    module.rules.find(rule => rule?.test?.toString().includes('svg'))
 
-  if (existingSvgRuleIndex >= 0) {
-    const existingSvgRule = module.rules[existingSvgRuleIndex]
-
+  if (existingSvgRule) {
     // Tell existing rule to ignore SVGs
     existingSvgRule.exclude = svgRegExp
 
