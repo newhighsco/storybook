@@ -1,3 +1,10 @@
+## [2.4.1](https://github.com/newhighsco/storybook-preset/compare/v2.4.0...v2.4.1) (2020-07-27)
+
+
+### Bug Fixes
+
+* remove use of optional chaining ([ac33c51](https://github.com/newhighsco/storybook-preset/commit/ac33c514dce03b6e2a862e4793b56352db121097))
+
 # [2.4.0](https://github.com/newhighsco/storybook-preset/compare/v2.3.10...v2.4.0) (2020-07-27)
 
 
