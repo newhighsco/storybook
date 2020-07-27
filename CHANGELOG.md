@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/newhighsco/storybook-preset/compare/v2.3.10...v2.4.0) (2020-07-27)
+
+
+### Features
+
+* **sass:** replaces community preset with local version ([579e2d0](https://github.com/newhighsco/storybook-preset/commit/579e2d0500edd9396183c3868edb3c96946d792c))
+
 ## [2.3.10](https://github.com/newhighsco/storybook-preset/compare/v2.3.9...v2.3.10) (2020-07-07)
 
 
