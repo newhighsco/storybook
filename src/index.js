@@ -5,7 +5,7 @@ const addons = [
   { name: '@storybook/addon-docs', options: { configureJSX: true } },
   '@storybook/addon-links/register',
   {
-    name: '@storybook/preset-scss',
+    name: resolve(__dirname, './addons/preset-sass'),
     options: {
       cssLoaderOptions: {
         modules: true
