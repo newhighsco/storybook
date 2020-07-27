@@ -1,3 +1,10 @@
+## [2.4.2](https://github.com/newhighsco/storybook-preset/compare/v2.4.1...v2.4.2) (2020-07-27)
+
+
+### Bug Fixes
+
+* re-order sass loaders ([b0b1849](https://github.com/newhighsco/storybook-preset/commit/b0b1849e3ce64e098c1578e29e488d1837de7d0e))
+
 ## [2.4.1](https://github.com/newhighsco/storybook-preset/compare/v2.4.0...v2.4.1) (2020-07-27)
 
 
