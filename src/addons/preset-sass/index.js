@@ -19,12 +19,12 @@ const sassLoaders = ({
           options: cssLoaderOptions
         },
         {
-          loader: require.resolve('sass-loader'),
-          options: sassLoaderOptions
-        },
-        {
           loader: require.resolve('postcss-loader'),
           options: postcssLoaderOptions
+        },
+        {
+          loader: require.resolve('sass-loader'),
+          options: sassLoaderOptions
         }
       ]
     }

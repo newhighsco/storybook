@@ -32,7 +32,7 @@ describe('preset-sass', () => {
     expect(webpackConfig.module.rules[0].use[1].options).toEqual({
       modules: true
     })
-    expect(webpackConfig.module.rules[0].use[2].options).toEqual({
+    expect(webpackConfig.module.rules[0].use[3].options).toEqual({
       implementation: 'foo'
     })
   })
@@ -66,10 +66,7 @@ describe('preset-sass', () => {
       importLoaders: 1,
       modules: true
     })
-    expect(rules[baseConfigRules.length].use[2].options).toEqual({
-      implementation: 'foo'
-    })
-    expect(rules[baseConfigRules.length].use[3].options).toEqual(
+    expect(rules[baseConfigRules.length].use[2].options).toEqual(
       expect.objectContaining({
         fizz: 'buzz',
         ident: 'postcss',
@@ -77,5 +74,8 @@ describe('preset-sass', () => {
         plugins: expect.any(Function)
       })
     )
+    expect(rules[baseConfigRules.length].use[3].options).toEqual({
+      implementation: 'foo'
+    })
   })
 })
