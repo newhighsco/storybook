@@ -9,9 +9,6 @@ const addons = [
     options: {
       cssLoaderOptions: {
         modules: true
-      },
-      sassLoaderOptions: {
-        implementation: require('sass')
       }
     }
   },
