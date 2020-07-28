@@ -1,3 +1,10 @@
+## [2.4.3](https://github.com/newhighsco/storybook-preset/compare/v2.4.2...v2.4.3) (2020-07-28)
+
+
+### Bug Fixes
+
+* **sass:** removes implementation as dart-sass is now default ([fd6744c](https://github.com/newhighsco/storybook-preset/commit/fd6744c51f80cce9f711ef66a32c80ab03ed6501))
+
 ## [2.4.2](https://github.com/newhighsco/storybook-preset/compare/v2.4.1...v2.4.2) (2020-07-27)
 
 
