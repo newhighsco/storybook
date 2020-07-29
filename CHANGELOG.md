@@ -1,3 +1,10 @@
+## [2.4.4](https://github.com/newhighsco/storybook-preset/compare/v2.4.3...v2.4.4) (2020-07-29)
+
+
+### Bug Fixes
+
+* bump version number when Storybook updates ([67b4388](https://github.com/newhighsco/storybook-preset/commit/67b4388ad1425ac820df93c82d8dba695e038ae0))
+
 ## [2.4.3](https://github.com/newhighsco/storybook-preset/compare/v2.4.2...v2.4.3) (2020-07-28)
 
 
