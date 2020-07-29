@@ -1,3 +1,10 @@
+## [2.4.5](https://github.com/newhighsco/storybook-preset/compare/v2.4.4...v2.4.5) (2020-07-29)
+
+
+### Bug Fixes
+
+* prepare for Storybook v6 ([382a45f](https://github.com/newhighsco/storybook-preset/commit/382a45f265b3b696182c118c601a600cd9ae56b1))
+
 ## [2.4.4](https://github.com/newhighsco/storybook-preset/compare/v2.4.3...v2.4.4) (2020-07-29)
 
 
