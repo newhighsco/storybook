@@ -2,10 +2,12 @@ import React, { useContext } from 'react'
 import { themes } from '@storybook/theming'
 import { object } from 'prop-types'
 import {
+  CURRENT_SELECTION,
   Description,
   DocsContext,
   DocsStory,
   Heading,
+  PRIMARY_STORY,
   Props,
   Source,
   Subtitle,
@@ -22,8 +24,8 @@ const DocsPage = ({ theme = {} }) => {
       <Title />
       <Subtitle />
       <Description />
-      <Source id="." dark={theme.base !== themes.dark.base} />
-      <Props />
+      <Source id={CURRENT_SELECTION} dark={theme.base !== themes.dark.base} />
+      <Props story={PRIMARY_STORY} />
       {!!stories.length && (
         <>
           <Heading>Stories</Heading>
