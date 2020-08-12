@@ -1,10 +1,7 @@
 import { create } from '@storybook/theming/create'
-import { addParameters } from '@storybook/react'
 
-addParameters({
+export const parameters = {
   options: {
-    theme: create({
-      base: 'light'
-    })
+    theme: create({ base: 'light' })
   }
-})
+}

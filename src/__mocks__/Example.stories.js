@@ -14,23 +14,25 @@ export default {
   }
 }
 
-export const Hidden = () => <Example>Hidden</Example>
+const ExampleStory = args => <Example {...args} />
 
-Hidden.story = {
-  parameters: {
-    docs: {
-      disable: true
-    }
-  }
+export const Source = ExampleStory.bind({})
+
+Source.args = {
+  children: 'Source'
 }
 
-export const Text = () => <Example>Text</Example>
+export const Text = ExampleStory.bind({})
 
-export const InlineSVG = () => (
-  <Example>
-    <LogoSvg />
-  </Example>
-)
+Text.args = {
+  children: 'Text'
+}
+
+export const InlineSVG = ExampleStory.bind({})
+
+InlineSVG.args = {
+  children: <LogoSvg />
+}
 
 InlineSVG.story = {
   parameters: {
@@ -40,14 +42,14 @@ InlineSVG.story = {
   }
 }
 
-export const ImageSVGSrc = () => (
-  <Example>
-    <img src={logoSvgUrl} alt="" />
-  </Example>
-)
+export const ImageSVGSrc = ExampleStory.bind({})
 
-export const ImagePNGSrc = () => (
-  <Example>
-    <img src={logoPngUrl} alt="" style={{ width: 64 }} />
-  </Example>
-)
+ImageSVGSrc.args = {
+  children: <img src={logoSvgUrl} alt="" />
+}
+
+export const ImagePNGSrc = ExampleStory.bind({})
+
+ImagePNGSrc.args = {
+  children: <img src={logoPngUrl} alt="" style={{ width: 64 }} />
+}

@@ -1,7 +1,7 @@
-import { addParameters } from '@storybook/react'
 import { DocsPage } from './components'
 
-addParameters({
+export const parameters = {
+  actions: { argTypesRegex: '^on[A-Z].*' },
   docs: {
     page: DocsPage
   },
@@ -9,4 +9,4 @@ addParameters({
     showRoots: true
   },
   viewMode: 'docs'
-})
+}
