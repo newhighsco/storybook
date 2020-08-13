@@ -27,8 +27,8 @@
     "format:js": "npm run lint:js -- --fix"
   },
   "dependencies": {
-    "@storybook/addon-essentials": "6.0.5",
-    "@storybook/addon-links": "6.0.5",
+    "@storybook/addon-essentials": "6.0.6",
+    "@storybook/addon-links": "6.0.6",
     "@svgr/webpack": "5.4.0",
     "react-is": "16.13.1",
     "sass": "1.26.10",
@@ -44,7 +44,7 @@
     "@newhighsco/eslint-config": "2.2.17",
     "@newhighsco/prettier-config": "2.0.3",
     "@newhighsco/release-config": "1.0.26",
-    "@storybook/react": "6.0.5",
+    "@storybook/react": "6.0.6",
     "babel-jest": "26.3.0",
     "babel-loader": "8.1.0",
     "enzyme": "3.11.0",
@@ -57,7 +57,7 @@
     "semantic-release": "17.1.1"
   },
   "peerDependencies": {
-    "@storybook/react": "6.0.5"
+    "@storybook/react": "6.0.6"
   },
   "commitlint": {
     "extends": [
