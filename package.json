@@ -1,7 +1,7 @@
 {
   "name": "@newhighsco/storybook-preset",
   "description": "New High Score shareable Storybook preset",
-  "version": "2.5.1",
+  "version": "2.5.2",
   "author": "New High Score <hello@newhighsco.re>",
   "license": "ISC",
   "repository": {
