@@ -1,3 +1,10 @@
+## [2.5.5](https://github.com/newhighsco/storybook-preset/compare/v2.5.4...v2.5.5) (2020-08-17)
+
+
+### Bug Fixes
+
+* **deps:** update storybook monorepo to v6.0.12 ([380cade](https://github.com/newhighsco/storybook-preset/commit/380cadea4307b63e021a6cd48c0afc8e3c2dac7b))
+
 ## [2.5.4](https://github.com/newhighsco/storybook-preset/compare/v2.5.3...v2.5.4) (2020-08-15)
 
 
