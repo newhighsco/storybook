@@ -1,3 +1,10 @@
+## [2.5.7](https://github.com/newhighsco/storybook-preset/compare/v2.5.6...v2.5.7) (2020-08-19)
+
+
+### Bug Fixes
+
+* reinstates toolbars for each story ([1081b4a](https://github.com/newhighsco/storybook-preset/commit/1081b4a4c8792e6eceb9550fff19f4bdf434f0c9))
+
 ## [2.5.6](https://github.com/newhighsco/storybook-preset/compare/v2.5.5...v2.5.6) (2020-08-19)
 
 
