@@ -1,3 +1,10 @@
+# [2.6.0](https://github.com/newhighsco/storybook-preset/compare/v2.5.7...v2.6.0) (2020-08-19)
+
+
+### Features
+
+* **css:** set localIdentName for easier debugging ([5d17dba](https://github.com/newhighsco/storybook-preset/commit/5d17dba8fb913bf50e3ac46b0dee29b6cd406412))
+
 ## [2.5.7](https://github.com/newhighsco/storybook-preset/compare/v2.5.6...v2.5.7) (2020-08-19)
 
 
