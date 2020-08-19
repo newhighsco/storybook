@@ -8,7 +8,9 @@ const addons = [
     name: resolve(__dirname, './addons/preset-sass'),
     options: {
       cssLoaderOptions: {
-        modules: true
+        modules: {
+          localIdentName: '[name]_[local]__[hash:base64:5]'
+        }
       }
     }
   },
