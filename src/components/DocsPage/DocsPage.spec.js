@@ -1,6 +1,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import { Source } from '@storybook/addon-docs/blocks'
+import { DocsStory, Heading, Source } from '@storybook/addon-docs/blocks'
+import { getDocsStories } from '@storybook/addon-docs/dist/blocks/utils'
 import { DocsPage } from './DocsPage'
 
 jest.mock('@storybook/addon-docs/dist/blocks/utils', () => ({
@@ -18,5 +19,14 @@ describe('Components/DocsPage', () => {
     const wrapper = shallow(<DocsPage theme={{ base: 'dark' }} />)
 
     expect(wrapper.find(Source).prop('dark')).toEqual(false)
+  })
+
+  it('should render the correct number of <DocStory /> components', () => {
+    getDocsStories.mockImplementation(() => [{ id: 1 }, { id: 2 }, { id: 3 }])
+
+    const wrapper = shallow(<DocsPage />)
+
+    expect(wrapper.find(Heading).length).toEqual(1)
+    expect(wrapper.find(DocsStory).length).toEqual(2)
   })
 })
