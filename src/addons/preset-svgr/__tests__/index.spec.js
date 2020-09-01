@@ -41,7 +41,7 @@ describe('preset-svg', () => {
     const webpackConfig = presetSvgr.webpackFinal(baseConfig)
     const { rules } = webpackConfig.module
 
-    expect(rules.length).toEqual(baseConfigRules.length + 2)
+    expect(rules.length).toEqual(baseConfigRules.length + 1)
     expect(rules[existingSvgRuleIndex].exclude).toEqual(/\.svg$/)
     expect(rules[baseConfigRules.length].use.length).toEqual(2)
     expect(rules[baseConfigRules.length].use[1].loader).toEqual(

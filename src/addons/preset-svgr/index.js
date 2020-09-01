@@ -1,5 +1,4 @@
 const svgRegExp = /\.svg$/
-const svgUrlRegExp = /\.url\.svg$/
 
 const svgrLoaders = ({ svgrLoaderOptions, urlLoader }) => {
   const svgrLoader = {
@@ -8,15 +7,15 @@ const svgrLoaders = ({ svgrLoaderOptions, urlLoader }) => {
   }
 
   return [
-    urlLoader && {
-      test: svgUrlRegExp,
-      use: [svgrLoader, urlLoader]
-    },
-    {
-      test: svgRegExp,
-      exclude: svgUrlRegExp,
-      use: svgrLoader
-    }
+    urlLoader
+      ? {
+          test: svgRegExp,
+          use: [svgrLoader, urlLoader]
+        }
+      : {
+          test: svgRegExp,
+          use: svgrLoader
+        }
   ].filter(r => r)
 }
 
