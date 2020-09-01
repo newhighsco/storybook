@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/newhighsco/storybook-preset/compare/v2.6.9...v3.0.0) (2020-09-01)
+
+
+### Features
+
+* **preset-svgr:** emulates `@svgr/webpack` url-loader usage ([351cd33](https://github.com/newhighsco/storybook-preset/commit/351cd33f2d18bd53ccd21d88c0bbd1487d4ac996))
+
+
+### BREAKING CHANGES
+
+* **preset-svgr:** removes undocumented `*.url.svg` in favour of expected url-loader usage documented at https://react-svgr.com/docs/webpack/#using-with-url-loader-or-file-loader
+
 ## [2.6.9](https://github.com/newhighsco/storybook-preset/compare/v2.6.8...v2.6.9) (2020-08-31)
 
 
