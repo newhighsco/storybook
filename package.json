@@ -28,7 +28,7 @@
     "format:js": "npm run lint:js -- --fix"
   },
   "dependencies": {
-    "@storybook/addon-essentials": "6.0.23",
+    "@storybook/addon-essentials": "6.0.25",
     "@storybook/addon-links": "6.0.25",
     "@svgr/webpack": "5.4.0",
     "react-is": "16.13.1",
