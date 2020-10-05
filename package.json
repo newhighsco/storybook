@@ -46,7 +46,7 @@
     "@newhighsco/prettier-config": "2.0.6",
     "@newhighsco/release-config": "1.0.31",
     "@storybook/react": "6.0.25",
-    "babel-jest": "26.3.0",
+    "babel-jest": "26.5.0",
     "babel-loader": "8.1.0",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.5",
