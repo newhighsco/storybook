@@ -1,3 +1,10 @@
+## [3.0.6](https://github.com/newhighsco/storybook-preset/compare/v3.0.5...v3.0.6) (2020-10-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @storybook/addon-essentials to v6.0.26 ([9857ba6](https://github.com/newhighsco/storybook-preset/commit/9857ba6e981ed328a25652fda1fa8ce34071b015))
+
 ## [3.0.5](https://github.com/newhighsco/storybook-preset/compare/v3.0.4...v3.0.5) (2020-10-03)
 
 
