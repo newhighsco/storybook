@@ -1,3 +1,10 @@
+## [3.0.16](https://github.com/newhighsco/storybook-preset/compare/v3.0.15...v3.0.16) (2020-10-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-is to v17 ([7fad180](https://github.com/newhighsco/storybook-preset/commit/7fad18086416840f1434b1deb525e9b8db7a4499))
+
 ## [3.0.15](https://github.com/newhighsco/storybook-preset/compare/v3.0.14...v3.0.15) (2020-10-30)
 
 
