@@ -5,8 +5,5 @@ export const parameters = {
   docs: {
     page: DocsPage
   },
-  options: {
-    showRoots: true
-  },
   viewMode: 'docs'
 }

@@ -1,7 +1,7 @@
 import { create } from '@storybook/theming/create'
 
 export const parameters = {
-  options: {
+  docs: {
     theme: create({ base: 'light' })
   }
 }
