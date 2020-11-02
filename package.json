@@ -29,8 +29,10 @@
     "format:js": "npm run lint:js -- --fix"
   },
   "dependencies": {
-    "@storybook/addon-essentials": "6.0.28",
+    "@storybook/addon-actions": "6.0.28",
+    "@storybook/addon-docs": "6.0.28",
     "@storybook/addon-links": "6.0.28",
+    "@storybook/addons": "6.0.28",
     "@svgr/webpack": "5.4.0",
     "react-is": "17.0.1",
     "sass": "1.28.0",
