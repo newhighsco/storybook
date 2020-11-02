@@ -1,3 +1,15 @@
+# [3.1.0](https://github.com/newhighsco/storybook-preset/compare/v3.0.17...v3.1.0) (2020-11-02)
+
+
+### Bug Fixes
+
+* **addons:** adjust config order ([a26b85e](https://github.com/newhighsco/storybook-preset/commit/a26b85e26e7595a4d59e970a6d1dd4247b46471a))
+
+
+### Features
+
+* update deprecated props ([a3427c2](https://github.com/newhighsco/storybook-preset/commit/a3427c2829f8e059752bf0ea864e6ac37817563c))
+
 ## [3.0.17](https://github.com/newhighsco/storybook-preset/compare/v3.0.16...v3.0.17) (2020-10-30)
 
 
