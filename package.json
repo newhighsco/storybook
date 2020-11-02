@@ -18,7 +18,7 @@
     "prepare": "npm run build",
     "prebuild": "rm -rf dist",
     "build": "babel src --out-dir dist --ignore '**/__mocks__','**/__tests__','**/*.spec.js'",
-    "build:storybook": "build-storybook --output-dir build --static-dir .storybook/static --docs --quiet",
+    "build:storybook": "build-storybook --output-dir build --docs --quiet",
     "pretest": "npm run lint",
     "test": "npm-run-all --parallel test:*",
     "test:js": "jest --coverage",
