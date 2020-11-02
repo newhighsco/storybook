@@ -11,7 +11,7 @@ executors:
     working_directory: ~/repo
 
 jobs:
-  build:
+  setup:
     executor: node-executor
     steps:
       - checkout
@@ -33,6 +33,16 @@ jobs:
       - attach_workspace:
           at: .
       - run: yarn test
+  build:
+    executor: node-executor
+    steps:
+      - attach_workspace:
+          at: .
+      - run: yarn build:storybook
+      - persist_to_workspace:
+          root: .
+          paths:
+            - build
   release:
     executor: node-executor
     steps:
@@ -45,13 +55,16 @@ workflows:
   version: 2
   test_and_release:
     jobs:
-      - build
+      - setup
       - test:
           requires:
-            - build
-      - release:
+            - setup
+      - build:
           requires:
             - test
+      - release:
+          requires:
+            - build
           filters:
             branches:
               only:
