@@ -1,3 +1,10 @@
+## [3.1.1](https://github.com/newhighsco/storybook-preset/compare/v3.1.0...v3.1.1) (2020-11-02)
+
+
+### Bug Fixes
+
+* **deps:** updates lock file ([8e88337](https://github.com/newhighsco/storybook-preset/commit/8e8833707530a4f8a3ceedca75612dea457d978e))
+
 # [3.1.0](https://github.com/newhighsco/storybook-preset/compare/v3.0.17...v3.1.0) (2020-11-02)
 
 
