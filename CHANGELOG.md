@@ -1,3 +1,10 @@
+## [3.1.2](https://github.com/newhighsco/storybook-preset/compare/v3.1.1...v3.1.2) (2020-11-02)
+
+
+### Bug Fixes
+
+* **deps:** adds individual addon dependencies ([17bf19c](https://github.com/newhighsco/storybook-preset/commit/17bf19c1ebf03e70a3d0603e482f8e5c58f22356))
+
 ## [3.1.1](https://github.com/newhighsco/storybook-preset/compare/v3.1.0...v3.1.1) (2020-11-02)
 
 
