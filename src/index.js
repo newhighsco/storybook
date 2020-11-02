@@ -1,8 +1,7 @@
 const { resolve } = require('path')
 
 const addons = [
-  '@storybook/addon-actions',
-  { name: '@storybook/addon-docs', options: { configureJSX: true } },
+  '@storybook/addon-essentials',
   '@storybook/addon-links',
   {
     name: resolve(__dirname, './addons/preset-sass'),
