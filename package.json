@@ -33,7 +33,7 @@
     "@storybook/addon-docs": "6.0.28",
     "@storybook/addon-links": "6.0.28",
     "@storybook/addons": "6.0.28",
-    "@svgr/webpack": "5.4.0",
+    "@svgr/webpack": "5.5.0",
     "react-is": "17.0.1",
     "sass": "1.29.0",
     "sass-loader": "10.1.0"
