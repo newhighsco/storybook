@@ -33,11 +33,9 @@ InlineSVG.args = {
   children: <LogoSvg />
 }
 
-InlineSVG.story = {
-  parameters: {
-    docs: {
-      storyDescription: 'Some story description'
-    }
+InlineSVG.parameters = {
+  docs: {
+    description: { story: 'Some story description' }
   }
 }
 
