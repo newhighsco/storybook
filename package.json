@@ -13,6 +13,10 @@
     "url": "https://github.com/newhighsco/storybook-preset/issues"
   },
   "main": "dist/index.js",
+  "files": [
+    "dist",
+    "preset.js"
+  ],
   "scripts": {
     "start": "start-storybook --port 6006 --docs --ci --quiet",
     "prepare": "npm run build",
