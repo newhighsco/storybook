@@ -39,7 +39,7 @@
     "@storybook/addons": "6.1.11",
     "@svgr/webpack": "5.5.0",
     "react-is": "17.0.1",
-    "sass": "1.30.0",
+    "sass": "1.32.0",
     "sass-loader": "10.1.0"
   },
   "devDependencies": {
