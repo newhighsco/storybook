@@ -50,7 +50,7 @@
     "@commitlint/cli": "11.0.0",
     "@newhighsco/commitlint-config": "1.0.7",
     "@newhighsco/editor-config": "1.1.1",
-    "@newhighsco/eslint-config": "2.2.61",
+    "@newhighsco/eslint-config": "2.2.62",
     "@newhighsco/prettier-config": "2.0.8",
     "@newhighsco/release-config": "1.0.43",
     "@storybook/react": "6.1.14",
