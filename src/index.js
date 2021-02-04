@@ -5,6 +5,14 @@ const addons = [
   { name: '@storybook/addon-docs', options: { configureJSX: true } },
   '@storybook/addon-links',
   {
+    name: '@storybook/addon-postcss',
+    options: {
+      postcssLoaderOptions: {
+        implementation: require('postcss')
+      }
+    }
+  },
+  {
     name: resolve(__dirname, './addons/preset-sass'),
     options: {
       cssLoaderOptions: {
