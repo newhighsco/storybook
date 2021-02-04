@@ -1,3 +1,10 @@
+# [3.2.0](https://github.com/newhighsco/storybook-preset/compare/v3.1.28...v3.2.0) (2021-02-04)
+
+
+### Features
+
+* **postcss:** support PostCSS 8 ([cd44320](https://github.com/newhighsco/storybook-preset/commit/cd44320b451f05fc3cb5faa02c338f77e8ccf660))
+
 ## [3.1.28](https://github.com/newhighsco/storybook-preset/compare/v3.1.27...v3.1.28) (2021-02-02)
 
 
