@@ -1,3 +1,10 @@
+# [3.3.0](https://github.com/newhighsco/storybook-preset/compare/v3.2.6...v3.3.0) (2021-02-19)
+
+
+### Features
+
+* **sass:** uses @storybook/preset-scss ([#325](https://github.com/newhighsco/storybook-preset/issues/325)) ([ed8cbfb](https://github.com/newhighsco/storybook-preset/commit/ed8cbfb13b17091641d3e7c47432b9a07126e16f))
+
 ## [3.2.6](https://github.com/newhighsco/storybook-preset/compare/v3.2.5...v3.2.6) (2021-02-19)
 
 
