@@ -13,7 +13,7 @@ const addons = [
     }
   },
   {
-    name: resolve(__dirname, './addons/preset-sass'),
+    name: '@storybook/preset-scss',
     options: {
       cssLoaderOptions: {
         modules: {
