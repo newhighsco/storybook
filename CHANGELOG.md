@@ -1,3 +1,10 @@
+## [3.3.6](https://github.com/newhighsco/storybook-preset/compare/v3.3.5...v3.3.6) (2021-03-26)
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo ([7469eea](https://github.com/newhighsco/storybook-preset/commit/7469eea540d3a806a9ba184dace3976732cc4910))
+
 ## [3.3.5](https://github.com/newhighsco/storybook-preset/compare/v3.3.4...v3.3.5) (2021-03-10)
 
 
