@@ -1,5 +1,5 @@
 import presetSvgr from '../index'
-import { createDefaultWebpackConfig } from '@storybook/core/dist/server/preview/base-webpack.config'
+import { createDefaultWebpackConfig } from '@storybook/builder-webpack4/dist/esm/preview/base-webpack.config'
 
 describe('preset-svg', () => {
   it('should return webpackFinal', () => {
@@ -32,11 +32,11 @@ describe('preset-svg', () => {
   it('should override existing SVG URL loader', async () => {
     const baseConfig = await createDefaultWebpackConfig(
       { module: { rules: [] } },
-      { presetsList: [] }
+      { presetsList: ['@storybook/addon-postcss'] }
     )
     const { rules: baseConfigRules } = baseConfig.module
     const existingSvgRuleIndex = baseConfigRules.findIndex(rule =>
-      rule.test.toString().includes('svg')
+      rule.test?.toString().includes('svg')
     )
     const webpackConfig = presetSvgr.webpackFinal(baseConfig)
     const { rules } = webpackConfig.module
@@ -55,7 +55,7 @@ describe('preset-svg', () => {
   it('should set SVG URL loader options', async () => {
     const baseConfig = await createDefaultWebpackConfig(
       { module: { rules: [] } },
-      { presetsList: [] }
+      { presetsList: ['@storybook/addon-postcss'] }
     )
     const webpackConfig = presetSvgr.webpackFinal(baseConfig, {
       urlLoaderOptions: {
@@ -65,7 +65,7 @@ describe('preset-svg', () => {
     const { rules } = webpackConfig.module
     const { rules: baseConfigRules } = baseConfig.module
     const existingSvgRuleIndex = baseConfigRules.findIndex(rule =>
-      rule.test.toString().includes('svg')
+      rule.test?.toString().includes('svg')
     )
 
     expect(rules[baseConfigRules.length].use[1].options).toEqual({

@@ -1,10 +1,10 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 import { DocsStory, Heading, Source } from '@storybook/addon-docs/blocks'
-import { getDocsStories } from '@storybook/addon-docs/dist/blocks/utils'
+import { getDocsStories } from '@storybook/addon-docs/dist/esm/blocks/utils'
 import { DocsPage } from './DocsPage'
 
-jest.mock('@storybook/addon-docs/dist/blocks/utils', () => ({
+jest.mock('@storybook/addon-docs/dist/esm/blocks/utils', () => ({
   getDocsStories: jest.fn(() => [])
 }))
 
