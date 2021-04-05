@@ -1,5 +1,5 @@
 import addonTranspileModules from '../index'
-import { createDefaultWebpackConfig } from '@storybook/core/dist/server/preview/base-webpack.config'
+import { createDefaultWebpackConfig } from '@storybook/builder-webpack4/dist/esm/preview/base-webpack.config'
 
 describe('addon-transpile-modules', () => {
   it('should return webpackFinal', () => {
@@ -19,7 +19,7 @@ describe('addon-transpile-modules', () => {
       {
         module: { rules: [] }
       },
-      { presetsList: [] }
+      { presetsList: ['@storybook/addon-postcss'] }
     )
     const { rules: baseConfigRules } = baseConfig.module
     const webpackConfig = addonTranspileModules.webpackFinal(baseConfig, {
@@ -35,7 +35,7 @@ describe('addon-transpile-modules', () => {
       {
         module: { rules: [{ exclude: ['node_modules'] }] }
       },
-      { presetsList: [] }
+      { presetsList: ['@storybook/addon-postcss'] }
     )
     const { rules: baseConfigRules } = baseConfig.module
     const existingRule = baseConfigRules.findIndex(rule =>

@@ -14,7 +14,7 @@ import {
   Subtitle,
   Title
 } from '@storybook/addon-docs/blocks'
-import { getDocsStories } from '@storybook/addon-docs/dist/blocks/utils'
+import { getDocsStories } from '@storybook/addon-docs/dist/esm/blocks/utils'
 
 const DocsPage = ({ theme = {} }) => {
   const context = useContext(DocsContext)
@@ -30,7 +30,7 @@ const DocsPage = ({ theme = {} }) => {
       </div>
       <Source id={CURRENT_SELECTION} dark={theme.base !== themes.dark.base} />
       <ArgsTable story={PRIMARY_STORY} />
-      {!!stories.length && (
+      {!!stories?.length && (
         <>
           <Heading>Stories</Heading>
           {stories.map(
