@@ -2,6 +2,11 @@ import presetSvgr from '../index'
 import { createDefaultWebpackConfig } from '@storybook/builder-webpack4/dist/esm/preview/base-webpack.config'
 
 describe('preset-svg', () => {
+  const options = {
+    presets: { apply: () => {} },
+    presetsList: ['@storybook/addon-postcss']
+  }
+
   it('should return webpackFinal', () => {
     const preset = presetSvgr
 
@@ -32,7 +37,7 @@ describe('preset-svg', () => {
   it('should override existing SVG URL loader', async () => {
     const baseConfig = await createDefaultWebpackConfig(
       { module: { rules: [] } },
-      { presetsList: ['@storybook/addon-postcss'] }
+      options
     )
     const { rules: baseConfigRules } = baseConfig.module
     const existingSvgRuleIndex = baseConfigRules.findIndex(rule =>
@@ -55,7 +60,7 @@ describe('preset-svg', () => {
   it('should set SVG URL loader options', async () => {
     const baseConfig = await createDefaultWebpackConfig(
       { module: { rules: [] } },
-      { presetsList: ['@storybook/addon-postcss'] }
+      options
     )
     const webpackConfig = presetSvgr.webpackFinal(baseConfig, {
       urlLoaderOptions: {
