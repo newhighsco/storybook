@@ -2,6 +2,11 @@ import addonTranspileModules from '../index'
 import { createDefaultWebpackConfig } from '@storybook/builder-webpack4/dist/esm/preview/base-webpack.config'
 
 describe('addon-transpile-modules', () => {
+  const options = {
+    presets: { apply: () => {} },
+    presetsList: ['@storybook/addon-postcss']
+  }
+
   it('should return webpackFinal', () => {
     const addon = addonTranspileModules
 
@@ -19,7 +24,7 @@ describe('addon-transpile-modules', () => {
       {
         module: { rules: [] }
       },
-      { presetsList: ['@storybook/addon-postcss'] }
+      options
     )
     const { rules: baseConfigRules } = baseConfig.module
     const webpackConfig = addonTranspileModules.webpackFinal(baseConfig, {
@@ -35,7 +40,7 @@ describe('addon-transpile-modules', () => {
       {
         module: { rules: [{ exclude: ['node_modules'] }] }
       },
-      { presetsList: ['@storybook/addon-postcss'] }
+      options
     )
     const { rules: baseConfigRules } = baseConfig.module
     const existingRule = baseConfigRules.findIndex(rule =>
@@ -46,17 +51,8 @@ describe('addon-transpile-modules', () => {
     })
     const { rules } = webpackConfig.module
 
-    // console.log(111, webpackConfig.module.rules)
-
     expect(rules[existingRule].exclude).toEqual(
       /node_modules\/(?!(foo|bar)\/).*/
     )
-    // expect(rules[baseConfigRules.length].use.length).toEqual(2)
-    // expect(rules[baseConfigRules.length].use[1].loader).toEqual(
-    //   rules[existingJsxRule].loader
-    // )
-    // expect(rules[baseConfigRules.length].use[1].options).toEqual(
-    //   rules[existingJsxRule].options
-    // )
   })
 })
