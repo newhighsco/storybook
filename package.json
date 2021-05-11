@@ -41,7 +41,7 @@
     "@storybook/addons": "6.2.9",
     "@storybook/preset-scss": "1.0.3",
     "@svgr/webpack": "5.5.0",
-    "postcss": "8.2.14",
+    "postcss": "8.2.15",
     "react-is": "17.0.2",
     "sass": "1.32.12",
     "sass-loader": "10.2.0"
