@@ -7,7 +7,7 @@ New High Score [shareable preset](https://storybook.js.org/docs/presets/introduc
 Install Storybook and `@newhighsco/storybook-preset`:
 
 ```
-npm install --save-dev babel-loader @storybook/react @newhighsco/storybook-preset
+npm install --save-dev babel-loader @storybook/react @storybook/builder-webpack5 @newhighsco/storybook-preset
 ```
 
 ## Usage
@@ -17,6 +17,9 @@ Create a `.storybook/main.js` in your project:
 ```js
 // .storybook/main.js
 module.exports = {
+  core: {
+    builder: 'webpack5'
+  },
   presets: ['@newhighsco/storybook-preset']
 }
 ```

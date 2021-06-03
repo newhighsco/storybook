@@ -39,6 +39,7 @@
     "@storybook/addon-links": "6.2.9",
     "@storybook/addon-postcss": "2.0.0",
     "@storybook/addons": "6.2.9",
+    "@storybook/builder-webpack5": "6.2.9",
     "@storybook/preset-scss": "1.0.3",
     "@svgr/webpack": "5.5.0",
     "postcss": "8.3.0",
