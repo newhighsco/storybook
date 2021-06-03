@@ -1,3 +1,18 @@
+# [4.0.0](https://github.com/newhighsco/storybook-preset/compare/v3.3.28...v4.0.0) (2021-06-03)
+
+
+* feat(storybook)!: uses webpack 5 builder ([1e8ac39](https://github.com/newhighsco/storybook-preset/commit/1e8ac39a55ced99297fa5e999a51f3e831979122))
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass-loader to v12 ([ec9ffe0](https://github.com/newhighsco/storybook-preset/commit/ec9ffe01420d9132dc47d83836d47d81471c3531))
+
+
+### BREAKING CHANGES
+
+* additional config required to use webpack 5 builder
+
 ## [3.3.28](https://github.com/newhighsco/storybook-preset/compare/v3.3.27...v3.3.28) (2021-06-03)
 
 
