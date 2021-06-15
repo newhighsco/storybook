@@ -56,7 +56,7 @@
     "@newhighsco/editor-config": "1.1.2",
     "@newhighsco/eslint-config": "2.3.0",
     "@newhighsco/prettier-config": "2.0.11",
-    "@newhighsco/release-config": "1.0.62",
+    "@newhighsco/release-config": "1.0.63",
     "@storybook/react": "6.2.9",
     "@wojtekmaj/enzyme-adapter-react-17": "0.6.2",
     "babel-jest": "27.0.2",
