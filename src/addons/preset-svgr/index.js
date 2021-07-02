@@ -7,16 +7,12 @@ const svgrLoaders = ({ svgrLoaderOptions, urlLoader }) => {
   }
 
   return [
-    urlLoader
-      ? {
-          test: svgRegExp,
-          use: [svgrLoader, urlLoader]
-        }
-      : {
-          test: svgRegExp,
-          use: svgrLoader
-        }
-  ].filter(r => r)
+    {
+      test: svgRegExp,
+      use: [svgrLoader, urlLoader].filter(Boolean),
+      type: 'javascript/auto'
+    }
+  ]
 }
 
 const webpackFinal = (config = {}, options = {}) => {
@@ -24,20 +20,21 @@ const webpackFinal = (config = {}, options = {}) => {
   const { urlLoaderOptions } = options
 
   // Find existing rule that handles SVGs
-  const existingSvgRule =
-    module.rules &&
-    module.rules.find(rule => rule.test?.toString().includes('svg'))
+  const existing = module.rules?.find(rule =>
+    rule.test?.toString().includes('svg')
+  )
 
-  if (existingSvgRule) {
+  if (existing) {
     // Tell existing rule to ignore SVGs
-    existingSvgRule.exclude = svgRegExp
+    existing.exclude = svgRegExp
 
     // Use existing loader to load SVG URLs
     options.urlLoader = {
-      loader: existingSvgRule.loader,
-      ...(urlLoaderOptions
-        ? { options: { ...existingSvgRule.options, ...urlLoaderOptions } }
-        : { options: existingSvgRule.options })
+      loader: require.resolve('url-loader'),
+      options: {
+        name: existing.generator.filename,
+        ...urlLoaderOptions
+      }
     }
   }
 

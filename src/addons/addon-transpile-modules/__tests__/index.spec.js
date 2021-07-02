@@ -1,5 +1,5 @@
 import addonTranspileModules from '../index'
-import { createDefaultWebpackConfig } from '@storybook/builder-webpack4/dist/esm/preview/base-webpack.config'
+import { createDefaultWebpackConfig } from '@storybook/builder-webpack5/dist/esm/preview/base-webpack.config'
 
 describe('addon-transpile-modules', () => {
   const options = {
