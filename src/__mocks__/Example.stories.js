@@ -17,6 +17,9 @@ const ExampleStory = args => <Example {...args} />
 
 export const Source = ExampleStory.bind({})
 
+Source.parameters = {
+  chromatic: { disable: true }
+}
 Source.args = {
   children: 'Source'
 }
