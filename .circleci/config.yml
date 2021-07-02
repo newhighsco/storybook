@@ -43,6 +43,12 @@ jobs:
           root: .
           paths:
             - build
+  snapshot:
+    executor: node-executor
+    steps:
+      - attach_workspace:
+          at: .
+      - run: yarn snapshot
   release:
     executor: node-executor
     steps:
@@ -62,9 +68,12 @@ workflows:
       - build:
           requires:
             - test
-      - release:
+      - snapshot:
           requires:
             - build
+      - release:
+          requires:
+            - snapshot
           filters:
             branches:
               only:

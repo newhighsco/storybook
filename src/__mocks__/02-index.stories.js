@@ -3,7 +3,10 @@ import { Button } from '@storybook/react/demo'
 
 export default {
   title: 'Components/Button',
-  component: Button
+  component: Button,
+  parameters: {
+    chromatic: { disable: true }
+  }
 }
 
 export const text = () => <Button>Text</Button>
