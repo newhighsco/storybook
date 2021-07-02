@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import { DocsStory, Heading, Source } from '@storybook/addon-docs/blocks'
+import { DocsStory, Heading, Source } from '@storybook/addon-docs'
 import { getDocsStories } from '@storybook/addon-docs/dist/esm/blocks/utils'
 import { DocsPage } from './DocsPage'
 

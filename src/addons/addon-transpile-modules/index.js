@@ -3,17 +3,13 @@ const webpackFinal = (config = {}, options = {}) => {
 
   if (transpileModules.length) {
     // Find existing rule that handles JSX
-    const existingJsxRuleIndex =
-      config.module.rules &&
-      config.module.rules.findIndex(
-        rule => rule.exclude && rule.exclude.toString().includes('node_modules')
-      )
+    const existing = config.module.rules?.find(rule =>
+      rule.exclude?.toString().includes('node_modules')
+    )
 
-    if (existingJsxRuleIndex >= 0) {
-      const existingJsxRule = config.module.rules[existingJsxRuleIndex]
-
+    if (existing) {
       // Tell existing rule to not exclude modules that need transpiling
-      existingJsxRule.exclude = new RegExp(
+      existing.exclude = new RegExp(
         `node_modules/(?!(${transpileModules.join('|')})/).*`
       )
     }

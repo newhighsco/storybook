@@ -1,5 +1,5 @@
 import presetSvgr from '../index'
-import { createDefaultWebpackConfig } from '@storybook/builder-webpack4/dist/esm/preview/base-webpack.config'
+import { createDefaultWebpackConfig } from '@storybook/builder-webpack5/dist/esm/preview/base-webpack.config'
 
 describe('preset-svg', () => {
   const options = {
@@ -29,7 +29,7 @@ describe('preset-svg', () => {
     )
 
     expect(webpackConfig.module.rules.length).toEqual(1)
-    expect(webpackConfig.module.rules[0].use.options).toEqual({
+    expect(webpackConfig.module.rules[0].use[0].options).toEqual({
       svgoConfig: {}
     })
   })
@@ -48,13 +48,6 @@ describe('preset-svg', () => {
 
     expect(rules.length).toEqual(baseConfigRules.length + 1)
     expect(rules[existingSvgRuleIndex].exclude).toEqual(/\.svg$/)
-    expect(rules[baseConfigRules.length].use.length).toEqual(2)
-    expect(rules[baseConfigRules.length].use[1].loader).toEqual(
-      rules[existingSvgRuleIndex].loader
-    )
-    expect(rules[baseConfigRules.length].use[1].options).toEqual(
-      rules[existingSvgRuleIndex].options
-    )
   })
 
   it('should set SVG URL loader options', async () => {
@@ -74,7 +67,7 @@ describe('preset-svg', () => {
     )
 
     expect(rules[baseConfigRules.length].use[1].options).toEqual({
-      ...rules[existingSvgRuleIndex].options,
+      name: rules[existingSvgRuleIndex].generator.filename,
       inlineLimit: 1
     })
   })

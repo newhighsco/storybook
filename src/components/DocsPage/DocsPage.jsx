@@ -13,7 +13,7 @@ import {
   Source,
   Subtitle,
   Title
-} from '@storybook/addon-docs/blocks'
+} from '@storybook/addon-docs'
 import { getDocsStories } from '@storybook/addon-docs/dist/esm/blocks/utils'
 
 const DocsPage = ({ theme = {} }) => {
