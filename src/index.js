@@ -2,6 +2,7 @@ const { resolve } = require('path')
 
 const addons = [
   '@storybook/addon-actions',
+  '@storybook/addon-backgrounds',
   {
     name: '@storybook/addon-docs',
     options: { configureJSX: true, transcludeMarkdown: true }
