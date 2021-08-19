@@ -1,3 +1,10 @@
+## [4.0.22](https://github.com/newhighsco/storybook-preset/compare/v4.0.21...v4.0.22) (2021-08-19)
+
+
+### Bug Fixes
+
+* **deps:** runs `yarn upgrade` to fix webpack 5 resolution issues ([4aeded4](https://github.com/newhighsco/storybook-preset/commit/4aeded45584a8cda4864b5a72519352982bbf917))
+
 ## [4.0.21](https://github.com/newhighsco/storybook-preset/compare/v4.0.20...v4.0.21) (2021-08-17)
 
 
