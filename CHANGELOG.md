@@ -1,3 +1,10 @@
+# [4.1.0](https://github.com/newhighsco/storybook-preset/compare/v4.0.22...v4.1.0) (2021-08-19)
+
+
+### Features
+
+* adds @storybook/addon-backgrounds ([14048f5](https://github.com/newhighsco/storybook-preset/commit/14048f51b82d2702b3dd837f12d6a9aaef205fe3))
+
 ## [4.0.22](https://github.com/newhighsco/storybook-preset/compare/v4.0.21...v4.0.22) (2021-08-19)
 
 
