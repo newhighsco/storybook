@@ -18,13 +18,14 @@
     "preset.js"
   ],
   "scripts": {
-    "start": "start-storybook --port 6006 --docs --ci --quiet",
-    "prepare": "npm run build",
+    "prestart": "yarn prepare",
+    "start": "start-storybook --port 6006 --docs --no-manager-cache",
+    "prepare": "yarn build",
     "prebuild": "rm -rf dist",
     "build": "babel src --out-dir dist --ignore '**/__mocks__','**/__tests__','**/*.spec.js'",
     "prebuild:storybook": "rm -rf build",
     "build:storybook": "build-storybook --output-dir build --docs --quiet",
-    "pretest": "npm run lint",
+    "pretest": "yarn lint",
     "test": "npm-run-all --parallel test:*",
     "test:js": "jest --coverage",
     "tdd": "npm run test:js -- --watch",
