@@ -1,3 +1,10 @@
+## [4.3.1](https://github.com/newhighsco/storybook-preset/compare/v4.3.0...v4.3.1) (2021-09-01)
+
+
+### Bug Fixes
+
+* **docs:** remove typo ([234618a](https://github.com/newhighsco/storybook-preset/commit/234618a0bad2cc12108ca5f12623bff0a0b64aad))
+
 # [4.3.0](https://github.com/newhighsco/storybook-preset/compare/v4.2.0...v4.3.0) (2021-09-01)
 
 
