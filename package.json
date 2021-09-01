@@ -28,13 +28,13 @@
     "pretest": "yarn lint",
     "test": "npm-run-all --parallel test:*",
     "test:js": "jest --coverage",
-    "tdd": "npm run test:js -- --watch",
+    "tdd": "yarn test:js --watch",
     "snapshot": "npm-run-all --parallel snapshot:*",
     "snapshot:chromatic": "chromatic --storybook-build-dir build --auto-accept-changes main --exit-once-uploaded",
     "lint": "npm-run-all --parallel lint:*",
     "lint:js": "eslint --cache --ext .js,.json,.jsx,.mdx .",
     "format": "npm-run-all --parallel format:*",
-    "format:js": "npm run lint:js -- --fix"
+    "format:js": "yarn lint:js --fix"
   },
   "dependencies": {
     "@storybook/addon-actions": "6.3.7",
