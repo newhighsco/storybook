@@ -1,3 +1,10 @@
+# [4.2.0](https://github.com/newhighsco/storybook-preset/compare/v4.1.2...v4.2.0) (2021-09-01)
+
+
+### Features
+
+* **parameters:** sets default controls matchers ([29fe223](https://github.com/newhighsco/storybook-preset/commit/29fe22338b573c3b2319998e2a798b0aa88e757d))
+
 ## [4.1.2](https://github.com/newhighsco/storybook-preset/compare/v4.1.1...v4.1.2) (2021-08-28)
 
 
