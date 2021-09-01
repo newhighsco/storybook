@@ -1,3 +1,10 @@
+# [4.3.0](https://github.com/newhighsco/storybook-preset/compare/v4.2.0...v4.3.0) (2021-09-01)
+
+
+### Features
+
+* **theme:** use `storybook-dark-mode` to toggle theme ([fa53d2a](https://github.com/newhighsco/storybook-preset/commit/fa53d2acdce1ff5b969a3ff1a9a589197fa37fa0))
+
 # [4.2.0](https://github.com/newhighsco/storybook-preset/compare/v4.1.2...v4.2.0) (2021-09-01)
 
 
