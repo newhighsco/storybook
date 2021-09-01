@@ -1,4 +1,4 @@
-import { DocsPage } from './components'
+import { DocsContainer, DocsPage } from './components'
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
@@ -9,6 +9,7 @@ export const parameters = {
     }
   },
   docs: {
+    container: DocsContainer,
     page: DocsPage
   },
   viewMode: 'docs'

@@ -26,6 +26,7 @@ const addons = [
       }
     }
   },
+  'storybook-dark-mode',
   {
     name: resolve(__dirname, './addons/preset-svgr'),
     options: {
