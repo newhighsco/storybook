@@ -20,7 +20,7 @@ const DocsContainer = ({ context, children }) => {
         }
       }}
     >
-      hello:{children}
+      {children}
     </PureDocsContainer>
   )
 }
