@@ -54,7 +54,7 @@
     "storybook-dark-mode": "1.0.8"
   },
   "devDependencies": {
-    "@babel/cli": "7.15.4",
+    "@babel/cli": "7.15.7",
     "@babel/polyfill": "7.12.1",
     "@babel/preset-env": "7.15.6",
     "@commitlint/cli": "13.1.0",
