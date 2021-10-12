@@ -50,7 +50,7 @@
     "postcss": "8.3.9",
     "react-is": "17.0.2",
     "sass": "1.42.1",
-    "sass-loader": "12.1.0",
+    "sass-loader": "12.2.0",
     "storybook-dark-mode": "1.0.8"
   },
   "devDependencies": {
