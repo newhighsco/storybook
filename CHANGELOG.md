@@ -1,3 +1,10 @@
+## [4.3.20](https://github.com/newhighsco/storybook-preset/compare/v4.3.19...v4.3.20) (2021-10-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.3.10 ([c51005f](https://github.com/newhighsco/storybook-preset/commit/c51005f27b552d56d37cfb752a4ef2f676d2f66f))
+
 ## [4.3.19](https://github.com/newhighsco/storybook-preset/compare/v4.3.18...v4.3.19) (2021-10-20)
 
 
