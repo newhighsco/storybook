@@ -53,3 +53,15 @@ export const ImagePNGSrc = ExampleStory.bind({})
 ImagePNGSrc.args = {
   children: <img src={logoPngUrl} alt="" style={{ width: 64 }} />
 }
+
+export const BackgroundSVGSrc = ExampleStory.bind({})
+
+BackgroundSVGSrc.args = {
+  background: 'svg'
+}
+
+export const BackgroundPNGSrc = ExampleStory.bind({})
+
+BackgroundPNGSrc.args = {
+  background: 'png'
+}

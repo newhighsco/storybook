@@ -17,7 +17,9 @@ describe('preset-svg', () => {
     const webpackConfig = presetSvgr.webpackFinal()
 
     expect(webpackConfig.module.rules.length).toEqual(1)
-    expect(webpackConfig.module.rules[0].use.options).toEqual(undefined)
+    expect(webpackConfig.module.rules[0].oneOf[0].use.options).toEqual(
+      undefined
+    )
   })
 
   it('should set SVG loader options', () => {
@@ -29,12 +31,12 @@ describe('preset-svg', () => {
     )
 
     expect(webpackConfig.module.rules.length).toEqual(1)
-    expect(webpackConfig.module.rules[0].use[0].options).toEqual({
+    expect(webpackConfig.module.rules[0].oneOf[0].use[0].options).toEqual({
       svgoConfig: {}
     })
   })
 
-  it('should override existing SVG URL loader', async () => {
+  it('should override existing SVG asset loader', async () => {
     const baseConfig = await createDefaultWebpackConfig(
       { module: { rules: [] } },
       options
@@ -50,14 +52,17 @@ describe('preset-svg', () => {
     expect(rules[existingSvgRuleIndex].exclude).toEqual(/\.svg$/)
   })
 
-  it('should set SVG URL loader options', async () => {
+  it('should set SVG asset loader options', async () => {
     const baseConfig = await createDefaultWebpackConfig(
       { module: { rules: [] } },
       options
     )
     const webpackConfig = presetSvgr.webpackFinal(baseConfig, {
-      urlLoaderOptions: {
-        inlineLimit: 1
+      assetLoaderOptions: {
+        fizz: 'buzz',
+        generator: {
+          foo: 'bar'
+        }
       }
     })
     const { rules } = webpackConfig.module
@@ -66,9 +71,13 @@ describe('preset-svg', () => {
       rule.test?.toString().includes('svg')
     )
 
-    expect(rules[baseConfigRules.length].use[1].options).toEqual({
-      name: rules[existingSvgRuleIndex].generator.filename,
-      inlineLimit: 1
+    expect(rules[baseConfigRules.length].oneOf[1]).toEqual({
+      type: rules[existingSvgRuleIndex].type,
+      generator: {
+        ...rules[existingSvgRuleIndex].generator,
+        foo: 'bar'
+      },
+      fizz: 'buzz'
     })
   })
 })

@@ -34,9 +34,6 @@ const addons = [
         svgoConfig: {
           plugins: [{ prefixIds: false }]
         }
-      },
-      urlLoaderOptions: {
-        limit: 1
       }
     }
   },

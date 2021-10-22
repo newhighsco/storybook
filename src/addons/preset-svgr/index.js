@@ -1,6 +1,6 @@
 const svgRegExp = /\.svg$/
 
-const svgrLoaders = ({ svgrLoaderOptions, urlLoader }) => {
+const svgrLoaders = ({ svgrLoaderOptions, assetLoader }) => {
   const svgrLoader = {
     loader: require.resolve('@svgr/webpack'),
     options: svgrLoaderOptions
@@ -9,15 +9,23 @@ const svgrLoaders = ({ svgrLoaderOptions, urlLoader }) => {
   return [
     {
       test: svgRegExp,
-      use: [svgrLoader, urlLoader].filter(Boolean),
-      type: 'javascript/auto'
+      oneOf: [
+        {
+          dependency: { not: ['url'] },
+          use: [
+            svgrLoader,
+            assetLoader && require.resolve('new-url-loader')
+          ].filter(Boolean)
+        },
+        assetLoader
+      ]
     }
   ]
 }
 
 const webpackFinal = (config = {}, options = {}) => {
   const { module = {} } = config
-  const { urlLoaderOptions } = options
+  const { assetLoaderOptions } = options
 
   // Find existing rule that handles SVGs
   const existing = module.rules?.find(rule =>
@@ -29,11 +37,12 @@ const webpackFinal = (config = {}, options = {}) => {
     existing.exclude = svgRegExp
 
     // Use existing loader to load SVG URLs
-    options.urlLoader = {
-      loader: require.resolve('url-loader'),
-      options: {
-        name: existing.generator.filename,
-        ...urlLoaderOptions
+    options.assetLoader = {
+      type: existing.type,
+      ...assetLoaderOptions,
+      generator: {
+        ...existing.generator,
+        ...assetLoaderOptions?.generator
       }
     }
   }
