@@ -1,13 +1,17 @@
 import React from 'react'
-import { node } from 'prop-types'
+import { node, string } from 'prop-types'
 
-import { wrapper } from './Example.module.scss'
+import styles from './Example.module.scss'
 
 /**
  * The `Example` component
  */
-const Example = ({ children }) => (
-  <div className={wrapper}>
+const Example = ({ children, background }) => (
+  <div
+    className={`${styles.wrapper} ${
+      background && styles[`background${background.toUpperCase()}`]
+    }`}
+  >
     <ExampleChild>{children}</ExampleChild>
   </div>
 )
@@ -16,7 +20,8 @@ Example.propTypes = {
   /**
    * The inner children
    */
-  children: node
+  children: node,
+  background: string
 }
 
 const ExampleChild = ({ children }) => <div>{children}</div>
