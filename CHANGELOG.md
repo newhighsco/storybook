@@ -1,3 +1,10 @@
+## [4.3.24](https://github.com/newhighsco/storybook-preset/compare/v4.3.23...v4.3.24) (2021-10-22)
+
+
+### Bug Fixes
+
+* **deps:** adds `new-url-loader` as dependency ([9fc5ae6](https://github.com/newhighsco/storybook-preset/commit/9fc5ae6e876455974299bf09ac02d8c718722d59))
+
 ## [4.3.23](https://github.com/newhighsco/storybook-preset/compare/v4.3.22...v4.3.23) (2021-10-22)
 
 
