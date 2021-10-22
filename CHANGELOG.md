@@ -1,3 +1,10 @@
+## [4.3.23](https://github.com/newhighsco/storybook-preset/compare/v4.3.22...v4.3.23) (2021-10-22)
+
+
+### Bug Fixes
+
+* **svgr:** replace `url-loader` with webpack 5 asset module ([#619](https://github.com/newhighsco/storybook-preset/issues/619)) ([c85f01e](https://github.com/newhighsco/storybook-preset/commit/c85f01e4abdf43718677ea4d52b0462952b8901a))
+
 ## [4.3.22](https://github.com/newhighsco/storybook-preset/compare/v4.3.21...v4.3.22) (2021-10-22)
 
 
