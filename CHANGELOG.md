@@ -1,3 +1,10 @@
+## [4.3.34](https://github.com/newhighsco/storybook-preset/compare/v4.3.33...v4.3.34) (2021-12-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @svgr/webpack to v6 ([#662](https://github.com/newhighsco/storybook-preset/issues/662)) ([5794a74](https://github.com/newhighsco/storybook-preset/commit/5794a740c4d2860bb9f45847650b89b9a3150f58))
+
 ## [4.3.33](https://github.com/newhighsco/storybook-preset/compare/v4.3.32...v4.3.33) (2021-12-06)
 
 
