@@ -5,11 +5,13 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 import { DocsStory, Heading, Source } from '@storybook/addon-docs'
-import { getDocsStories } from '@storybook/addon-docs/dist/esm/blocks/utils'
 import { DocsPage } from './DocsPage'
 
-jest.mock('@storybook/addon-docs/dist/esm/blocks/utils', () => ({
-  getDocsStories: jest.fn(() => [])
+jest.mock('react', () => ({
+  ...jest.requireActual('react'),
+  useContext: () => ({
+    componentStories: () => [{ id: 1 }, { id: 2 }, { id: 3 }]
+  })
 }))
 
 describe('Components/DocsPage', () => {
@@ -26,8 +28,6 @@ describe('Components/DocsPage', () => {
   })
 
   it('should render the correct number of <DocStory /> components', () => {
-    getDocsStories.mockImplementation(() => [{ id: 1 }, { id: 2 }, { id: 3 }])
-
     const wrapper = shallow(<DocsPage />)
 
     expect(wrapper.find(Heading).length).toEqual(1)

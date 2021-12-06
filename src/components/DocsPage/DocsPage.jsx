@@ -16,8 +16,8 @@ import {
 } from '@storybook/addon-docs'
 
 const DocsPage = ({ theme = {} }) => {
-  const context = useContext(DocsContext)
-  const stories = context.componentStories().slice(1)
+  const { componentStories } = useContext(DocsContext)
+  const stories = componentStories().slice(1)
 
   return (
     <>
