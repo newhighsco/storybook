@@ -3,7 +3,7 @@ import { createDefaultWebpackConfig } from '@storybook/builder-webpack5/dist/esm
 
 describe('addon-transpile-modules', () => {
   const options = {
-    presets: { apply: () => {} },
+    presets: { apply: () => ({ builder: {} }) },
     presetsList: ['@storybook/addon-postcss']
   }
 
