@@ -1,3 +1,12 @@
+## [4.3.35](https://github.com/newhighsco/storybook-preset/compare/v4.3.34...v4.3.35) (2021-12-06)
+
+
+### Bug Fixes
+
+* **docs-page:** ignore primary story ([a0e0d91](https://github.com/newhighsco/storybook-preset/commit/a0e0d9173307427474b8cbc5d8add5009fe0605c))
+* **docs-page:** update to use latest API ([94d471e](https://github.com/newhighsco/storybook-preset/commit/94d471e5899c407e029c42ae5c8f617dffdea70b))
+* **docs-page:** uses newest API ([59b9643](https://github.com/newhighsco/storybook-preset/commit/59b96436d1274d02e022c5497c98bb9709676556))
+
 ## [4.3.34](https://github.com/newhighsco/storybook-preset/compare/v4.3.33...v4.3.34) (2021-12-06)
 
 
