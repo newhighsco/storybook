@@ -17,7 +17,7 @@ import {
 
 const DocsPage = ({ theme = {} }) => {
   const context = useContext(DocsContext)
-  const stories = context.componentStories()
+  const stories = context.componentStories().slice(1)
 
   return (
     <>
