@@ -46,7 +46,7 @@
     "@storybook/builder-webpack5": "6.4.8",
     "@storybook/manager-webpack5": "6.4.8",
     "@storybook/preset-scss": "1.0.3",
-    "@svgr/webpack": "5.5.0",
+    "@svgr/webpack": "6.1.1",
     "new-url-loader": "0.1.1",
     "postcss": "8.4.4",
     "react-is": "17.0.2",
