@@ -14,11 +14,10 @@ import {
   Subtitle,
   Title
 } from '@storybook/addon-docs'
-import { getDocsStories } from '@storybook/addon-docs/dist/esm/blocks/utils'
 
 const DocsPage = ({ theme = {} }) => {
   const context = useContext(DocsContext)
-  const stories = getDocsStories(context).slice(1)
+  const stories = context.componentStories()
 
   return (
     <>
