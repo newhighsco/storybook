@@ -27,16 +27,7 @@ const addons = [
     }
   },
   'storybook-dark-mode',
-  {
-    name: resolve(__dirname, './addons/preset-svgr'),
-    options: {
-      svgrLoaderOptions: {
-        svgoConfig: {
-          plugins: [{ prefixIds: false }]
-        }
-      }
-    }
-  },
+  resolve(__dirname, './addons/preset-svgr'),
   {
     name: resolve(__dirname, './addons/addon-transpile-modules'),
     options: {
