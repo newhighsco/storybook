@@ -8,6 +8,9 @@ export const parameters = {
       date: /Date$/
     }
   },
+  darkMode: {
+    stylePreview: true
+  },
   docs: {
     container: DocsContainer,
     page: DocsPage
