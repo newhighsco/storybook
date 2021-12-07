@@ -20,7 +20,7 @@
   "scripts": {
     "prestart": "yarn prepare",
     "start": "start-storybook --port 6006 --docs --no-manager-cache",
-    "prepare": "yarn build",
+    "prepare": "husky install && yarn build",
     "prebuild": "rm -rf dist",
     "build": "babel src --out-dir dist --ignore '**/__mocks__','**/__tests__','**/*.spec.js'",
     "prebuild:storybook": "rm -rf build",
