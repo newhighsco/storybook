@@ -1,3 +1,15 @@
+# [4.4.0](https://github.com/newhighsco/storybook-preset/compare/v4.3.35...v4.4.0) (2021-12-07)
+
+
+### Bug Fixes
+
+* **dark-mode:** pass theme to docs using new API ([3e40567](https://github.com/newhighsco/storybook-preset/commit/3e40567a45ab0eba8fa0e268f6abc0966e47e912))
+
+
+### Features
+
+* **dark-mode:** add class to preview ([8a54c36](https://github.com/newhighsco/storybook-preset/commit/8a54c3640f7da6d9ad17b1aa2df7b26768382afa))
+
 ## [4.3.35](https://github.com/newhighsco/storybook-preset/compare/v4.3.34...v4.3.35) (2021-12-06)
 
 
