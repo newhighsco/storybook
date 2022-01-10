@@ -1,3 +1,10 @@
+## [4.4.12](https://github.com/newhighsco/storybook-preset/compare/v4.4.11...v4.4.12) (2022-01-10)
+
+
+### Bug Fixes
+
+* **deps:** run `yarn upgrade` ([5c97eba](https://github.com/newhighsco/storybook-preset/commit/5c97ebad0c8666a159d308799ddbcead9aa0c871))
+
 ## [4.4.11](https://github.com/newhighsco/storybook-preset/compare/v4.4.10...v4.4.11) (2022-01-10)
 
 
