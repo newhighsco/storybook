@@ -1836,10 +1836,10 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@newhighsco/commitlint-config@1.0.21":
-  version "1.0.21"
-  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.0.21.tgz#47a86d120c86c981aba62f50e62f9777cf72a86b"
-  integrity sha512-hmoLogNZPWr/GNcCrL81YrktV1SdihK7s/bva475HjE12vlwDw+yl6MCvhyZEhicDPKKmw+gpbENaBdRFiN+mA==
+"@newhighsco/commitlint-config@1.0.22":
+  version "1.0.22"
+  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.0.22.tgz#adc84fc983d1fcd1ccd9fcb6bde9021f447b5f5f"
+  integrity sha512-p5UGVpvEsWx4Whu7u5PMnsZ2qIrkEvmYIAj1WuaL+8B0jKbdrtsDDBYKHGbd0bqU1ADvKvBX+4fmCIJ/e2TutQ==
 
 "@newhighsco/editor-config@1.1.2":
   version "1.1.2"
