@@ -1,3 +1,10 @@
+## [4.4.13](https://github.com/newhighsco/storybook-preset/compare/v4.4.12...v4.4.13) (2022-01-20)
+
+
+### Bug Fixes
+
+* **deps:** downgrade `colors` ([#722](https://github.com/newhighsco/storybook-preset/issues/722)) ([1eaa3c8](https://github.com/newhighsco/storybook-preset/commit/1eaa3c89ab829c2fc9505349844a0361f34615dd))
+
 ## [4.4.12](https://github.com/newhighsco/storybook-preset/compare/v4.4.11...v4.4.12) (2022-01-10)
 
 
