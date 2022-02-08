@@ -1,3 +1,10 @@
+## [4.4.19](https://github.com/newhighsco/storybook-preset/compare/v4.4.18...v4.4.19) (2022-02-08)
+
+
+### Bug Fixes
+
+* **deps:** move Storybook webpack5 dependencies to devDependencies ([d203501](https://github.com/newhighsco/storybook-preset/commit/d20350116c2c5c0d649eedc6243e76083a36d365))
+
 ## [4.4.18](https://github.com/newhighsco/storybook-preset/compare/v4.4.17...v4.4.18) (2022-01-29)
 
 
