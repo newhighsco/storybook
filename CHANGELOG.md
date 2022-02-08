@@ -1,3 +1,13 @@
+## [4.4.20](https://github.com/newhighsco/storybook-preset/compare/v4.4.19...v4.4.20) (2022-02-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @svgr/webpack to v6.2.1 ([ff4b19d](https://github.com/newhighsco/storybook-preset/commit/ff4b19dee591b832baee4496360397a68750d2e3))
+* **deps:** update dependency postcss to v8.4.6 ([1b9aba9](https://github.com/newhighsco/storybook-preset/commit/1b9aba926695c7c8be99bb9bd7ac7ed43d24d371))
+* **deps:** update dependency sass to v1.49.7 ([383dcfc](https://github.com/newhighsco/storybook-preset/commit/383dcfcab0f57131ba2dc04dd9a7ac3c971c1b62))
+* **deps:** update storybook monorepo to v6.4.18 ([738ae78](https://github.com/newhighsco/storybook-preset/commit/738ae7863e40019530f8476238880b3a619191e5))
+
 ## [4.4.19](https://github.com/newhighsco/storybook-preset/compare/v4.4.18...v4.4.19) (2022-02-08)
 
 
