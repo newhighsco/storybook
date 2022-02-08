@@ -37,12 +37,12 @@
     "format:js": "yarn lint:js --fix"
   },
   "dependencies": {
-    "@storybook/addon-actions": "6.4.16",
-    "@storybook/addon-backgrounds": "6.4.16",
-    "@storybook/addon-docs": "6.4.16",
-    "@storybook/addon-links": "6.4.16",
+    "@storybook/addon-actions": "6.4.18",
+    "@storybook/addon-backgrounds": "6.4.18",
+    "@storybook/addon-docs": "6.4.18",
+    "@storybook/addon-links": "6.4.18",
     "@storybook/addon-postcss": "2.0.0",
-    "@storybook/addons": "6.4.16",
+    "@storybook/addons": "6.4.18",
     "@storybook/preset-scss": "1.0.3",
     "@svgr/webpack": "6.2.0",
     "new-url-loader": "0.1.1",
@@ -62,9 +62,9 @@
     "@newhighsco/eslint-config": "2.3.60",
     "@newhighsco/prettier-config": "2.0.16",
     "@newhighsco/release-config": "1.1.5",
-    "@storybook/builder-webpack5": "6.4.16",
-    "@storybook/manager-webpack5": "6.4.16",
-    "@storybook/react": "6.4.16",
+    "@storybook/builder-webpack5": "6.4.18",
+    "@storybook/manager-webpack5": "6.4.18",
+    "@storybook/react": "6.4.18",
     "@wojtekmaj/enzyme-adapter-react-17": "0.6.6",
     "babel-jest": "27.4.6",
     "babel-loader": "8.2.3",
@@ -81,7 +81,7 @@
     "webpack": "5.67.0"
   },
   "peerDependencies": {
-    "@storybook/react": "6.4.16"
+    "@storybook/react": "6.4.18"
   },
   "commitlint": {
     "extends": [
