@@ -22,7 +22,7 @@
     "start": "start-storybook --port 6006 --docs --no-manager-cache",
     "prepare": "husky install && yarn build",
     "prebuild": "rm -rf dist",
-    "build": "babel src --out-dir dist --ignore '**/__mocks__','**/__tests__','**/*.spec.js'",
+    "build": "babel src --out-dir dist --ignore '**/__mocks__','**/__tests__','**/*.spec.jsx'",
     "prebuild:storybook": "rm -rf build",
     "build:storybook": "build-storybook --output-dir build --docs --quiet",
     "pretest": "yarn lint",
@@ -59,7 +59,7 @@
     "@commitlint/cli": "16.1.0",
     "@newhighsco/commitlint-config": "1.0.22",
     "@newhighsco/editor-config": "1.1.2",
-    "@newhighsco/eslint-config": "2.3.61",
+    "@newhighsco/eslint-config": "3.0.0",
     "@newhighsco/prettier-config": "2.0.16",
     "@newhighsco/release-config": "1.1.5",
     "@storybook/builder-webpack5": "6.4.18",
@@ -90,7 +90,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "@newhighsco/eslint-config/react"
+      "@newhighsco/eslint-config"
     ]
   },
   "husky": {
