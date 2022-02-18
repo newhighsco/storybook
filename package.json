@@ -32,7 +32,7 @@
     "snapshot": "npm-run-all --parallel snapshot:*",
     "snapshot:chromatic": "chromatic --storybook-build-dir build --auto-accept-changes main --exit-once-uploaded",
     "lint": "npm-run-all --parallel lint:*",
-    "lint:js": "eslint --cache --ext .js,.json,.jsx,.mdx .",
+    "lint:js": "eslint --cache --ignore-path .gitignore --ext .js,.json,.jsx,.mdx .",
     "format": "npm-run-all --parallel format:*",
     "format:js": "yarn lint:js --fix"
   },
