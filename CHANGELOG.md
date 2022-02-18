@@ -1,3 +1,10 @@
+## [4.4.21](https://github.com/newhighsco/storybook-preset/compare/v4.4.20...v4.4.21) (2022-02-18)
+
+
+### Bug Fixes
+
+* **eslint:** use `.gitignore` ([97d8d62](https://github.com/newhighsco/storybook-preset/commit/97d8d627dd4bb62109dcc5f5cfc2f272e7420554))
+
 ## [4.4.20](https://github.com/newhighsco/storybook-preset/compare/v4.4.19...v4.4.20) (2022-02-08)
 
 
