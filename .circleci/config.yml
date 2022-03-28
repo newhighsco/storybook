@@ -55,7 +55,7 @@ jobs:
     steps:
       - attach_workspace:
           at: .
-      - run: yarn snapshot
+      - run: yarn snapshot --branch-name ${CIRCLE_BRANCH}${CIRCLE_TAG}
   release:
     executor: node-executor
     steps:
