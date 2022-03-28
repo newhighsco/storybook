@@ -4,6 +4,13 @@ parameters:
     type: string
     default: v1-yarn-cache-{{ checksum ".nvmrc" }}-{{ checksum "yarn.lock" }}
 
+only-version-tags: &only-version-tags
+  filters:
+    tags:
+      only: /^v.*/
+    branches:
+      ignore: /.*/
+
 executors:
   node-executor:
     docker:
@@ -78,3 +85,14 @@ workflows:
             branches:
               only:
                 - main
+  snapshot_version:
+    jobs:
+      - setup: *only-version-tags
+      - build:
+          <<: *only-version-tags
+          requires:
+            - setup
+      - snapshot:
+          <<: *only-version-tags
+          requires:
+            - build
