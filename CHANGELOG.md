@@ -1,3 +1,10 @@
+## [4.4.27](https://github.com/newhighsco/storybook-preset/compare/v4.4.26...v4.4.27) (2022-03-28)
+
+
+### Bug Fixes
+
+* **chromatic:** pass correct tag reference when versioning ([0877755](https://github.com/newhighsco/storybook-preset/commit/08777553c89a38cdb0fa7520bc484cfd7e31384c))
+
 ## [4.4.26](https://github.com/newhighsco/storybook-preset/compare/v4.4.25...v4.4.26) (2022-03-28)
 
 
