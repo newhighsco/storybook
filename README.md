@@ -7,7 +7,7 @@ New High Score [shareable preset](https://storybook.js.org/docs/presets/introduc
 Install Storybook and `@newhighsco/storybook-preset`:
 
 ```
-npm install --save-dev babel-loader @storybook/react @newhighsco/storybook-preset @storybook/builder-webpack5 @storybook/manager-webpack5
+yarn add -D babel-loader @storybook/react @newhighsco/storybook-preset @storybook/builder-webpack5 @storybook/manager-webpack5
 ```
 
 ## Usage
