@@ -18,7 +18,7 @@
     "preset.js"
   ],
   "scripts": {
-    "prestart": "yarn prepare",
+    "prestart": "yarn build",
     "start": "start-storybook --port 6006 --docs --no-manager-cache",
     "prepare": "(is-ci || husky install) && yarn build",
     "prebuild": "rm -rf dist",
