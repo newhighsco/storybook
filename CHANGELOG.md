@@ -1,3 +1,10 @@
+# [4.5.0](https://github.com/newhighsco/storybook-preset/compare/v4.4.30...v4.5.0) (2022-04-02)
+
+
+### Features
+
+* **docs-page:** use story named "Source" as primary story ([#797](https://github.com/newhighsco/storybook-preset/issues/797)) ([3bd78e8](https://github.com/newhighsco/storybook-preset/commit/3bd78e80bebb0c1585d28b95ac859980418e1629)), closes [#767](https://github.com/newhighsco/storybook-preset/issues/767)
+
 ## [4.4.30](https://github.com/newhighsco/storybook-preset/compare/v4.4.29...v4.4.30) (2022-04-02)
 
 
