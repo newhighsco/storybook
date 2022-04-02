@@ -43,7 +43,8 @@ workflows:
                 - main
   snapshot_version:
     jobs:
-      - nehighsco/setup: *only-version-tags
+      - nehighsco/setup:
+          <<: *only-version-tags
           name: setup
       - newhighsco/build:
           <<: *only-version-tags
