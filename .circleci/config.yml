@@ -10,12 +10,10 @@ only-version-tags: &only-version-tags
     branches:
       ignore: /.*/
 
-jobs:
-  build:
-    steps:
-      - newhighsco/build:
-          command: yarn build:storybook
-          path-to-persist: build
+build-parameters: &build-parameters
+  name: build
+  command: yarn build:storybook
+  path-to-persist: build
 
 workflows:
   version: 2
@@ -27,7 +25,8 @@ workflows:
           name: test
           requires:
             - setup
-      - build:
+      - newhighsco/build:
+          <<: *build-parameters
           requires:
             - test
       - newhighsco/snapshot:
@@ -45,8 +44,9 @@ workflows:
   snapshot_version:
     jobs:
       - setup: *only-version-tags
-      - build:
+      - newhighsco/build:
           <<: *only-version-tags
+          <<: *build-parameters
           requires:
             - setup
       - newhighsco/snapshot:
