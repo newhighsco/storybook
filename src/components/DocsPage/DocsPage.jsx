@@ -3,7 +3,6 @@ import { themes } from '@storybook/theming'
 import { object } from 'prop-types'
 import {
   ArgsTable,
-  CURRENT_SELECTION,
   Description,
   DocsContext,
   DocsStory,
@@ -17,7 +16,11 @@ import {
 
 const DocsPage = ({ theme = {} }) => {
   const { componentStories } = useContext(DocsContext)
-  const stories = componentStories().slice(1)
+  let stories = componentStories()
+  const sourceStory =
+    stories.find(({ name }) => name === 'Source') || stories[0]
+
+  stories = stories.filter(story => story !== sourceStory)
 
   return (
     <>
@@ -25,9 +28,9 @@ const DocsPage = ({ theme = {} }) => {
       <Subtitle />
       <Description />
       <div style={{ display: 'none' }}>
-        <Primary />
+        <Primary name={sourceStory.name} />
       </div>
-      <Source id={CURRENT_SELECTION} dark={theme.base !== themes.dark.base} />
+      <Source id={sourceStory.id} dark={theme.base !== themes.dark.base} />
       <ArgsTable story={PRIMARY_STORY} />
       {!!stories?.length && (
         <>
