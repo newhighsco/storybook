@@ -78,7 +78,7 @@
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "semantic-release": "19.0.2",
-    "webpack": "5.72.0"
+    "webpack": "5.72.1"
   },
   "peerDependencies": {
     "@storybook/react": "6.4.22"
