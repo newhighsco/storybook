@@ -1,3 +1,11 @@
+## [4.5.8](https://github.com/newhighsco/storybook-preset/compare/v4.5.7...v4.5.8) (2022-05-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.4.14 ([f2c3bd3](https://github.com/newhighsco/storybook-preset/commit/f2c3bd36f99b69380b8d1e2c34ae3d1024724c2f))
+* **deps:** update dependency sass-loader to v13 ([#839](https://github.com/newhighsco/storybook-preset/issues/839)) ([b91c8ba](https://github.com/newhighsco/storybook-preset/commit/b91c8bae129bd96f1e2960ebc501d316d3ce55ba))
+
 ## [4.5.7](https://github.com/newhighsco/storybook-preset/compare/v4.5.6...v4.5.7) (2022-04-30)
 
 
