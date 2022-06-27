@@ -48,7 +48,7 @@
     "postcss": "8.4.14",
     "react-is": "18.2.0",
     "sass": "1.53.0",
-    "sass-loader": "13.0.1",
+    "sass-loader": "13.0.2",
     "storybook-dark-mode": "1.1.0"
   },
   "devDependencies": {
