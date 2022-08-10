@@ -1,3 +1,10 @@
+## [4.5.32](https://github.com/newhighsco/storybook-preset/compare/v4.5.31...v4.5.32) (2022-08-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.54.4 ([cb88db8](https://github.com/newhighsco/storybook-preset/commit/cb88db84671edf5c52f68f66e2ce4bf31c0c180d))
+
 ## [4.5.31](https://github.com/newhighsco/storybook-preset/compare/v4.5.30...v4.5.31) (2022-08-07)
 
 
