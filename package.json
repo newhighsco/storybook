@@ -47,7 +47,7 @@
     "new-url-loader": "0.1.1",
     "postcss": "8.4.16",
     "react-is": "18.2.0",
-    "sass": "1.54.4",
+    "sass": "1.54.5",
     "sass-loader": "13.0.2",
     "storybook-dark-mode": "1.1.0"
   },
