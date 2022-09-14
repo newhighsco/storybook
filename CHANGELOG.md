@@ -1,3 +1,10 @@
+## [4.5.40](https://github.com/newhighsco/storybook-preset/compare/v4.5.39...v4.5.40) (2022-09-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency storybook-dark-mode to v1.1.2 ([e9c3d84](https://github.com/newhighsco/storybook-preset/commit/e9c3d84d8ea2df9f156bf55b45487e6f4aedd8c8))
+
 ## [4.5.39](https://github.com/newhighsco/storybook-preset/compare/v4.5.38...v4.5.39) (2022-09-14)
 
 
