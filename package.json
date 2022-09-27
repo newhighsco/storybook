@@ -52,9 +52,9 @@
     "storybook-dark-mode": "1.1.2"
   },
   "devDependencies": {
-    "@babel/cli": "7.18.10",
+    "@babel/cli": "7.19.3",
     "@babel/polyfill": "7.12.1",
-    "@babel/preset-env": "7.19.1",
+    "@babel/preset-env": "7.19.3",
     "@commitlint/cli": "17.1.2",
     "@newhighsco/commitlint-config": "1.1.8",
     "@newhighsco/editor-config": "1.2.0",
