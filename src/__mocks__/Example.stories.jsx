@@ -5,7 +5,6 @@ import logoSvgUrl, { ReactComponent as LogoSvg } from './logo.svg'
 import logoPngUrl from './logo.png'
 
 export default {
-  title: 'Components/Example',
   component: Example,
   subcomponents: { ExampleChild },
   parameters: {
