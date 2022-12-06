@@ -49,7 +49,7 @@
     "react-is": "18.2.0",
     "sass": "1.56.1",
     "sass-loader": "13.2.0",
-    "storybook-dark-mode": "1.1.2"
+    "storybook-dark-mode": "2.0.3"
   },
   "devDependencies": {
     "@babel/cli": "7.19.3",
