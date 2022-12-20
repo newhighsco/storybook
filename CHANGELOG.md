@@ -1,3 +1,10 @@
+## [4.5.58](https://github.com/newhighsco/storybook-preset/compare/v4.5.57...v4.5.58) (2022-12-20)
+
+
+### Bug Fixes
+
+* **deps:** update storybook monorepo to v6.5.15 ([5536516](https://github.com/newhighsco/storybook-preset/commit/55365161e41c0e5d5c761b9ea8def9affa09826c))
+
 ## [4.5.57](https://github.com/newhighsco/storybook-preset/compare/v4.5.56...v4.5.57) (2022-12-20)
 
 
