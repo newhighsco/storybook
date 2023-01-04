@@ -57,7 +57,7 @@
     "@babel/polyfill": "7.12.1",
     "@babel/preset-env": "7.20.2",
     "@babel/preset-react": "7.18.6",
-    "@commitlint/cli": "17.3.0",
+    "@commitlint/cli": "17.4.0",
     "@newhighsco/commitlint-config": "1.1.10",
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "3.4.19",
