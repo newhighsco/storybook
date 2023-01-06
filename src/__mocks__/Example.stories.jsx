@@ -8,59 +8,38 @@ export default {
   component: Example,
   subcomponents: { ExampleChild },
   parameters: {
-    componentSubtitle: 'Some subtitle'
+    componentSubtitle: 'Some subtitle',
+    darkMode: {
+      current: 'dark'
+    }
   }
 }
 
-const ExampleStory = args => <Example {...args} />
+const Template = args => <Example {...args} />
 
-export const Source = ExampleStory.bind({})
+export const Text = Template.bind({})
+Text.args = { children: 'Text' }
 
-Source.parameters = {
-  chromatic: { disable: true }
-}
-Source.args = {
-  children: 'Source'
-}
-
-export const Text = ExampleStory.bind({})
-
-Text.args = {
-  children: 'Text'
-}
-
-export const InlineSVG = ExampleStory.bind({})
-
-InlineSVG.args = {
-  children: <LogoSvg />
-}
-
+export const InlineSVG = Template.bind({})
+InlineSVG.args = { children: <LogoSvg /> }
 InlineSVG.parameters = {
-  docs: {
-    description: { story: 'Some story description' }
-  }
+  docs: { description: { story: 'Some story description' } }
 }
 
-export const ImageSVGSrc = ExampleStory.bind({})
+export const ImageSVGSrc = Template.bind({})
+ImageSVGSrc.args = { children: <img src={logoSvgUrl} alt="" /> }
 
-ImageSVGSrc.args = {
-  children: <img src={logoSvgUrl} alt="" />
-}
-
-export const ImagePNGSrc = ExampleStory.bind({})
-
+export const ImagePNGSrc = Template.bind({})
 ImagePNGSrc.args = {
   children: <img src={logoPngUrl} alt="" style={{ width: 64 }} />
 }
 
-export const BackgroundSVGSrc = ExampleStory.bind({})
+export const BackgroundSVGSrc = Template.bind({})
+BackgroundSVGSrc.args = { background: 'svg' }
 
-BackgroundSVGSrc.args = {
-  background: 'svg'
-}
+export const BackgroundPNGSrc = Template.bind({})
+BackgroundPNGSrc.args = { background: 'png' }
 
-export const BackgroundPNGSrc = ExampleStory.bind({})
-
-BackgroundPNGSrc.args = {
-  background: 'png'
-}
+export const Source = Template.bind({})
+Source.args = { children: 'Source' }
+Source.parameters = { chromatic: { disable: true } }

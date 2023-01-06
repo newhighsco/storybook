@@ -3,24 +3,19 @@ import { Button } from '@storybook/react/demo'
 
 export default {
   component: Button,
-  parameters: {
-    chromatic: { disable: true }
-  }
+  parameters: { chromatic: { disable: true } }
 }
 
-export const Text = () => <Button>Text</Button>
+const Template = args => <Button {...args} />
 
-export const Emoji = () => (
-  <>
-    <Button>
-      <span role="img" aria-label="so cool">
-        😀 😎 👍 💯
-      </span>
-    </Button>
-    <Button>
-      <span role="img" aria-label="so cool">
-        😀 😎 👍 💯
-      </span>
-    </Button>
-  </>
-)
+export const Text = Template.bind()
+Text.args = { children: 'Text' }
+
+export const Emoji = Template.bind()
+Emoji.args = {
+  children: (
+    <span role="img" aria-label="so cool">
+      😀 😎 👍 💯
+    </span>
+  )
+}
