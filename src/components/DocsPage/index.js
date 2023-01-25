@@ -1,4 +1,5 @@
 import { withTheme } from '@storybook/theming'
+
 import { DocsPage } from './DocsPage'
 
 const WithTheme = withTheme(DocsPage)
