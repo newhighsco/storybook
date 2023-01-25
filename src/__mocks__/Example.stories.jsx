@@ -1,8 +1,8 @@
 import React from 'react'
-import { Example, ExampleChild } from './Example'
 
-import logoSvgUrl, { ReactComponent as LogoSvg } from './logo.svg'
+import { Example, ExampleChild } from './Example'
 import logoPngUrl from './logo.png'
+import logoSvgUrl, { ReactComponent as LogoSvg } from './logo.svg'
 
 export default {
   component: Example,

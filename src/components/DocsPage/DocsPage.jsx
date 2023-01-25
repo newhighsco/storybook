@@ -1,6 +1,3 @@
-import React, { useContext } from 'react'
-import { themes } from '@storybook/theming'
-import { object } from 'prop-types'
 import {
   ArgsTable,
   Description,
@@ -13,6 +10,9 @@ import {
   Subtitle,
   Title
 } from '@storybook/addon-docs'
+import { themes } from '@storybook/theming'
+import { object } from 'prop-types'
+import React, { useContext } from 'react'
 
 const DocsPage = ({ theme = {} }) => {
   const { componentStories } = useContext(DocsContext)
