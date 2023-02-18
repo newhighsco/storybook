@@ -57,7 +57,7 @@
     "@babel/preset-env": "7.20.2",
     "@babel/preset-react": "7.18.6",
     "@commitlint/cli": "17.4.4",
-    "@newhighsco/commitlint-config": "1.1.14",
+    "@newhighsco/commitlint-config": "1.1.15",
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "4.0.14",
     "@newhighsco/prettier-config": "2.1.8",
