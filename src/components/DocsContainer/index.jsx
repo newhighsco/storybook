@@ -1,40 +1,14 @@
-import { DocsContainer as PureDocsContainer } from '@storybook/addon-docs'
+import { DocsContainer as PureDocsContainer } from '@storybook/blocks'
 import { themes } from '@storybook/theming'
-import { node, object } from 'prop-types'
 import React from 'react'
 import { useDarkMode } from 'storybook-dark-mode'
 
-const DocsContainer = ({ context, children }) => {
+const DocsContainer = props => {
   const dark = useDarkMode()
 
   return (
-    <PureDocsContainer
-      context={{
-        ...context,
-        storyById: id => {
-          const storyContext = context.storyById(id)
-
-          return {
-            ...storyContext,
-            parameters: {
-              ...storyContext?.parameters,
-              docs: {
-                ...storyContext?.parameters?.docs,
-                theme: dark ? themes.dark : themes.light
-              }
-            }
-          }
-        }
-      }}
-    >
-      {children}
-    </PureDocsContainer>
+    <PureDocsContainer {...props} theme={dark ? themes.dark : themes.light} />
   )
-}
-
-DocsContainer.propTypes = {
-  context: object,
-  children: node
 }
 
 export default DocsContainer
