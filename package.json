@@ -1,7 +1,7 @@
 {
   "name": "@newhighsco/storybook-preset",
   "description": "New High Score shareable Storybook preset",
-  "version": "4.5.74",
+  "version": "4.5.75",
   "author": "New High Score <hello@newhighsco.re>",
   "license": "ISC",
   "repository": {
@@ -47,7 +47,7 @@
     "new-url-loader": "0.1.1",
     "postcss": "8.4.21",
     "react-is": "18.2.0",
-    "sass": "1.60.0",
+    "sass": "1.61.0",
     "sass-loader": "13.2.2",
     "storybook-dark-mode": "3.0.0"
   },
@@ -66,7 +66,7 @@
     "@storybook/react-webpack5": "7.0.2",
     "babel-loader": "9.1.2",
     "chromatic": "6.17.3",
-    "eslint": "8.37.0",
+    "eslint": "8.38.0",
     "husky": "8.0.3",
     "is-ci": "3.0.1",
     "jest": "29.5.0",
@@ -76,7 +76,7 @@
     "react-dom": "18.2.0",
     "semantic-release": "21.0.1",
     "storybook": "7.0.2",
-    "webpack": "5.77.0"
+    "webpack": "5.78.0"
   },
   "peerDependencies": {
     "@storybook/react": "7.0.2",
