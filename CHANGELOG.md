@@ -1,3 +1,13 @@
+# [5.0.0](https://github.com/newhighsco/storybook-preset/compare/v4.5.75...v5.0.0) (2023-04-12)
+
+
+* feat!(deps): update storybook to v7 (#1169) ([80b606d](https://github.com/newhighsco/storybook-preset/commit/80b606d01311f93cbd9d1ce5a40d699f4108551c)), closes [#1169](https://github.com/newhighsco/storybook-preset/issues/1169)
+
+
+### BREAKING CHANGES
+
+* Storybook config changes required
+
 ## [4.5.75](https://github.com/newhighsco/storybook-preset/compare/v4.5.74...v4.5.75) (2023-04-07)
 
 
