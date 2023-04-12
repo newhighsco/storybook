@@ -43,3 +43,8 @@ BackgroundPNGSrc.args = { background: 'png' }
 export const Source = Template.bind({})
 Source.args = { children: 'Source' }
 Source.parameters = { chromatic: { disable: true } }
+
+export const CSF3 = {
+  args: { children: 'CSF3' },
+  parameters: { chromatic: { disable: true } }
+}
