@@ -1,18 +1,12 @@
 import React from 'react'
 
-import { Example, ExampleChild } from './Example'
+import { Example } from './Example'
 import logoPngUrl from './logo.png'
 import logoSvgUrl, { ReactComponent as LogoSvg } from './logo.svg'
 
 export default {
   component: Example,
-  subcomponents: { ExampleChild },
-  parameters: {
-    componentSubtitle: 'Some subtitle',
-    darkMode: {
-      current: 'dark'
-    }
-  }
+  parameters: { componentSubtitle: 'Some subtitle' }
 }
 
 const Template = args => <Example {...args} />
