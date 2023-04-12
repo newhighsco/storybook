@@ -1,5 +1,5 @@
 import {
-  ArgTypes,
+  Controls,
   Description,
   DocsContext,
   DocsStory,
@@ -34,7 +34,7 @@ const DocsPage = ({ theme = {} }) => {
         of={sourceStory.moduleExport}
         dark={theme.base !== themes.dark.base}
       />
-      <ArgTypes of={sourceStory.moduleExport} />
+      <Controls sof={sourceStory.moduleExport} />
       {!!stories?.length && (
         <>
           <Heading>Stories</Heading>
