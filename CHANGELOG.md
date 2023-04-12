@@ -1,3 +1,11 @@
+## [5.0.3](https://github.com/newhighsco/storybook-preset/compare/v5.0.2...v5.0.3) (2023-04-12)
+
+
+### Bug Fixes
+
+* **addons:** remove unused `@storybook/addon-docs` options ([0fe5fb7](https://github.com/newhighsco/storybook-preset/commit/0fe5fb7665d7a28e9f084b34598eda87937e6398))
+* **docs:** replace `ArgsTypes` with `Controls` ([8482c2a](https://github.com/newhighsco/storybook-preset/commit/8482c2a41243d1e325204e5be3b9f0d28f8585f6))
+
 ## [5.0.2](https://github.com/newhighsco/storybook-preset/compare/v5.0.1...v5.0.2) (2023-04-12)
 
 
