@@ -5,7 +5,7 @@ const addons = [
   '@storybook/addon-backgrounds',
   {
     name: '@storybook/addon-docs',
-    options: { configureJSX: true, transcludeMarkdown: true }
+    options: { configureJSX: true }
   },
   '@storybook/addon-links',
   {
@@ -36,9 +36,15 @@ const addons = [
   }
 ]
 
-const config = (entry = []) => [...entry, resolve(__dirname, './preview')]
+const previewAnnotations = (entry = []) => [
+  ...entry,
+  resolve(__dirname, './preview')
+]
+
+const core = config => ({ ...config, disableTelemetry: true })
 
 module.exports = {
   addons,
-  config
+  previewAnnotations,
+  core
 }

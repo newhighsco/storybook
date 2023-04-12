@@ -1,13 +1,24 @@
-import { createDefaultWebpackConfig } from '@storybook/builder-webpack5/dist/esm/preview/base-webpack.config'
-
 import presetSvgr from '../index'
 
-describe('preset-svg', () => {
-  const options = {
-    presets: { apply: () => ({ builder: {} }) },
-    presetsList: ['@storybook/addon-postcss']
+const baseConfig = {
+  module: {
+    rules: [
+      {
+        test: /\.(svg|ico|jpg|jpeg|png|apng|gif|eot|otf|webp|ttf|woff|woff2|cur|ani|pdf)(\?.*)?$/,
+        type: 'asset/resource',
+        generator: { filename: 'static/media/[path][name][ext]' }
+      },
+      {
+        test: /\.(mp4|webm|wav|mp3|m4a|aac|oga)(\?.*)?$/,
+        type: 'asset',
+        parser: { dataUrlCondition: { maxSize: 10000 } },
+        generator: { filename: 'static/media/[path][name][ext]' }
+      }
+    ]
   }
+}
 
+describe('preset-svg', () => {
   it('should return webpackFinal', () => {
     const preset = presetSvgr
 
@@ -37,11 +48,7 @@ describe('preset-svg', () => {
     })
   })
 
-  it('should override existing SVG asset loader', async () => {
-    const baseConfig = await createDefaultWebpackConfig(
-      { module: { rules: [] } },
-      options
-    )
+  it('should override existing SVG asset loader', () => {
     const { rules: baseConfigRules } = baseConfig.module
     const existingSvgRuleIndex = baseConfigRules.findIndex(rule =>
       rule.test?.toString().includes('svg')
@@ -53,17 +60,11 @@ describe('preset-svg', () => {
     expect(rules[existingSvgRuleIndex].exclude).toEqual(/\.svg$/)
   })
 
-  it('should set SVG asset loader options', async () => {
-    const baseConfig = await createDefaultWebpackConfig(
-      { module: { rules: [] } },
-      options
-    )
+  it('should set SVG asset loader options', () => {
     const webpackConfig = presetSvgr.webpackFinal(baseConfig, {
       assetLoaderOptions: {
         fizz: 'buzz',
-        generator: {
-          foo: 'bar'
-        }
+        generator: { foo: 'bar' }
       }
     })
     const { rules } = webpackConfig.module

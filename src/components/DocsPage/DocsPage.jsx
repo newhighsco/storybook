@@ -1,22 +1,22 @@
 import {
-  ArgsTable,
+  ArgTypes,
   Description,
   DocsContext,
   DocsStory,
   Heading,
-  Primary,
-  PRIMARY_STORY,
   Source,
   Subtitle,
   Title
-} from '@storybook/addon-docs'
+} from '@storybook/blocks'
 import { themes } from '@storybook/theming'
 import { object } from 'prop-types'
 import React, { useContext } from 'react'
 
 const DocsPage = ({ theme = {} }) => {
   const { componentStories } = useContext(DocsContext)
-  let stories = componentStories()
+  let stories = componentStories().filter(
+    story => !story.parameters?.docs?.disable
+  )
   const sourceStory =
     stories.find(({ name }) => name === 'Source') || stories[0]
 
@@ -28,16 +28,21 @@ const DocsPage = ({ theme = {} }) => {
       <Subtitle />
       <Description />
       <div style={{ display: 'none' }}>
-        <Primary name={sourceStory.name} />
+        <DocsStory of={sourceStory.moduleExport} />
       </div>
-      <Source id={sourceStory.id} dark={theme.base !== themes.dark.base} />
-      <ArgsTable story={PRIMARY_STORY} />
+      <Source
+        of={sourceStory.moduleExport}
+        dark={theme.base !== themes.dark.base}
+      />
+      <ArgTypes of={sourceStory.moduleExport} />
       {!!stories?.length && (
         <>
           <Heading>Stories</Heading>
           {stories.map(
             story =>
-              story && <DocsStory key={story.id} {...story} withToolbar />
+              story && (
+                <DocsStory key={story.id} of={story.moduleExport} withToolbar />
+              )
           )}
         </>
       )}
