@@ -1,3 +1,10 @@
+## [5.0.2](https://github.com/newhighsco/storybook-preset/compare/v5.0.1...v5.0.2) (2023-04-12)
+
+
+### Bug Fixes
+
+* **deps:** remove `@storybook/react` ([ea4cb31](https://github.com/newhighsco/storybook-preset/commit/ea4cb31964128047f89c2cf975a4a1a94897f30c))
+
 ## [5.0.1](https://github.com/newhighsco/storybook-preset/compare/v5.0.0...v5.0.1) (2023-04-12)
 
 
