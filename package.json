@@ -23,7 +23,7 @@
     "prepare": "(is-ci || husky install) && yarn build",
     "prebuild": "rm -rf dist",
     "build": "babel src --out-dir dist --ignore '**/__mocks__','**/__tests__','**/*.spec.jsx'",
-    "prebuild:storybook": "rm -rf build",
+    "prebuild:storybook": "yarn build",
     "build:storybook": "storybook build --output-dir build --docs --quiet",
     "pretest": "yarn lint",
     "test": "npm-run-all --parallel test:*",
