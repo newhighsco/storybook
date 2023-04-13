@@ -1,3 +1,10 @@
+## [5.1.1](https://github.com/newhighsco/storybook-preset/compare/v5.1.0...v5.1.1) (2023-04-13)
+
+
+### Bug Fixes
+
+* **docs:** add theme specific class to `Canvas` ([cdbfb3b](https://github.com/newhighsco/storybook-preset/commit/cdbfb3b842641eaa1b83ae74cd306a8dd96102ab))
+
 # [5.1.0](https://github.com/newhighsco/storybook-preset/compare/v5.0.4...v5.1.0) (2023-04-13)
 
 
