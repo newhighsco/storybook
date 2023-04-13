@@ -1,8 +1,11 @@
-const { resolve } = require('path')
+import { resolve } from 'path'
 
-module.exports = {
+/** @type { import('@storybook/react-webpack5').StorybookConfig } */
+const config = {
   framework: '@storybook/react-webpack5',
   stories: ['../src'],
   addons: [resolve(__dirname, '../preset')],
   docs: { autodocs: true }
 }
+
+export default config

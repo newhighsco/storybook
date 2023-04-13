@@ -1,4 +1,7 @@
-const webpackFinal = (config = {}, options = {}) => {
+/** @typedef { import('@storybook/react-webpack5').StorybookConfig } StorybookConfig */
+
+/** @type { StorybookConfig['webpackFinal'] } */
+export const webpackFinal = (config = {}, options = {}) => {
   const { transpileModules = [] } = options
 
   if (transpileModules.length) {
@@ -16,8 +19,4 @@ const webpackFinal = (config = {}, options = {}) => {
   }
 
   return config
-}
-
-module.exports = {
-  webpackFinal
 }

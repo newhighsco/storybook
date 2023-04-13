@@ -1,3 +1,5 @@
+/** @typedef { import('@storybook/react-webpack5').StorybookConfig } StorybookConfig */
+
 const svgRegExp = /\.svg$/
 
 const svgrLoaders = ({ svgrLoaderOptions, assetLoader }) => {
@@ -23,7 +25,8 @@ const svgrLoaders = ({ svgrLoaderOptions, assetLoader }) => {
   ]
 }
 
-const webpackFinal = (config = {}, options = {}) => {
+/** @type { StorybookConfig['webpackFinal'] } */
+export const webpackFinal = (config = {}, options = {}) => {
   const { module = {} } = config
   const { assetLoaderOptions } = options
 
@@ -54,8 +57,4 @@ const webpackFinal = (config = {}, options = {}) => {
       rules: [...(module.rules || []), ...svgrLoaders(options)]
     }
   }
-}
-
-module.exports = {
-  webpackFinal
 }

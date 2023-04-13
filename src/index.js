@@ -1,6 +1,9 @@
-const { resolve } = require('path')
+import { resolve } from 'path'
 
-const addons = [
+/** @typedef { import('@storybook/react-webpack5').StorybookConfig } StorybookConfig */
+
+/** @type { StorybookConfig['addons'] } */
+export const addons = [
   '@storybook/addon-actions',
   '@storybook/addon-backgrounds',
   '@storybook/addon-docs',
@@ -24,7 +27,7 @@ const addons = [
     }
   },
   'storybook-dark-mode',
-  resolve(__dirname, './addons/preset-svgr'),
+  resolve(__dirname, './presets/preset-svgr'),
   {
     name: resolve(__dirname, './addons/addon-transpile-modules'),
     options: {
@@ -33,15 +36,11 @@ const addons = [
   }
 ]
 
-const previewAnnotations = (entry = []) => [
+/** @type { StorybookConfig['core'] } */
+export const core = config => ({ ...config, disableTelemetry: true })
+
+/** @type { StorybookConfig['previewAnnotations'] } */
+export const previewAnnotations = (entry = []) => [
   ...entry,
   resolve(__dirname, './preview')
 ]
-
-const core = config => ({ ...config, disableTelemetry: true })
-
-module.exports = {
-  addons,
-  previewAnnotations,
-  core
-}
