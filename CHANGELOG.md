@@ -1,3 +1,10 @@
+# [5.1.0](https://github.com/newhighsco/storybook-preset/compare/v5.0.4...v5.1.0) (2023-04-13)
+
+
+### Features
+
+* convert to ES6 and add types ([0296e98](https://github.com/newhighsco/storybook-preset/commit/0296e980ac48530ea6b7139ad3ff4a56abf187c2))
+
 ## [5.0.4](https://github.com/newhighsco/storybook-preset/compare/v5.0.3...v5.0.4) (2023-04-13)
 
 
