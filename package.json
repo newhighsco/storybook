@@ -36,12 +36,12 @@
     "format:js": "yarn lint:js --fix"
   },
   "dependencies": {
-    "@storybook/addon-actions": "7.0.10",
-    "@storybook/addon-backgrounds": "7.0.10",
-    "@storybook/addon-docs": "7.0.10",
-    "@storybook/addon-links": "7.0.10",
+    "@storybook/addon-actions": "7.0.11",
+    "@storybook/addon-backgrounds": "7.0.11",
+    "@storybook/addon-docs": "7.0.11",
+    "@storybook/addon-links": "7.0.11",
     "@storybook/addon-postcss": "2.0.0",
-    "@storybook/addons": "7.0.10",
+    "@storybook/addons": "7.0.11",
     "@storybook/preset-scss": "1.0.3",
     "@svgr/webpack": "8.0.1",
     "new-url-loader": "0.1.1",
@@ -62,7 +62,7 @@
     "@newhighsco/eslint-config": "4.0.27",
     "@newhighsco/prettier-config": "2.1.10",
     "@newhighsco/release-config": "1.3.17",
-    "@storybook/react-webpack5": "7.0.10",
+    "@storybook/react-webpack5": "7.0.11",
     "chromatic": "6.17.4",
     "eslint": "8.40.0",
     "husky": "8.0.3",
@@ -73,12 +73,12 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "semantic-release": "21.0.2",
-    "storybook": "7.0.10",
+    "storybook": "7.0.11",
     "webpack": "5.82.1"
   },
   "peerDependencies": {
-    "@storybook/react-webpack5": "7.0.10",
-    "storybook": "7.0.10"
+    "@storybook/react-webpack5": "7.0.11",
+    "storybook": "7.0.11"
   },
   "commitlint": {
     "extends": [
