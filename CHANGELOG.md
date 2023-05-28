@@ -1,3 +1,10 @@
+## [5.1.19](https://github.com/newhighsco/storybook-preset/compare/v5.1.18...v5.1.19) (2023-05-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass-loader to v13.3.1 ([6cc7be5](https://github.com/newhighsco/storybook-preset/commit/6cc7be570ec8ac433a01fd73b2874214a3818c80))
+
 ## [5.1.18](https://github.com/newhighsco/storybook-preset/compare/v5.1.17...v5.1.18) (2023-05-27)
 
 
