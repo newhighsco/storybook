@@ -72,7 +72,7 @@
     "prettier": "2.8.8",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "semantic-release": "21.0.5",
+    "semantic-release": "21.0.6",
     "storybook": "7.0.24",
     "webpack": "5.88.1"
   },
