@@ -1,3 +1,10 @@
+## [5.1.48](https://github.com/newhighsco/storybook-preset/compare/v5.1.47...v5.1.48) (2023-08-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @svgr/webpack to v8.1.0 ([8ced1cd](https://github.com/newhighsco/storybook-preset/commit/8ced1cd311ef55531f30e72c0579ce78a75fa074))
+
 ## [5.1.47](https://github.com/newhighsco/storybook-preset/compare/v5.1.46...v5.1.47) (2023-08-11)
 
 
