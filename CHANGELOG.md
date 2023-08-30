@@ -1,3 +1,10 @@
+## [5.1.55](https://github.com/newhighsco/storybook-preset/compare/v5.1.54...v5.1.55) (2023-08-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.4.29 ([3c154f5](https://github.com/newhighsco/storybook-preset/commit/3c154f53c5c1b9424a0706cfd4eeda6f3452fa56))
+
 ## [5.1.54](https://github.com/newhighsco/storybook-preset/compare/v5.1.53...v5.1.54) (2023-08-29)
 
 
