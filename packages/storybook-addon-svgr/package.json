@@ -1,6 +1,13 @@
 {
   "name": "@newhighsco/storybook-addon-svgr",
   "description": "Storybook addon for transforming SVGs into React components using SVGR",
+  "keywords": [
+    "storybook-addons",
+    "code",
+    "svg",
+    "svgr",
+    "webpack"
+  ],
   "version": "1.0.0",
   "author": "New High Score <hello@newhighsco.re>",
   "license": "ISC",
@@ -30,5 +37,12 @@
   "peerDependencies": {
     "@storybook/react-webpack5": "7.4.0",
     "storybook": "7.4.0"
+  },
+  "storybook": {
+    "displayName": "SVGR",
+    "supportedFrameworks": [
+      "react"
+    ],
+    "icon": "https://raw.githubusercontent.com/gregberge/svgr/main/website/images/logo-manifest.png"
   }
 }
