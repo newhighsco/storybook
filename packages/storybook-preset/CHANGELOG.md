@@ -1,3 +1,11 @@
+## @newhighsco/storybook-preset [6.1.1](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@6.1.0...@newhighsco/storybook-preset@6.1.1) (2023-08-31)
+
+
+### Bug Fixes
+
+* **storybook-preset:** run yarn build before publish ([76c1cca](https://github.com/newhighsco/storybook/commit/76c1cca0ecda3b721fc380727bf2c11500bf7c92))
+* **storybook-preset:** use `@newhighsco/storybook-addon-svg` ([1390c82](https://github.com/newhighsco/storybook/commit/1390c820671341f2898ba205e3b8f9894e9ae59b))
+
 # @newhighsco/storybook-preset [6.1.0](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@6.0.0...@newhighsco/storybook-preset@6.1.0) (2023-08-31)
 
 
