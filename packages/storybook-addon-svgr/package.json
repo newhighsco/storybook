@@ -27,6 +27,7 @@
     "preset.js"
   ],
   "scripts": {
+    "prepublishOnly": "yarn build",
     "prebuild": "rm -rf dist",
     "build": "babel --root-mode upward src --out-dir dist --ignore '**/__tests__'"
   },
