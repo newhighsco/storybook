@@ -36,6 +36,7 @@ workflows:
             - build
       - newhighsco/release:
           name: release
+          command: yarn multi-semantic-release --sequential-init
           requires:
             - snapshot
           filters:
