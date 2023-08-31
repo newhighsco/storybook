@@ -1,3 +1,10 @@
+# @newhighsco/storybook-preset [6.1.0](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@6.0.0...@newhighsco/storybook-preset@6.1.0) (2023-08-31)
+
+
+### Features
+
+* **storybook-preset:** migrate to monorepo ([#1357](https://github.com/newhighsco/storybook/issues/1357)) ([500d161](https://github.com/newhighsco/storybook/commit/500d161bafc0a48683b2c10679ede6b593eec91d))
+
 # [6.0.0](https://github.com/newhighsco/storybook-preset/compare/v5.1.55...v6.0.0) (2023-08-31)
 
 
