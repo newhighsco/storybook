@@ -21,7 +21,7 @@ workflows:
     jobs:
       - newhighsco/setup:
           name: setup
-          cache-version: v2
+          cache-version: v3
       - newhighsco/test:
           name: test
           requires:
