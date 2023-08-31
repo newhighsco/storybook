@@ -19,7 +19,7 @@ Create a `.storybook/main.js` in your project:
 /** @type { import('@storybook/react-webpack5').StorybookConfig } */
 const config = {
   framework: '@storybook/react-webpack5',
-  presets: ['@newhighsco/storybook-preset']
+  addons: ['@newhighsco/storybook-preset']
 }
 
 export default config

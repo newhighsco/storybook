@@ -23,7 +23,7 @@ export const addons = [
     }
   },
   'storybook-dark-mode',
-  resolve(__dirname, './presets/preset-svgr'),
+  '@newhighsco/storybook-addon-svgr',
   {
     name: resolve(__dirname, './addons/addon-transpile-modules'),
     options: {
