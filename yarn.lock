@@ -2212,6 +2212,29 @@
     "@pnpm/network.ca-file" "^1.0.1"
     config-chain "^1.1.11"
 
+"@qiwi/multi-semantic-release@7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@qiwi/multi-semantic-release/-/multi-semantic-release-7.0.0.tgz#8cf0c12ca75b1c569104dbbdd799e336539dfa5b"
+  integrity sha512-uI9LF8E/+vLrsPFbbbkJK3XRlr3+qlYbcRQqSwhftb4uN1KtSmxKOEnlkIb5F3fdIuu5TtKIkeHZQhJDyZgqHw==
+  dependencies:
+    "@semrel-extra/topo" "^1.13.0"
+    blork "^9.3.0"
+    cosmiconfig "^8.2.0"
+    debug "^4.3.4"
+    detect-indent "^7.0.1"
+    detect-newline "^4.0.0"
+    execa "^7.1.1"
+    get-stream "^6.0.1"
+    git-log-parser "^1.2.0"
+    lodash-es "^4.17.21"
+    meow "^12.0.1"
+    promise-events "^0.2.4"
+    resolve-from "^5.0.0"
+    semantic-release "^21.0.5"
+    semver "^7.5.3"
+    signale "^1.4.0"
+    stream-buffers "^3.0.2"
+
 "@radix-ui/number@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@radix-ui/number/-/number-1.0.1.tgz#644161a3557f46ed38a042acf4a770e826021674"
@@ -2610,6 +2633,15 @@
     into-stream "^7.0.0"
     lodash-es "^4.17.21"
     read-pkg-up "^10.0.0"
+
+"@semrel-extra/topo@^1.13.0":
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/@semrel-extra/topo/-/topo-1.14.0.tgz#17488a3c93c346334de80827cf20d8634b3abd57"
+  integrity sha512-i4nMOxEva7HFfTIg0ao6Gjvdep6ux9/7tdQ4Mb/JrOj6vBJxSzYPJYZ85aB9eD3jMSWy4lkaclHsMslV5VMmIQ==
+  dependencies:
+    fast-glob "^3.3.1"
+    js-yaml "^4.1.0"
+    toposource "^1.1.4"
 
 "@sigstore/bundle@^1.1.0":
   version "1.1.0"
@@ -5003,6 +5035,11 @@ bl@^4.0.3, bl@^4.1.0:
     inherits "^2.0.4"
     readable-stream "^3.4.0"
 
+blork@^9.3.0:
+  version "9.3.0"
+  resolved "https://registry.yarnpkg.com/blork/-/blork-9.3.0.tgz#6c0b4fbb6b754998ae5460c26463d95c635e4a35"
+  integrity sha512-9naBrHS2bwCQeGqGR9ptcoll6utsox9jtk1E0SwOAFa4RCV/IQHoBJARdi8AhHQTPPoWkjixMrzHvQKAV5Fx2A==
+
 bluebird@^3.5.1, bluebird@^3.5.3, bluebird@^3.5.5, bluebird@^3.7.2:
   version "3.7.2"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
@@ -6282,6 +6319,11 @@ detect-indent@^6.0.0, detect-indent@^6.1.0:
   resolved "https://registry.yarnpkg.com/detect-indent/-/detect-indent-6.1.0.tgz#592485ebbbf6b3b1ab2be175c8393d04ca0d57e6"
   integrity sha512-reYkTUJAZb9gUuZ2RvVCNhVHdg62RHnJ7WJl8ftMi4diZ6NWlciOzQN88pUhSELEwflJht4oQDv0F0BMlwaYtA==
 
+detect-indent@^7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/detect-indent/-/detect-indent-7.0.1.tgz#cbb060a12842b9c4d333f1cac4aa4da1bb66bc25"
+  integrity sha512-Mc7QhQ8s+cLrnUfU/Ji94vG/r8M26m8f++vyres4ZoojaRDpZ1eSIh/EpzLNwlWuvzSZ3UbDFspjFvTDXe6e/g==
+
 detect-indent@~5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/detect-indent/-/detect-indent-5.0.0.tgz#3871cc0a6a002e8c3e5b3cf7f336264675f06b9d"
@@ -6296,6 +6338,11 @@ detect-newline@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/detect-newline/-/detect-newline-2.1.0.tgz#f41f1c10be4b00e87b5f13da680759f2c5bfd3e2"
   integrity sha512-CwffZFvlJffUg9zZA0uqrjQayUTC8ob94pnr5sFwaVv3IOmkfUHcWH+jXaQK3askE51Cqe8/9Ql/0uXNwqZ8Zg==
+
+detect-newline@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/detect-newline/-/detect-newline-4.0.0.tgz#450ac3f864d5f61112b53a524123b012c59581bc"
+  integrity sha512-1aXUEPdfGdzVPFpzGJJNgq9o81bGg1s09uxTWsqBlo9PI332uyJRQq13+LK/UN4JfxJbFdCXonUFQ9R/p7yCtw==
 
 detect-node-es@^1.1.0:
   version "1.1.0"
@@ -12903,6 +12950,11 @@ promise-call-limit@^1.0.2:
   resolved "https://registry.yarnpkg.com/promise-call-limit/-/promise-call-limit-1.0.2.tgz#f64b8dd9ef7693c9c7613e7dfe8d6d24de3031ea"
   integrity sha512-1vTUnfI2hzui8AEIixbdAJlFY4LFDXqQswy/2eOlThAscXCY4It8FdVuI0fMJGAB2aWGbdQf/gv0skKYXmdrHA==
 
+promise-events@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/promise-events/-/promise-events-0.2.4.tgz#3b46508b2dfbd0b0fd349a404f65bf279fc483eb"
+  integrity sha512-GCM6DmJcSCC8XboZIzYJAlADwkIS1P54XFUJQYhB7dpE7rtXPzPrT13dsV4Qm0FMCKptwMTyF8ZCir803RfKzA==
+
 promise-inflight@^1.0.1, promise-inflight@~1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/promise-inflight/-/promise-inflight-1.0.1.tgz#98472870bf228132fcbdd868129bad12c3c029e3"
@@ -13918,7 +13970,7 @@ semantic-release-circleci-orb@1.1.1:
     npm "^6.4.1"
     read-pkg "^5.0.0"
 
-semantic-release@21.1.1:
+semantic-release@21.1.1, semantic-release@^21.0.5:
   version "21.1.1"
   resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-21.1.1.tgz#b1a0735fe5037699b26f81ec9e7e8a2fb89d5972"
   integrity sha512-OCIazQnaCHdq1F6zfmKS0P7jZakYq0weiqW2mxUWo4H2CDnxelUoa/0Bs/dQatoHc6JFh6lG2HWpusdl93bFcw==
@@ -14107,7 +14159,7 @@ signal-exit@^4.0.1, signal-exit@^4.1.0:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-4.1.0.tgz#952188c1cbd546070e2dd20d0f41c0ae0530cb04"
   integrity sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==
 
-signale@^1.2.1:
+signale@^1.2.1, signale@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/signale/-/signale-1.4.0.tgz#c4be58302fb0262ac00fc3d886a7c113759042f1"
   integrity sha512-iuh+gPf28RkltuJC7W5MRi6XAjTDCAPC/prJUpQoG4vIP3MJZ+GTydVnodXA7pwvTKb2cA0m9OFZW/cdWy/I/w==
@@ -14418,6 +14470,11 @@ storybook@7.4.0:
   integrity sha512-jSwbyxHlr2dTY51Pv0mzenjrMDJNZH7DQhHu4ZezpjV+QK/rLCnD+Gt/7iDSaNlsmZJejQcmURDoEybWggMOqw==
   dependencies:
     "@storybook/cli" "7.4.0"
+
+stream-buffers@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/stream-buffers/-/stream-buffers-3.0.2.tgz#5249005a8d5c2d00b3a32e6e0a6ea209dc4f3521"
+  integrity sha512-DQi1h8VEBA/lURbSwFtEHnSTb9s2/pwLEaFuNhXwy1Dx3Sa0lOuYT2yNUr4/j2fs8oCAMANtrZ5OrPZtyVs3MQ==
 
 stream-combiner2@~1.1.1:
   version "1.1.1"
@@ -15105,6 +15162,11 @@ toidentifier@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.1.tgz#3be34321a88a820ed1bd80dfaa33e479fbb8dd35"
   integrity sha512-o5sSPKEkg/DIQNmH43V0/uerLrpzVedkUh8tGNvaeXpfpuwjKenlSox/2O/BTlZUtEe+JG7s5YhEz608PlAHRA==
+
+toposource@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/toposource/-/toposource-1.1.4.tgz#94a39668236b66dedd97c29157a0b46db9236862"
+  integrity sha512-WOHoshZjzHHfHf7zSEjgk48Fv29m4uqPj0fVFKnDbH0A35gyD8BncofU01pDRdaDQ8VIace8WuQ3ChHfpBjqvg==
 
 tough-cookie@~2.5.0:
   version "2.5.0"
