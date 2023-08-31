@@ -8,9 +8,12 @@ import styles from './Example.module.scss'
  */
 const Example = ({ children, background }) => (
   <div
-    className={`${styles.wrapper} ${
+    className={[
+      styles.wrapper,
       background && styles[`background${background.toUpperCase()}`]
-    }`}
+    ]
+      .filter(Boolean)
+      .join(' ')}
   >
     <ExampleChild>{children}</ExampleChild>
   </div>
