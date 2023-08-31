@@ -9,20 +9,16 @@ export const addons = [
   '@storybook/addon-docs',
   '@storybook/addon-links',
   {
-    name: '@storybook/addon-postcss',
+    name: '@storybook/addon-styling',
     options: {
-      postcssLoaderOptions: {
+      cssModules: {
+        localIdentName: '[name]_[local]__[hash:base64:5]'
+      },
+      postCss: {
         implementation: require('postcss')
-      }
-    }
-  },
-  {
-    name: '@storybook/preset-scss',
-    options: {
-      cssLoaderOptions: {
-        modules: {
-          localIdentName: '[name]_[local]__[hash:base64:5]'
-        }
+      },
+      sass: {
+        implementation: require('sass')
       }
     }
   },

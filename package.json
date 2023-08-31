@@ -31,8 +31,10 @@
     "tdd": "yarn test:js --watch",
     "snapshot": "chromatic --storybook-build-dir build --auto-accept-changes main --exit-once-uploaded --only-changed",
     "lint": "npm-run-all --parallel lint:*",
+    "lint:css": "stylelint --cache --ignore-path .gitignore '**/*.?(s)css'",
     "lint:js": "eslint --cache --ignore-path .gitignore .",
     "format": "npm-run-all --parallel format:*",
+    "format:css": "yarn lint:css --fix",
     "format:js": "yarn lint:js --fix"
   },
   "dependencies": {
@@ -40,15 +42,13 @@
     "@storybook/addon-backgrounds": "7.4.0",
     "@storybook/addon-docs": "7.4.0",
     "@storybook/addon-links": "7.4.0",
-    "@storybook/addon-postcss": "2.0.0",
+    "@storybook/addon-styling": "1.3.7",
     "@storybook/addons": "7.4.0",
-    "@storybook/preset-scss": "1.0.3",
     "@svgr/webpack": "8.1.0",
     "new-url-loader": "0.1.1",
     "postcss": "8.4.29",
     "react-is": "18.2.0",
     "sass": "1.66.1",
-    "sass-loader": "13.3.2",
     "storybook-dark-mode": "3.0.1"
   },
   "devDependencies": {
@@ -62,6 +62,7 @@
     "@newhighsco/eslint-config": "4.0.66",
     "@newhighsco/prettier-config": "2.1.15",
     "@newhighsco/release-config": "1.3.29",
+    "@newhighsco/stylelint-config": "3.1.58",
     "@storybook/react-webpack5": "7.4.0",
     "chromatic": "6.24.1",
     "eslint": "8.48.0",
@@ -75,11 +76,15 @@
     "react-dom": "18.2.0",
     "semantic-release": "21.1.1",
     "storybook": "7.4.0",
+    "stylelint": "15.10.3",
     "webpack": "5.88.2"
   },
   "peerDependencies": {
     "@storybook/react-webpack5": "7.4.0",
     "storybook": "7.4.0"
+  },
+  "resolutions": {
+    "wrap-ansi": "7.0.0"
   },
   "commitlint": {
     "extends": [
@@ -111,7 +116,19 @@
           "monorepo:storybook"
         ],
         "semanticCommitType": "fix"
+      },
+      {
+        "description": "Pin wrap-ansi to v7 as v8 requires ESM",
+        "matchPackageNames": [
+          "wrap-ansi"
+        ],
+        "allowedVersions": "<=7.0.0"
       }
+    ]
+  },
+  "stylelint": {
+    "extends": [
+      "@newhighsco/stylelint-config"
     ]
   }
 }
