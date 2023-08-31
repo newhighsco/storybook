@@ -6,7 +6,7 @@ orbs:
 only-version-tags: &only-version-tags
   filters:
     tags:
-      only: /^@newhighsco/storybook-preset@.*/
+      only: /^@newhighsco\/storybook-preset@.*/
     branches:
       ignore: /.*/
 
