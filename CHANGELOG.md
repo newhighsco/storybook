@@ -1,3 +1,13 @@
+# [6.0.0](https://github.com/newhighsco/storybook-preset/compare/v5.1.55...v6.0.0) (2023-08-31)
+
+
+* feat(styling)!: migrate to `@storybook/addon-styling` (#1356) ([ce1f6af](https://github.com/newhighsco/storybook-preset/commit/ce1f6af57b85908bb25f16d4cc7179bbe1f7e2f3)), closes [#1356](https://github.com/newhighsco/storybook-preset/issues/1356)
+
+
+### BREAKING CHANGES
+
+* Removes `@storybook/addon-postcss` and `@storybook/preset-scss`
+
 ## [5.1.55](https://github.com/newhighsco/storybook-preset/compare/v5.1.54...v5.1.55) (2023-08-30)
 
 
