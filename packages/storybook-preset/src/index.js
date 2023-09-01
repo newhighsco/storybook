@@ -25,7 +25,7 @@ export const addons = [
   'storybook-dark-mode',
   '@newhighsco/storybook-addon-svgr',
   {
-    name: resolve(__dirname, './addons/addon-transpile-modules'),
+    name: '@newhighsco/storybook-addon-transpile-modules',
     options: {
       transpileModules: ['@newhighsco/chipset']
     }
