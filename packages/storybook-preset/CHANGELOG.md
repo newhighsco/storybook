@@ -1,3 +1,10 @@
+## @newhighsco/storybook-preset [6.1.2](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@6.1.1...@newhighsco/storybook-preset@6.1.2) (2023-09-01)
+
+
+### Bug Fixes
+
+* **storybook-preset:** use `@newhighsco/storybook-addon-transpile-modules` ([#1360](https://github.com/newhighsco/storybook/issues/1360)) ([996a33b](https://github.com/newhighsco/storybook/commit/996a33b80fad9892613b48118b2e3f04021e1dcf))
+
 ## @newhighsco/storybook-preset [6.1.1](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@6.1.0...@newhighsco/storybook-preset@6.1.1) (2023-08-31)
 
 
