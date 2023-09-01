@@ -1,18 +1,17 @@
-@use 'base';
+@use '../styles/base';
 
 .wrapper {
   @include base.rounded;
 
-  font-family: sans-serif;
   padding: 20px + base.$radius;
 }
 
 .backgroundPNG {
-  background-image: url('./logo.png');
+  background-image: url('../images/logo.png');
   background-size: auto 100%;
 }
 
 .backgroundSVG {
-  background-image: url('./logo.svg');
+  background-image: url('../images/logo.svg');
   background-size: auto 100%;
 }

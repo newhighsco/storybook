@@ -1,0 +1,22 @@
+$font: 'Roboto';
+$radius: 3px;
+
+// private member
+$-radius: 3px;
+
+@mixin rounded {
+  border-radius: $radius;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: $font;
+  font-style: normal;
+  src: url('../fonts/roboto.woff2') format('woff2');
+}
+
+.wrapper {
+  background: rebeccapurple;
+  color: white;
+  font-family: $font, sans-serif;
+}
