@@ -1,3 +1,4 @@
+import { ContentContainer } from '@newhighsco/chipset'
 import { node, string } from 'prop-types'
 import React from 'react'
 
@@ -7,7 +8,7 @@ import styles from './Example.module.scss'
  * The `Example` component
  */
 const Example = ({ children, background }) => (
-  <div
+  <ContentContainer
     className={[
       styles.wrapper,
       background && styles[`background${background.toUpperCase()}`]
@@ -16,7 +17,7 @@ const Example = ({ children, background }) => (
       .join(' ')}
   >
     <ExampleChild>{children}</ExampleChild>
-  </div>
+  </ContentContainer>
 )
 
 Example.propTypes = {
