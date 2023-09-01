@@ -1,7 +1,7 @@
 {
   "name": "@newhighsco/storybook-preset",
   "description": "New High Score shareable Storybook preset",
-  "version": "6.1.0",
+  "version": "6.1.1",
   "author": "New High Score <hello@newhighsco.re>",
   "license": "ISC",
   "private": false,
@@ -25,7 +25,7 @@
     "build": "babel --root-mode upward src --out-dir dist --ignore '**/__tests__'"
   },
   "dependencies": {
-    "@newhighsco/storybook-addon-svgr": "*",
+    "@newhighsco/storybook-addon-svgr": "1.0.1",
     "@storybook/addon-actions": "7.4.0",
     "@storybook/addon-backgrounds": "7.4.0",
     "@storybook/addon-docs": "7.4.0",
