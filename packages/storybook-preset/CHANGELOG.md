@@ -1,3 +1,21 @@
+## @newhighsco/storybook-preset [6.1.3](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@6.1.2...@newhighsco/storybook-preset@6.1.3) (2023-09-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.4.30 ([e1b0bf4](https://github.com/newhighsco/storybook/commit/e1b0bf4e22830d4e9430aaab213d8b2e8166b0e9))
+* **deps:** update dependency sass to v1.67.0 ([7d7df60](https://github.com/newhighsco/storybook/commit/7d7df60408d47f67d1e1b1009d464a891c38162b))
+* **deps:** update storybook monorepo to v7.4.2 ([537d731](https://github.com/newhighsco/storybook/commit/537d731cba9b96a6f0669cffc23a2f2d1957b4fb))
+
+
+
+
+
+### Dependencies
+
+* **@newhighsco/storybook-addon-svgr:** upgraded to 1.0.2
+* **@newhighsco/storybook-addon-transpile-modules:** upgraded to 1.0.1
+
 ## @newhighsco/storybook-preset [6.1.2](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@6.1.1...@newhighsco/storybook-preset@6.1.2) (2023-09-01)
 
 
