@@ -1,3 +1,9 @@
+const filter = url => {
+  if (url.startsWith('/')) return false
+
+  return true
+}
+
 export const cssLoaders = (test = /\.css$/, importLoaders = []) => {
   importLoaders = [
     {
@@ -17,8 +23,10 @@ export const cssLoaders = (test = /\.css$/, importLoaders = []) => {
       {
         loader: require.resolve('css-loader'),
         options: {
+          import: { filter },
+          importLoaders: importLoaders.length,
           modules: { localIdentName: '[name]_[local]__[hash:base64:5]' },
-          importLoaders: importLoaders.length
+          url: { filter }
         }
       },
       ...importLoaders
