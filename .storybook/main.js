@@ -3,6 +3,7 @@ const config = {
   framework: '@storybook/react-webpack5',
   stories: ['../example'],
   addons: ['@newhighsco/storybook-preset'],
+  staticDirs: ['../public'],
   docs: { autodocs: true }
 }
 
