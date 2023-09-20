@@ -1,5 +1,7 @@
 import { resolve } from 'path'
 
+import { cssLoaders } from './loaders'
+
 /** @typedef { import('@storybook/react-webpack5').StorybookConfig } StorybookConfig */
 
 /** @type { StorybookConfig['addons'] } */
@@ -9,26 +11,24 @@ export const addons = [
   '@storybook/addon-docs',
   '@storybook/addon-links',
   {
-    name: '@storybook/addon-styling',
+    name: '@storybook/addon-styling-webpack',
     options: {
-      cssModules: {
-        localIdentName: '[name]_[local]__[hash:base64:5]'
-      },
-      postCss: {
-        implementation: require('postcss')
-      },
-      sass: {
-        implementation: require('sass')
-      }
+      rules: [
+        cssLoaders(),
+        cssLoaders(/\.s[ac]ss$/, [
+          {
+            loader: require.resolve('sass-loader'),
+            options: { implementation: require.resolve('sass') }
+          }
+        ])
+      ]
     }
   },
   'storybook-dark-mode',
   '@newhighsco/storybook-addon-svgr',
   {
     name: '@newhighsco/storybook-addon-transpile-modules',
-    options: {
-      transpileModules: ['@newhighsco/chipset']
-    }
+    options: { transpileModules: ['@newhighsco/chipset'] }
   }
 ]
 
