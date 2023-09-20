@@ -90,13 +90,6 @@
           "monorepo:storybook"
         ],
         "semanticCommitType": "fix"
-      },
-      {
-        "description": "Pin wrap-ansi to v7 as v8 requires ESM",
-        "matchPackageNames": [
-          "wrap-ansi"
-        ],
-        "allowedVersions": "<=7.0.0"
       }
     ]
   },
