@@ -1,3 +1,10 @@
+# @newhighsco/storybook-preset [6.2.0](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@6.1.3...@newhighsco/storybook-preset@6.2.0) (2023-09-20)
+
+
+### Features
+
+* **styling:** migrate to `@storybook/addon-styling-webpack` ([#1383](https://github.com/newhighsco/storybook/issues/1383)) ([d22b95f](https://github.com/newhighsco/storybook/commit/d22b95f2468dc95cb416e205a000ed4536de754f))
+
 ## @newhighsco/storybook-preset [6.1.3](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@6.1.2...@newhighsco/storybook-preset@6.1.3) (2023-09-19)
 
 
