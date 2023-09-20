@@ -1,3 +1,10 @@
+# @newhighsco/storybook-preset [6.3.0](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@6.2.0...@newhighsco/storybook-preset@6.3.0) (2023-09-20)
+
+
+### Features
+
+* **styling:** ignore absolute css assets ([#1384](https://github.com/newhighsco/storybook/issues/1384)) ([6809c1f](https://github.com/newhighsco/storybook/commit/6809c1fc234515dfc59003905a1adada99933829))
+
 # @newhighsco/storybook-preset [6.2.0](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@6.1.3...@newhighsco/storybook-preset@6.2.0) (2023-09-20)
 
 
