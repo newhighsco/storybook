@@ -14,7 +14,7 @@ export const addons = [
     name: '@storybook/addon-styling-webpack',
     options: {
       rules: [
-        cssLoaders(/\.css$/),
+        cssLoaders(),
         cssLoaders(/\.s[ac]ss$/, [
           {
             loader: require.resolve('sass-loader'),

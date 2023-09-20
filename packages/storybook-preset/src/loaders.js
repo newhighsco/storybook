@@ -1,4 +1,4 @@
-export const cssLoaders = (test, importLoaders = []) => {
+export const cssLoaders = (test = /\.css$/, importLoaders = []) => {
   importLoaders = [
     {
       loader: require.resolve('postcss-loader'),
