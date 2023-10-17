@@ -36,8 +36,8 @@
     "new-url-loader": "0.1.1"
   },
   "peerDependencies": {
-    "@storybook/react-webpack5": "7.4.4",
-    "storybook": "7.4.4"
+    "@storybook/react-webpack5": "7.5.0",
+    "storybook": "7.5.0"
   },
   "storybook": {
     "displayName": "SVGR",
