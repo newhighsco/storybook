@@ -1808,19 +1808,19 @@
     pump "^3.0.0"
     tar-fs "^2.1.1"
 
-"@newhighsco/chipset@6.15.3":
-  version "6.15.3"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.15.3.tgz#cf8c42fbc982df8185d33e6a1433e43fce165a8f"
-  integrity sha512-V9fW5FCJJAHX17bnshfrXLcS7RzKhY80Rhs6pqaTfqa/JPTp6HLHgBFYwVd/xVGvzOod0xXwl8jwc72P35Hfhg==
+"@newhighsco/chipset@6.15.4":
+  version "6.15.4"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.15.4.tgz#3b01b9150557b1f07e71397146a8eb4bdf6f1248"
+  integrity sha512-Mkam0ZL99jv27TA7Kclgdr7+n/aNURRptJp0YK1PNX0/3m+gtAYIuxIw9RN2EMvESosvsJ73tYuD56D3Kibw0g==
   dependencies:
     "@dr.pogodin/react-themes" "1.5.1"
     classnames "2.3.2"
     react-device-detect "2.2.3"
 
-"@newhighsco/commitlint-config@1.1.24":
-  version "1.1.24"
-  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.24.tgz#710a75d55edf11c85fa8fa67d7722e2026a6b69f"
-  integrity sha512-fFVtZmOTo496pdKmG7y1VDrFLYLKQcLskzxpdPYgOfFQR7IdKz8isGtYXNjy2C57eAQJ9Qj4GvWZiy9i1EBArQ==
+"@newhighsco/commitlint-config@1.1.25":
+  version "1.1.25"
+  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.25.tgz#e8f117e55ce04d69a40c337928d46d193bbe3a94"
+  integrity sha512-lAZGCJXLrFgJqedjFkVUq+KAoOFoqCvqnfbA9LBFc/yUdRFCH6Wjg1tzDAzG+zWQd0a7qjTwHM0zeZISodo8PA==
 
 "@newhighsco/editor-config@1.2.0":
   version "1.2.0"
