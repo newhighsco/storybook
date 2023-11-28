@@ -1,3 +1,19 @@
+## @newhighsco/storybook-preset [6.3.13](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@6.3.12...@newhighsco/storybook-preset@6.3.13) (2023-11-28)
+
+
+### Bug Fixes
+
+* **deps:** update storybook monorepo to v7.6.0 ([e7e50e3](https://github.com/newhighsco/storybook/commit/e7e50e39050d1d151991d0fc5345886545fbecd3))
+
+
+
+
+
+### Dependencies
+
+* **@newhighsco/storybook-addon-svgr:** upgraded to 1.0.9
+* **@newhighsco/storybook-addon-transpile-modules:** upgraded to 1.0.8
+
 ## @newhighsco/storybook-preset [6.3.12](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@6.3.11...@newhighsco/storybook-preset@6.3.12) (2023-11-27)
 
 
