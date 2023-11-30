@@ -8,7 +8,7 @@
     "svgr",
     "webpack"
   ],
-  "version": "1.0.10",
+  "version": "1.0.11",
   "author": "New High Score <hello@newhighsco.re>",
   "license": "ISC",
   "private": false,
