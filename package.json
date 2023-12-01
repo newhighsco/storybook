@@ -48,7 +48,7 @@
     "@newhighsco/stylelint-config": "3.1.63",
     "@qiwi/multi-semantic-release": "7.1.1",
     "@storybook/react-webpack5": "7.6.3",
-    "chromatic": "9.1.0",
+    "chromatic": "10.0.0",
     "eslint": "8.54.0",
     "husky": "8.0.3",
     "is-ci": "3.0.1",
