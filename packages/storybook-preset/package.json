@@ -35,7 +35,7 @@
     "@storybook/addons": "7.6.6",
     "css-loader": "6.8.1",
     "postcss": "8.4.32",
-    "postcss-loader": "7.3.3",
+    "postcss-loader": "7.3.4",
     "sass": "1.69.5",
     "sass-loader": "13.3.3",
     "storybook-dark-mode": "3.0.3",
