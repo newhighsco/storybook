@@ -36,7 +36,7 @@
     "css-loader": "6.8.1",
     "postcss": "8.4.32",
     "postcss-loader": "7.3.4",
-    "sass": "1.69.5",
+    "sass": "1.69.6",
     "sass-loader": "13.3.3",
     "storybook-dark-mode": "3.0.3",
     "style-loader": "3.3.3"
