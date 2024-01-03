@@ -31,7 +31,7 @@
     "@storybook/addon-backgrounds": "7.6.7",
     "@storybook/addon-docs": "7.6.7",
     "@storybook/addon-links": "7.6.7",
-    "@storybook/addon-styling-webpack": "0.0.5",
+    "@storybook/addon-styling-webpack": "0.0.6",
     "@storybook/addons": "7.6.7",
     "css-loader": "6.8.1",
     "postcss": "8.4.32",
