@@ -39,7 +39,7 @@
     "sass": "1.69.7",
     "sass-loader": "13.3.3",
     "storybook-dark-mode": "3.0.3",
-    "style-loader": "3.3.3"
+    "style-loader": "3.3.4"
   },
   "peerDependencies": {
     "@storybook/react-webpack5": "7.6.7",
