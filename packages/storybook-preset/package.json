@@ -33,7 +33,7 @@
     "@storybook/addon-links": "7.6.10",
     "@storybook/addon-styling-webpack": "0.0.6",
     "@storybook/addons": "7.6.10",
-    "css-loader": "6.9.0",
+    "css-loader": "6.9.1",
     "postcss": "8.4.33",
     "postcss-loader": "8.0.0",
     "sass": "1.70.0",
