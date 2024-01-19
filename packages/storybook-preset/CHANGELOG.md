@@ -1,3 +1,10 @@
+# @newhighsco/storybook-preset [6.4.0](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@6.3.36...@newhighsco/storybook-preset@6.4.0) (2024-01-19)
+
+
+### Features
+
+* snapshot decorator ([#1546](https://github.com/newhighsco/storybook/issues/1546)) ([73ec8d6](https://github.com/newhighsco/storybook/commit/73ec8d6686d3f91e49388a73c2f9df9a25ed4469))
+
 ## @newhighsco/storybook-preset [6.3.36](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@6.3.35...@newhighsco/storybook-preset@6.3.36) (2024-01-19)
 
 
