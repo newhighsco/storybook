@@ -3,6 +3,7 @@
 .wrapper {
   @include base.rounded;
 
+  box-sizing: border-box;
   padding: 20px + base.$radius;
 }
 

@@ -36,9 +36,18 @@ BackgroundPNGSrc.args = { background: 'png' }
 
 export const Source = Template.bind({})
 Source.args = { children: 'Source' }
-Source.parameters = { chromatic: { disable: true } }
 
-export const CSF3 = {
-  args: { children: 'CSF3' },
-  parameters: { chromatic: { disable: true } }
+export const CSF3 = { args: { children: 'CSF3' } }
+
+export const Snapshot = {
+  render: () =>
+    [
+      Text,
+      InlineSVG,
+      ImageSVGSrc,
+      ImagePNGSrc,
+      BackgroundSVGSrc,
+      BackgroundPNGSrc
+    ].map((Story, index) => <Story key={index} {...Story.args} />),
+  parameters: { chromatic: { disableSnapshot: false } }
 }

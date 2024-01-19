@@ -24,7 +24,9 @@ const DocsPage = ({ theme = {} }) => {
     stories.find(({ name }) => name === 'Source') || stories[0]
   const { moduleExport: source } = sourceStory
 
-  stories = stories.filter(story => story !== sourceStory)
+  stories = stories.filter(
+    story => story !== sourceStory && story.parameters.chromatic.disableSnapshot
+  )
 
   return (
     <>
