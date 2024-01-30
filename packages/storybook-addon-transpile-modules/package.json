@@ -1,7 +1,7 @@
 {
   "name": "@newhighsco/storybook-addon-transpile-modules",
   "description": "Storybook addon to transpile and bundle node_modules",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "author": "New High Score <hello@newhighsco.re>",
   "license": "ISC",
   "private": false,
