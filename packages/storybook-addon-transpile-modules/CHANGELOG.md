@@ -1,3 +1,10 @@
+## @newhighsco/storybook-addon-transpile-modules [1.0.20](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-addon-transpile-modules@1.0.19...@newhighsco/storybook-addon-transpile-modules@1.0.20) (2024-01-31)
+
+
+### Bug Fixes
+
+* **deps:** update storybook monorepo to v7.6.12 ([9b783d1](https://github.com/newhighsco/storybook/commit/9b783d1e023e1df6a3540a48d5a5a2c3f208b243))
+
 ## @newhighsco/storybook-addon-transpile-modules [1.0.19](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-addon-transpile-modules@1.0.18...@newhighsco/storybook-addon-transpile-modules@1.0.19) (2024-01-30)
 
 
