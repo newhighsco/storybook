@@ -1,3 +1,10 @@
+## @newhighsco/storybook-preset [6.4.8](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@6.4.7...@newhighsco/storybook-preset@6.4.8) (2024-02-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @storybook/addons to v7.6.17 ([fb3216f](https://github.com/newhighsco/storybook/commit/fb3216ff180174da249e93ebe239132afa3d661e))
+
 ## @newhighsco/storybook-preset [6.4.7](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@6.4.6...@newhighsco/storybook-preset@6.4.7) (2024-02-20)
 
 
