@@ -4,9 +4,10 @@ import React from 'react'
 
 export const isSnapshotStory = context => {
   const { parameters, viewMode } = context
-  const { disableSnapshot } = parameters.chromatic
 
-  return !disableSnapshot && viewMode === 'story'
+  return (
+    parameters?.chromatic?.disableSnapshot === false && viewMode === 'story'
+  )
 }
 
 export const WithSnapshot = (Story, context) => {

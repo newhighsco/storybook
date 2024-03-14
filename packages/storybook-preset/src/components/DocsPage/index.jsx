@@ -25,7 +25,9 @@ const DocsPage = ({ theme = {} }) => {
   const { moduleExport: source } = sourceStory
 
   stories = stories.filter(
-    story => story !== sourceStory && story.parameters.chromatic.disableSnapshot
+    story =>
+      story !== sourceStory &&
+      story.parameters?.chromatic?.disableSnapshot !== false
   )
 
   return (
