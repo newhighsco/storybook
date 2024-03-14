@@ -1,3 +1,10 @@
+## @newhighsco/storybook-preset [6.4.13](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@6.4.12...@newhighsco/storybook-preset@6.4.13) (2024-03-14)
+
+
+### Bug Fixes
+
+* **snapshot:** correctly filter snapshot stories ([bbf089a](https://github.com/newhighsco/storybook/commit/bbf089ac85661fde7cde953a32d25bd9c3b53044))
+
 ## @newhighsco/storybook-preset [6.4.12](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@6.4.11...@newhighsco/storybook-preset@6.4.12) (2024-03-14)
 
 
