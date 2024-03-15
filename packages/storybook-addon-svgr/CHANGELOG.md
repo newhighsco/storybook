@@ -1,3 +1,15 @@
+# @newhighsco/storybook-addon-svgr [2.0.0](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-addon-svgr@1.0.22...@newhighsco/storybook-addon-svgr@2.0.0) (2024-03-15)
+
+
+* feat!: support Storybook v8 (#1614) ([27a05c3](https://github.com/newhighsco/storybook/commit/27a05c3f9c833b2d5f20d0dacab779e2d15356f7)), closes [#1614](https://github.com/newhighsco/storybook/issues/1614)
+
+
+### BREAKING CHANGES
+
+* Requires Storybook v8
+
+* chore(deps): update dependency storybook-dark-mode to v4
+
 ## @newhighsco/storybook-addon-svgr [1.0.22](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-addon-svgr@1.0.21...@newhighsco/storybook-addon-svgr@1.0.22) (2024-02-20)
 
 
