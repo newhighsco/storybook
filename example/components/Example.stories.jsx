@@ -9,35 +9,26 @@ export default {
   parameters: { componentSubtitle: 'Some subtitle' }
 }
 
-const Template = args => <Example {...args} />
+export const Text = { args: { children: 'Text' } }
 
-export const Text = Template.bind({})
-Text.args = { children: 'Text' }
-
-export const InlineSVG = Template.bind({})
-InlineSVG.args = { children: <LogoSvg /> }
-InlineSVG.parameters = {
-  docs: { description: { story: 'Some story description' } }
+export const InlineSVG = {
+  args: { children: <LogoSvg /> },
+  parameters: { docs: { description: { story: 'Some story description' } } }
 }
 
-export const ImageSVGSrc = Template.bind({})
-ImageSVGSrc.args = { children: <img src={logoSvgUrl} alt="" /> }
-
-export const ImagePNGSrc = Template.bind({})
-ImagePNGSrc.args = {
-  children: <img src={logoPngUrl} alt="" style={{ width: 64 }} />
+export const ImageSVGSrc = {
+  args: { children: <img src={logoSvgUrl} alt="" /> }
 }
 
-export const BackgroundSVGSrc = Template.bind({})
-BackgroundSVGSrc.args = { background: 'svg' }
+export const ImagePNGSrc = {
+  args: { children: <img src={logoPngUrl} alt="" style={{ width: 64 }} /> }
+}
 
-export const BackgroundPNGSrc = Template.bind({})
-BackgroundPNGSrc.args = { background: 'png' }
+export const BackgroundSVGSrc = { args: { background: 'svg' } }
 
-export const Source = Template.bind({})
-Source.args = { children: 'Source' }
+export const BackgroundPNGSrc = { args: { background: 'png' } }
 
-export const CSF3 = { args: { children: 'CSF3' } }
+export const Source = { args: { children: 'Source' } }
 
 export const Snapshot = {
   render: () =>
