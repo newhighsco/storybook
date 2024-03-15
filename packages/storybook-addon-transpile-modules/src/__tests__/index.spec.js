@@ -1,3 +1,5 @@
+import { getProjectRoot } from '@storybook/core-common'
+
 import * as addon from '..'
 
 describe('addon-transpile-modules', () => {
@@ -23,7 +25,13 @@ describe('addon-transpile-modules', () => {
   })
 
   it('should override existing webpack rule', () => {
-    const baseConfig = { module: { rules: [{ exclude: ['node_modules'] }] } }
+    const baseConfig = {
+      module: {
+        rules: [
+          { include: [getProjectRoot()], exclude: [/node_modules/, 'other'] }
+        ]
+      }
+    }
     const { rules: baseConfigRules } = baseConfig.module
     const existingRule = baseConfigRules.findIndex(rule =>
       rule.exclude.toString().includes('node_modules')
@@ -33,8 +41,9 @@ describe('addon-transpile-modules', () => {
     })
     const { rules } = webpackConfig.module
 
-    expect(rules[existingRule].exclude).toEqual(
-      /node_modules\/(?!(foo|bar)\/).*/
-    )
+    expect(rules[existingRule].exclude).toEqual([
+      /node_modules\/(?!(foo|bar)\/).*/,
+      'other'
+    ])
   })
 })
