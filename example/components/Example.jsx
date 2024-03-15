@@ -1,5 +1,5 @@
 import { ContentContainer } from '@newhighsco/chipset'
-import { node, string } from 'prop-types'
+import { node, oneOf } from 'prop-types'
 import React from 'react'
 
 import styles from './Example.module.scss'
@@ -25,7 +25,7 @@ Example.propTypes = {
    * The inner children
    */
   children: node,
-  background: string
+  background: oneOf(['png', 'svg'])
 }
 
 const ExampleChild = ({ children }) => <div>{children}</div>
