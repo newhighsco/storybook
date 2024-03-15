@@ -6,6 +6,7 @@ import { cssLoaders } from './loaders'
 
 /** @type { StorybookConfig['addons'] } */
 export const addons = [
+  '@storybook/addon-webpack5-compiler-swc',
   '@storybook/addon-actions',
   '@storybook/addon-backgrounds',
   '@storybook/addon-docs',
