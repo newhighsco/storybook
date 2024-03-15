@@ -1,3 +1,24 @@
+# @newhighsco/storybook-preset [7.0.0](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@6.4.13...@newhighsco/storybook-preset@7.0.0) (2024-03-15)
+
+
+* feat!: support Storybook v8 (#1614) ([27a05c3](https://github.com/newhighsco/storybook/commit/27a05c3f9c833b2d5f20d0dacab779e2d15356f7)), closes [#1614](https://github.com/newhighsco/storybook/issues/1614)
+
+
+### BREAKING CHANGES
+
+* Requires Storybook v8
+
+* chore(deps): update dependency storybook-dark-mode to v4
+
+
+
+
+
+### Dependencies
+
+* **@newhighsco/storybook-addon-svgr:** upgraded to 2.0.0
+* **@newhighsco/storybook-addon-transpile-modules:** upgraded to 2.0.0
+
 ## @newhighsco/storybook-preset [6.4.13](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@6.4.12...@newhighsco/storybook-preset@6.4.13) (2024-03-14)
 
 
