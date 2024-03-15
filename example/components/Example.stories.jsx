@@ -39,6 +39,6 @@ export const Snapshot = {
       ImagePNGSrc,
       BackgroundSVGSrc,
       BackgroundPNGSrc
-    ].map((Story, index) => <Story key={index} {...Story.args} />),
+    ].map((Story, index) => <Example key={index} {...Story.args} />),
   parameters: { chromatic: { disableSnapshot: false } }
 }
