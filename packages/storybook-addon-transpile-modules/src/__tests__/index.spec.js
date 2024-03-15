@@ -28,10 +28,7 @@ describe('addon-transpile-modules', () => {
     const baseConfig = {
       module: {
         rules: [
-          {
-            include: [getProjectRoot()],
-            exclude: [/node_modules/, 'other']
-          }
+          { include: [getProjectRoot()], exclude: [/node_modules/, 'other'] }
         ]
       }
     }
