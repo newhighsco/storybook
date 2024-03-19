@@ -34,10 +34,10 @@
     "format:js": "yarn lint:js --fix"
   },
   "devDependencies": {
-    "@babel/cli": "7.23.9",
-    "@babel/core": "7.24.0",
-    "@babel/preset-env": "7.24.0",
-    "@babel/preset-react": "7.23.3",
+    "@babel/cli": "7.24.1",
+    "@babel/core": "7.24.1",
+    "@babel/preset-env": "7.24.1",
+    "@babel/preset-react": "7.24.1",
     "@commitlint/cli": "19.2.1",
     "@newhighsco/chipset": "6.15.9",
     "@newhighsco/commitlint-config": "1.1.37",
