@@ -1,3 +1,10 @@
+## @newhighsco/storybook-addon-svgr [2.0.3](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-addon-svgr@2.0.2...@newhighsco/storybook-addon-svgr@2.0.3) (2024-03-21)
+
+
+### Bug Fixes
+
+* **deps:** update storybook monorepo to v8.0.4 ([0fb572e](https://github.com/newhighsco/storybook/commit/0fb572ea0dc94a6be7d5ff0b270d3c33bad796a2))
+
 ## @newhighsco/storybook-addon-svgr [2.0.2](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-addon-svgr@2.0.1...@newhighsco/storybook-addon-svgr@2.0.2) (2024-03-20)
 
 
