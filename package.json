@@ -1,7 +1,7 @@
 {
   "name": "@newhighsco/storybook",
   "description": "New High Score Storybook addons and presets",
-  "author": "New High Score <hello@newhighsco.re>",
+  "author": "New High Score",
   "license": "ISC",
   "private": true,
   "workspaces": [
