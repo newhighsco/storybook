@@ -23,9 +23,13 @@ export const cssLoaders = (test = /\.css$/, importLoaders = []) => {
       {
         loader: require.resolve('css-loader'),
         options: {
+          esModule: false,
           import: { filter },
           importLoaders: importLoaders.length,
-          modules: { localIdentName: '[name]_[local]__[hash:base64:5]' },
+          modules: {
+            exportLocalsConvention: 'as-is',
+            localIdentName: '[name]_[local]__[hash:base64:5]'
+          },
           url: { filter }
         }
       },
