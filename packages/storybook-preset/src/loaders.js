@@ -26,7 +26,10 @@ export const cssLoaders = (test = /\.css$/, importLoaders = []) => {
           esModule: false,
           import: { filter },
           importLoaders: importLoaders.length,
-          modules: { localIdentName: '[name]_[local]__[hash:base64:5]' },
+          modules: {
+            exportLocalsConvention: 'as-is',
+            localIdentName: '[name]_[local]__[hash:base64:5]'
+          },
           url: { filter }
         }
       },
