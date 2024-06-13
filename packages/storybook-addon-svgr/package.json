@@ -17,7 +17,7 @@
     "url": "https://github.com/newhighsco/storybook.git",
     "directory": "packages/storybook-addon-svgr"
   },
-  "homepage": "https://github.com/newhighsco/storybook/tree/main/packages/storybook-addon-svgr#readme",
+  "homepage": "https://github.com/newhighsco/storybook/tree/main/packages/storybook-addon-svgr",
   "bugs": {
     "url": "https://github.com/newhighsco/storybook/issues"
   },
