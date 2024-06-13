@@ -10,7 +10,7 @@
     "url": "https://github.com/newhighsco/storybook.git",
     "directory": "packages/storybook-addon-transpile-modules"
   },
-  "homepage": "https://github.com/newhighsco/storybook/tree/main/packages/storybook-addon-transpile-modules#readme",
+  "homepage": "https://github.com/newhighsco/storybook/tree/main/packages/storybook-addon-transpile-modules",
   "bugs": {
     "url": "https://github.com/newhighsco/storybook/issues"
   },
