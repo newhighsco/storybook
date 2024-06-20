@@ -2907,10 +2907,10 @@
   dependencies:
     "@storybook/node-logger" "^8.0.0-alpha.10"
 
-"@storybook/addon-webpack5-compiler-swc@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-webpack5-compiler-swc/-/addon-webpack5-compiler-swc-1.0.3.tgz#e0d193858de4e0931a359f2837e0cbbe64b9422f"
-  integrity sha512-ahemZdpFN7Ikz2WTy0sLJ38t6OWLLKweeTNOfUh2ARd3x0CqJxAqWLBAFXJke+2KDFUQg9MTE+1rwHEFCPYUvQ==
+"@storybook/addon-webpack5-compiler-swc@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-webpack5-compiler-swc/-/addon-webpack5-compiler-swc-1.0.4.tgz#07fb85132afc82a25c976000af107ffe045f1b77"
+  integrity sha512-S/ypdAK9oqwUAt3ZOn44qi3RWdH5uBLbBgtfHSXckqTpQRu7F7A9bRzjK+H5ti4xVADRhxu/xzIBwxWgcCeIXA==
   dependencies:
     "@swc/core" "1.5.7"
     swc-loader "^0.2.3"
