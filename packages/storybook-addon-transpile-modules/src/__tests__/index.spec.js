@@ -1,4 +1,4 @@
-import { getProjectRoot } from '@storybook/core-common'
+import { getProjectRoot } from '@storybook/core/common'
 
 import * as addon from '..'
 
