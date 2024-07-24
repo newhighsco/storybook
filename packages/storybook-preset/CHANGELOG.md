@@ -1,3 +1,10 @@
+## @newhighsco/storybook-preset [7.0.45](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@7.0.44...@newhighsco/storybook-preset@7.0.45) (2024-07-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency storybook-dark-mode to v4.0.2 ([f6c77ef](https://github.com/newhighsco/storybook/commit/f6c77ef6020cba3f60ad9ff80cdb49afc926daad))
+
 ## @newhighsco/storybook-preset [7.0.44](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@7.0.43...@newhighsco/storybook-preset@7.0.44) (2024-07-24)
 
 
