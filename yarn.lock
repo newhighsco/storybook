@@ -1813,15 +1813,15 @@
     "@semantic-release/release-notes-generator" "14.0.0"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/stylelint-config@3.1.86":
-  version "3.1.86"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.86.tgz#7d6e83c10885520be4338a15af4d0896a0090abc"
-  integrity sha512-EORAdzp3JECXGD5RhqLo7igI4t9JW3RLdbgn4odp8zFN+0zPwHK83/YihCvlMthZEMR9XfSsB4usxDiizS761w==
+"@newhighsco/stylelint-config@3.1.87":
+  version "3.1.87"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.87.tgz#bf74569d2917ac093272382979911b46088ba27e"
+  integrity sha512-wqf8Fz3Ufn7s58gwLNMXXLz6pEyeIkihoU2oH4bIblcK9cZYqSUruyuRgYPKnrT6yg+OTCohCmOenJGBgxL8EA==
   dependencies:
     stylelint-config-css-modules "4.4.0"
     stylelint-config-prettier "9.0.5"
     stylelint-config-standard-scss "13.1.0"
-    stylelint-prettier "5.0.0"
+    stylelint-prettier "5.0.2"
 
 "@nicolo-ribaudo/chokidar-2@2.1.8-no-fsevents.3":
   version "2.1.8-no-fsevents.3"
@@ -14564,10 +14564,10 @@ stylelint-config-standard@^36.0.0:
   dependencies:
     stylelint-config-recommended "^14.0.0"
 
-stylelint-prettier@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-prettier/-/stylelint-prettier-5.0.0.tgz#515a87800228f6bea603966462f7119755ee9b82"
-  integrity sha512-RHfSlRJIsaVg5Br94gZVdWlz/rBTyQzZflNE6dXvSxt/GthWMY3gEHsWZEBaVGg7GM+XrtVSp4RznFlB7i0oyw==
+stylelint-prettier@5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/stylelint-prettier/-/stylelint-prettier-5.0.2.tgz#82c0a813d8981fe094fca28126fc88cee22fa789"
+  integrity sha512-qJ+BN+1T2ZcKz9WIrv0x+eFGHzSUnXfXd5gL///T6XoJvr3D8/ztzz2fhtmXef7Vb8P33zBXmLTTveByr0nwBw==
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
