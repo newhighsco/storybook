@@ -1768,10 +1768,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.192":
-  version "4.0.192"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.192.tgz#8dd58828bbc73b36d644c17b4bae3b9e00cd51ff"
-  integrity sha512-sz4wt1GQFcoSG9WS3HM8zOYhIBugmt7+p0tETxjp0GAeV7TMRInWyPWLvZIgYk8Dxwd+xUCx1y8ocuiRdOWjPQ==
+"@newhighsco/eslint-config@4.0.194":
+  version "4.0.194"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.194.tgz#a47a0228bc72ccb1d3e614b130355b64ccdf3385"
+  integrity sha512-fc6xXetiO2yd9Ueu0uPwBKKalo1LF8u8Z1HjDKG6zQ/fQhp9t8lND1Vj4QjZ38AW1u0XfKtdMRtVXElq7p/7VQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.13.0"
     "@typescript-eslint/parser" "7.13.0"
@@ -1790,15 +1790,15 @@
     eslint-plugin-promise "6.2.0"
     eslint-plugin-react "7.34.2"
     eslint-plugin-react-hooks "4.6.2"
-    eslint-plugin-simple-import-sort "12.1.0"
+    eslint-plugin-simple-import-sort "12.1.1"
     eslint-plugin-storybook "0.8.0"
     eslint-plugin-testing-library "6.2.2"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/prettier-config@2.1.25":
-  version "2.1.25"
-  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.25.tgz#9e6586c02e2fcc6f94665b242580c94b961001f6"
-  integrity sha512-/R/BInYj3OOefFNpKsSWbpVO1xhbZ6Tn0FLyb3maaNl+u2JCdqWGsou1TVm0CaVPuxJBMKDLcI+UqB8aHyU3tQ==
+"@newhighsco/prettier-config@2.1.26":
+  version "2.1.26"
+  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.26.tgz#e5da18727744dbf3ee775b84cfb7e243350c8539"
+  integrity sha512-HM7R8kQXyHfMCxviQmpKZ5urLYTl9ouNcRYAykDKzjN0nXDDa5gEKA+3Ua68R9TRuCDA8dmvsv/XD5lx1PuCAQ==
 
 "@newhighsco/release-config@1.3.77":
   version "1.3.77"
@@ -1813,10 +1813,10 @@
     "@semantic-release/release-notes-generator" "14.0.0"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/stylelint-config@3.1.85":
-  version "3.1.85"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.85.tgz#c2c1177d8ead5d141768baa178b15d5c03b3b7e1"
-  integrity sha512-sPwvhDo51TEIRo09eJz97YboG+va1VgmnvWhguN3mbfmwYzK0G4v60ibnpqtHqEZ2l3sB+1ZKNY9kadfYQJYMQ==
+"@newhighsco/stylelint-config@3.1.86":
+  version "3.1.86"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.86.tgz#7d6e83c10885520be4338a15af4d0896a0090abc"
+  integrity sha512-EORAdzp3JECXGD5RhqLo7igI4t9JW3RLdbgn4odp8zFN+0zPwHK83/YihCvlMthZEMR9XfSsB4usxDiizS761w==
   dependencies:
     stylelint-config-css-modules "4.4.0"
     stylelint-config-prettier "9.0.5"
@@ -6702,10 +6702,10 @@ eslint-plugin-react@7.34.2:
     semver "^6.3.1"
     string.prototype.matchall "^4.0.11"
 
-eslint-plugin-simple-import-sort@12.1.0:
-  version "12.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-12.1.0.tgz#8186ad55474d2f5c986a2f1bf70625a981e30d05"
-  integrity sha512-Y2fqAfC11TcG/WP3TrI1Gi3p3nc8XJyEOJYHyEPEGI/UAgNx6akxxlX74p7SbAQdLcgASKhj8M0GKvH3vq/+ig==
+eslint-plugin-simple-import-sort@12.1.1:
+  version "12.1.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-12.1.1.tgz#e64bfdaf91c5b98a298619aa634a9f7aa43b709e"
+  integrity sha512-6nuzu4xwQtE3332Uz0to+TxDQYRLTKRESSc2hefVT48Zc8JthmN23Gx9lnYhu0FtkRSL1oxny3kJ2aveVhmOVA==
 
 eslint-plugin-storybook@0.8.0:
   version "0.8.0"
