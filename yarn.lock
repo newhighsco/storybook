@@ -2350,10 +2350,10 @@
     "@pnpm/network.ca-file" "^1.0.1"
     config-chain "^1.1.11"
 
-"@qiwi/multi-semantic-release@7.1.1":
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/@qiwi/multi-semantic-release/-/multi-semantic-release-7.1.1.tgz#160a7b2c8b4e03bd5a67aae5154450f150d62042"
-  integrity sha512-Zl3KDbVXAqkSTNKC4lmakmD8i2pCNuwz5Dg/VCLBnnh8XK7B6LmnH5RQxCIAORyT9QdvOVUYZCsx1LtX+EvDzA==
+"@qiwi/multi-semantic-release@7.1.2":
+  version "7.1.2"
+  resolved "https://registry.yarnpkg.com/@qiwi/multi-semantic-release/-/multi-semantic-release-7.1.2.tgz#bc1cc8a5ef98160939b39fef01d40d2334eaac4e"
+  integrity sha512-2caeNdiHSYGVPsgaO50elTv24TMwQsS03hbJXyT3o3lGhlEOaN5Rtbv+iqbCcNtuzfm9P3yxNUB2k++tG+zmAQ==
   dependencies:
     "@semrel-extra/topo" "^1.14.0"
     blork "^9.3.0"
