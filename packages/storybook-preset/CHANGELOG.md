@@ -1,3 +1,10 @@
+## @newhighsco/storybook-preset [7.0.60](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@7.0.59...@newhighsco/storybook-preset@7.0.60) (2024-09-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.4.44 ([c5b2c73](https://github.com/newhighsco/storybook/commit/c5b2c7306baac3a6702ffdd655b60bb78f1bb418))
+
 ## @newhighsco/storybook-preset [7.0.59](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@7.0.58...@newhighsco/storybook-preset@7.0.59) (2024-09-01)
 
 
