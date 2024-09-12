@@ -51,7 +51,7 @@
     "chromatic": "11.9.0",
     "concurrently": "9.0.1",
     "eslint": "8.57.0",
-    "husky": "9.1.5",
+    "husky": "9.1.6",
     "jest": "29.7.0",
     "jest-junit": "16.0.0",
     "prettier": "3.3.3",
