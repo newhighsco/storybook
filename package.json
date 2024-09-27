@@ -57,7 +57,7 @@
     "prettier": "3.3.3",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "semantic-release": "24.1.1",
+    "semantic-release": "24.1.2",
     "storybook": "8.3.3",
     "stylelint": "16.9.0",
     "webpack": "5.95.0"
