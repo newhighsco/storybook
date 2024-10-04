@@ -47,7 +47,7 @@
     "@newhighsco/release-config": "1.3.92",
     "@newhighsco/stylelint-config": "3.1.92",
     "@qiwi/multi-semantic-release": "7.1.2",
-    "@storybook/react-webpack5": "8.3.4",
+    "@storybook/react-webpack5": "8.3.5",
     "chromatic": "11.11.0",
     "concurrently": "9.0.1",
     "eslint": "8.57.1",
@@ -58,7 +58,7 @@
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "semantic-release": "24.1.2",
-    "storybook": "8.3.4",
+    "storybook": "8.3.5",
     "stylelint": "16.9.0",
     "webpack": "5.95.0"
   },
