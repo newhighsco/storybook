@@ -1,10 +1,10 @@
 @use '../styles/base';
 
 .wrapper {
-  @include base.rounded;
-
   box-sizing: border-box;
   padding: 20px + base.$radius;
+
+  @include base.rounded;
 }
 
 .backgroundPNG {
