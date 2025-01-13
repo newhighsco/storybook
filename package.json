@@ -39,7 +39,7 @@
     "@babel/preset-env": "7.26.0",
     "@babel/preset-react": "7.26.3",
     "@commitlint/cli": "19.6.1",
-    "@newhighsco/chipset": "6.16.6",
+    "@newhighsco/chipset": "6.17.0",
     "@newhighsco/commitlint-config": "1.1.45",
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "4.0.249",
