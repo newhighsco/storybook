@@ -6,12 +6,13 @@ import {
   Heading,
   Source,
   Story,
+  Subheading,
   Subtitle,
   Title
 } from '@storybook/blocks'
 import { withTheme } from '@storybook/theming'
 import { object } from 'prop-types'
-import React, { useContext } from 'react'
+import React, { Fragment, useContext } from 'react'
 import { useDarkMode } from 'storybook-dark-mode'
 
 const DocsPage = ({ theme = {} }) => {
@@ -43,13 +44,12 @@ const DocsPage = ({ theme = {} }) => {
       {!!stories?.length && (
         <>
           <Heading>Stories</Heading>
-          {stories.map(({ id, moduleExport }) => (
-            <Canvas
-              key={id}
-              of={moduleExport}
-              withToolbar
-              className={theme.base}
-            />
+          {stories.map(({ id, moduleExport, story }) => (
+            <Fragment key={id}>
+              <Subheading>{story}</Subheading>
+              <Description of={moduleExport} />
+              <Canvas of={moduleExport} withToolbar className={theme.base} />
+            </Fragment>
           ))}
         </>
       )}
