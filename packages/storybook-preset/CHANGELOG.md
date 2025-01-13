@@ -1,3 +1,10 @@
+## @newhighsco/storybook-preset [7.0.103](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@7.0.102...@newhighsco/storybook-preset@7.0.103) (2025-01-13)
+
+
+### Bug Fixes
+
+* **docs-page:** restore story heading and descriptions ([#1998](https://github.com/newhighsco/storybook/issues/1998)) ([f338be8](https://github.com/newhighsco/storybook/commit/f338be87bf6311e5b0f07d7d631cc6f96dae1d57))
+
 ## @newhighsco/storybook-preset [7.0.102](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@7.0.101...@newhighsco/storybook-preset@7.0.102) (2025-01-04)
 
 
