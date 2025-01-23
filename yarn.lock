@@ -1640,10 +1640,10 @@
   dependencies:
     "@types/mdx" "^2.0.0"
 
-"@newhighsco/chipset@6.17.0":
-  version "6.17.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.17.0.tgz#88de33bf65e9a791bc01c9c48da4f69113f16f01"
-  integrity sha512-aEEeOUPyM/pRC3vtDzzs004Mq1+lnGBWAXfRtfDDnkf0f7mSd9EiFtAb6pG8yJGjqaE+gzyMdc7olfX53xG7ww==
+"@newhighsco/chipset@6.17.2":
+  version "6.17.2"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.17.2.tgz#aba8064692fdf281b6ec88522ea4ef1d57893cdd"
+  integrity sha512-E+3BBUmyar9joWpax4QKIvwY6fNuHOuQYHBusPV2KnPx8+tmmg6669VtIEsjZ4LV5gUoJbCaz5Pj3WTrPTPzPA==
   dependencies:
     "@dr.pogodin/react-themes" "1.8.0"
     classnames "2.5.1"
