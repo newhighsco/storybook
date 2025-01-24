@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  newhighsco: newhighsco/orb@1.10.2
+  newhighsco: newhighsco/orb@1.11.0
 
 only-version-tags: &only-version-tags
   filters:
@@ -24,6 +24,7 @@ workflows:
           cache-version: v3
       - newhighsco/test:
           name: test
+          rerun-only-failed: true
           requires:
             - setup
       - newhighsco/build:
