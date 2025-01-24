@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  newhighsco: newhighsco/orb@1.10.2
+  newhighsco: newhighsco/orb@1.11.0
 
 only-version-tags: &only-version-tags
   filters:
@@ -15,15 +15,19 @@ build-parameters: &build-parameters
   command: yarn build:storybook
   path-to-persist: build
 
+setup-parameters: &setup-parameters
+  name: setup
+  cache-version: v3
+
 workflows:
   version: 2
   test_and_release:
     jobs:
       - newhighsco/setup:
-          name: setup
-          cache-version: v3
+          <<: *setup-parameters
       - newhighsco/test:
           name: test
+          rerun-only-failed: true
           requires:
             - setup
       - newhighsco/build:
@@ -47,7 +51,7 @@ workflows:
     jobs:
       - newhighsco/setup:
           <<: *only-version-tags
-          name: setup
+          <<: *setup-parameters
       - newhighsco/build:
           <<: *only-version-tags
           <<: *build-parameters
