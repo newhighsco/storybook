@@ -1,3 +1,20 @@
+## @newhighsco/storybook-preset [7.0.114](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@7.0.113...@newhighsco/storybook-preset@7.0.114) (2025-02-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @storybook/addon-webpack5-compiler-swc to v2.1.0 ([#2041](https://github.com/newhighsco/storybook/issues/2041)) ([bb4b831](https://github.com/newhighsco/storybook/commit/bb4b83149be3ea309c7032ccf1a9faf0c5faff12))
+* **deps:** update storybook monorepo to v8.5.5 ([#2040](https://github.com/newhighsco/storybook/issues/2040)) ([efdd209](https://github.com/newhighsco/storybook/commit/efdd20968eafbb226f14c58feb2007dfa68e0de3))
+
+
+
+
+
+### Dependencies
+
+* **@newhighsco/storybook-addon-svgr:** upgraded to 2.0.45
+* **@newhighsco/storybook-addon-transpile-modules:** upgraded to 2.0.45
+
 ## @newhighsco/storybook-preset [7.0.113](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@7.0.112...@newhighsco/storybook-preset@7.0.113) (2025-02-12)
 
 
