@@ -85,12 +85,6 @@
     ],
     "packageRules": [
       {
-        "extends": [
-          "monorepo:storybook"
-        ],
-        "semanticCommitType": "fix"
-      },
-      {
         "description": "Pin storybook-dark-mode to v4.0.1 - https://github.com/hipstersmoothie/storybook-dark-mode/issues/282",
         "matchDepNames": [
           "storybook-dark-mode"
