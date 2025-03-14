@@ -1,3 +1,10 @@
+## @newhighsco/storybook-preset [7.0.126](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@7.0.125...@newhighsco/storybook-preset@7.0.126) (2025-03-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @storybook/addon-webpack5-compiler-swc to v3 ([#2077](https://github.com/newhighsco/storybook/issues/2077)) ([95fdeeb](https://github.com/newhighsco/storybook/commit/95fdeeb08fd0044ea27d9551742ffb85cdb5ac6b))
+
 ## @newhighsco/storybook-preset [7.0.125](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@7.0.124...@newhighsco/storybook-preset@7.0.125) (2025-03-05)
 
 
