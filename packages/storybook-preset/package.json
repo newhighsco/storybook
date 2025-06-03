@@ -27,10 +27,10 @@
   "dependencies": {
     "@newhighsco/storybook-addon-svgr": "2.0.60",
     "@newhighsco/storybook-addon-transpile-modules": "2.0.60",
-    "@storybook/addon-actions": "8.6.14",
-    "@storybook/addon-backgrounds": "8.6.14",
-    "@storybook/addon-docs": "8.6.14",
-    "@storybook/addon-links": "8.6.14",
+    "@storybook/addon-actions": "9.0.4",
+    "@storybook/addon-backgrounds": "9.0.4",
+    "@storybook/addon-docs": "9.0.4",
+    "@storybook/addon-links": "9.0.4",
     "@storybook/addon-styling-webpack": "1.0.1",
     "@storybook/addon-webpack5-compiler-swc": "3.0.0",
     "css-loader": "7.1.2",
@@ -42,7 +42,7 @@
     "style-loader": "4.0.0"
   },
   "peerDependencies": {
-    "@storybook/react-webpack5": "8.6.14",
-    "storybook": "8.6.14"
+    "@storybook/react-webpack5": "9.0.4",
+    "storybook": "9.0.4"
   }
 }
