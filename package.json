@@ -42,7 +42,7 @@
     "@newhighsco/chipset": "6.17.4",
     "@newhighsco/commitlint-config": "1.1.46",
     "@newhighsco/editor-config": "1.2.0",
-    "@newhighsco/eslint-config": "4.1.29",
+    "@newhighsco/eslint-config": "4.1.30",
     "@newhighsco/prettier-config": "2.1.32",
     "@newhighsco/release-config": "1.4.5",
     "@newhighsco/stylelint-config": "4.0.13",
