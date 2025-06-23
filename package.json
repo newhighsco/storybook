@@ -49,7 +49,7 @@
     "@qiwi/multi-semantic-release": "7.1.2",
     "@storybook/react-webpack5": "8.6.14",
     "chromatic": "13.0.1",
-    "concurrently": "9.1.2",
+    "concurrently": "9.2.0",
     "eslint": "8.57.1",
     "husky": "9.1.7",
     "jest": "30.0.2",
