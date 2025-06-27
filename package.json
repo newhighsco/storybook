@@ -45,7 +45,7 @@
     "@newhighsco/eslint-config": "4.1.34",
     "@newhighsco/prettier-config": "2.1.32",
     "@newhighsco/release-config": "1.4.5",
-    "@newhighsco/stylelint-config": "4.0.14",
+    "@newhighsco/stylelint-config": "4.0.15",
     "@qiwi/multi-semantic-release": "7.1.2",
     "@storybook/react-webpack5": "8.6.14",
     "chromatic": "13.0.1",
