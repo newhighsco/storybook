@@ -1762,12 +1762,12 @@
     "@semantic-release/release-notes-generator" "14.0.3"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/stylelint-config@4.0.14":
-  version "4.0.14"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-4.0.14.tgz#d4a300fab7dcbc36d276bfde996a0dc0b21eec8e"
-  integrity sha512-aT8+avjcQL2j5C6OVBTEanOLwpuxgbfZyewiiIGrQ/FUpA/RtUz9oqFa0U8Dt9kzZUdQRJhAzbMH6rDMqZZ69Q==
+"@newhighsco/stylelint-config@4.0.15":
+  version "4.0.15"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-4.0.15.tgz#603be603945eba4a85a142836365525497682bff"
+  integrity sha512-8qXqNo3CByQFoPbsGO08hAXEcxXnGxeP6YwZCaixr/bIIdUys8qbD4sR1jgZeD3LWb0201umJD8fGRIMXUckWQ==
   dependencies:
-    stylelint-config-css-modules "4.4.1"
+    stylelint-config-css-modules "4.5.0"
     stylelint-config-prettier "9.0.5"
     stylelint-config-standard-scss "15.0.1"
     stylelint-order "7.0.0"
@@ -13876,10 +13876,10 @@ style-loader@^3.3.1:
   resolved "https://registry.yarnpkg.com/style-loader/-/style-loader-3.3.4.tgz#f30f786c36db03a45cbd55b6a70d930c479090e7"
   integrity sha512-0WqXzrsMTyb8yjZJHDqwmnwRJvhALK9LfRtRc6B4UTWe8AijYLZYZ9thuJTZc2VfQWINADW/j+LiJnfy2RoC1w==
 
-stylelint-config-css-modules@4.4.1:
-  version "4.4.1"
-  resolved "https://registry.yarnpkg.com/stylelint-config-css-modules/-/stylelint-config-css-modules-4.4.1.tgz#353fa182840848953c15d6bb527f9331242e730f"
-  integrity sha512-/Mn4a6gLcYpvSL7oAuAujvLfycS33RCH/8lOlfk4zaBzZbTOaCzgDHzqHO4bgTtIFDMeoBS/xFe94/FsRYxKBg==
+stylelint-config-css-modules@4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-css-modules/-/stylelint-config-css-modules-4.5.0.tgz#cf6defefda707e4625cc478d1c79f0408ea07224"
+  integrity sha512-GKp+06SaleUHzF5uOBmtEgj5r4aMMLRa+O6aKPcKtUHZBqVNXuxoJRgjCS5CFB7qHWz5gTcaqgR3PHJZhqztWg==
   optionalDependencies:
     stylelint-scss "^6.12.1"
 
