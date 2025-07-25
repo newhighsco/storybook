@@ -1,3 +1,10 @@
+# @newhighsco/storybook-preset [7.1.0](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@7.0.145...@newhighsco/storybook-preset@7.1.0) (2025-07-25)
+
+
+### Features
+
+* **preset:** add `@storybook/addon-a11y` addon ([8e30ae2](https://github.com/newhighsco/storybook/commit/8e30ae2fb7e33bcaba3d46915bf1d2f72d1fd935))
+
 ## @newhighsco/storybook-preset [7.0.145](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@7.0.144...@newhighsco/storybook-preset@7.0.145) (2025-06-18)
 
 
