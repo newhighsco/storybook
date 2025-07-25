@@ -27,6 +27,7 @@
   "dependencies": {
     "@newhighsco/storybook-addon-svgr": "2.0.60",
     "@newhighsco/storybook-addon-transpile-modules": "2.0.60",
+    "@storybook/addon-a11y": "8.6.14",
     "@storybook/addon-actions": "8.6.14",
     "@storybook/addon-backgrounds": "8.6.14",
     "@storybook/addon-docs": "8.6.14",
