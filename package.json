@@ -42,7 +42,7 @@
     "@newhighsco/chipset": "6.23.0",
     "@newhighsco/commitlint-config": "1.1.46",
     "@newhighsco/editor-config": "1.2.0",
-    "@newhighsco/eslint-config": "4.1.45",
+    "@newhighsco/eslint-config": "4.2.0",
     "@newhighsco/prettier-config": "2.1.32",
     "@newhighsco/release-config": "1.4.10",
     "@newhighsco/stylelint-config": "4.0.17",
@@ -72,26 +72,12 @@
       "@newhighsco/eslint-config"
     ]
   },
+  "multi-release": {
+    "sequentialInit": true
+  },
   "prettier": "@newhighsco/prettier-config",
   "release": {
-    "extends": "@newhighsco/release-config",
-    "branches": [
-      "main"
-    ]
-  },
-  "renovate": {
-    "extends": [
-      "local>newhighsco/.github:renovate-config"
-    ],
-    "packageRules": [
-      {
-        "description": "Pin storybook-dark-mode to v4.0.1 - https://github.com/hipstersmoothie/storybook-dark-mode/issues/282",
-        "matchDepNames": [
-          "storybook-dark-mode"
-        ],
-        "allowedVersions": "<4.0.2"
-      }
-    ]
+    "extends": "@newhighsco/release-config"
   },
   "stylelint": {
     "extends": [

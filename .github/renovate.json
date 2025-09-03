@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "local>newhighsco/.github:renovate-config"
+  ],
+  "packageRules": [
+    {
+      "description": "Pin storybook-dark-mode to v4.0.1 - https://github.com/hipstersmoothie/storybook-dark-mode/issues/282",
+      "matchDepNames": [
+        "storybook-dark-mode"
+      ],
+      "allowedVersions": "<4.0.2"
+    }
+  ]
+}
