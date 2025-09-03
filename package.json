@@ -44,7 +44,7 @@
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "4.2.0",
     "@newhighsco/prettier-config": "2.1.32",
-    "@newhighsco/release-config": "1.4.10",
+    "@newhighsco/release-config": "1.4.11",
     "@newhighsco/stylelint-config": "4.0.17",
     "@qiwi/multi-semantic-release": "7.1.2",
     "@storybook/react-webpack5": "8.6.14",
