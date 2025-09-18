@@ -1,5 +1,6 @@
-/** @type { import('@storybook/react').Preview } */
-const preview = {
+import { type Preview } from '@storybook/react-webpack5'
+
+const preview: Preview = {
   parameters: {
     chromatic: { disableSnapshot: true },
     darkMode: { current: 'light' },

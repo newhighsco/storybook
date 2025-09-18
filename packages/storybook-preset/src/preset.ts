@@ -1,17 +1,13 @@
-import { resolve } from 'path'
+import type { StorybookConfig } from '@storybook/react-webpack5'
 
 import { cssLoaders } from './loaders'
 
 /** @typedef { import('@storybook/react-webpack5').StorybookConfig } StorybookConfig */
 
-/** @type { StorybookConfig['addons'] } */
-export const addons = [
+export const addons: StorybookConfig['addons'] = [
   '@storybook/addon-webpack5-compiler-swc',
   '@storybook/addon-a11y',
-  '@storybook/addon-actions',
-  '@storybook/addon-backgrounds',
   '@storybook/addon-docs',
-  '@storybook/addon-links',
   {
     name: '@storybook/addon-styling-webpack',
     options: {
@@ -26,7 +22,7 @@ export const addons = [
       ]
     }
   },
-  'storybook-dark-mode',
+  '@vueless/storybook-dark-mode',
   '@newhighsco/storybook-addon-svgr',
   {
     name: '@newhighsco/storybook-addon-transpile-modules',
@@ -34,11 +30,8 @@ export const addons = [
   }
 ]
 
-/** @type { StorybookConfig['core'] } */
-export const core = config => ({ ...config, disableTelemetry: true })
-
-/** @type { StorybookConfig['previewAnnotations'] } */
-export const previewAnnotations = (entry = []) => [
-  ...entry,
-  resolve(__dirname, './preview')
-]
+export const core: StorybookConfig['core'] = config => ({
+  ...config,
+  disableTelemetry: true,
+  enableCrashReports: false
+})

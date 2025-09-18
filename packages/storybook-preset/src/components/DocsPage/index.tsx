@@ -9,13 +9,17 @@ import {
   Subheading,
   Subtitle,
   Title
-} from '@storybook/blocks'
-import { withTheme } from '@storybook/theming'
-import { object } from 'prop-types'
-import React, { Fragment, useContext } from 'react'
-import { useDarkMode } from 'storybook-dark-mode'
+} from '@storybook/addon-docs/blocks'
+import { useDarkMode } from '@vueless/storybook-dark-mode'
+import React, { type FC, Fragment, useContext } from 'react'
+import { type Theme, withTheme } from 'storybook/theming'
 
-const DocsPage = ({ theme = {} }) => {
+interface Props {
+  theme?: Theme
+}
+
+// eslint-disable-next-line tsc/config
+const DocsPage: FC<Props> = ({ theme }: Props) => {
   const dark = useDarkMode()
   const { componentStories } = useContext(DocsContext)
   let stories = componentStories().filter(
@@ -55,10 +59,6 @@ const DocsPage = ({ theme = {} }) => {
       )}
     </>
   )
-}
-
-DocsPage.propTypes = {
-  theme: object
 }
 
 export default withTheme(DocsPage)

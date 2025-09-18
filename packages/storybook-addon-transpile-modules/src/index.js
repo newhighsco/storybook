@@ -1,4 +1,4 @@
-import { getProjectRoot } from '@storybook/core/common'
+import { getProjectRoot } from 'storybook/internal/common'
 
 /** @typedef { import('@storybook/react-webpack5').StorybookConfig } StorybookConfig */
 

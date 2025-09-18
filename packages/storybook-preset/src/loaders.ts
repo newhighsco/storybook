@@ -1,10 +1,15 @@
-const filter = url => {
+import { type RuleSetRule } from 'webpack'
+
+const filter = (url: string): boolean => {
   if (url.startsWith('/')) return false
 
   return true
 }
 
-export const cssLoaders = (test = /\.css$/, importLoaders = []) => {
+export const cssLoaders = (
+  test = /\.css$/,
+  importLoaders = []
+): RuleSetRule => {
   importLoaders = [
     {
       loader: require.resolve('postcss-loader'),
