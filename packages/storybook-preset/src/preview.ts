@@ -12,7 +12,7 @@ export const parameters: Preview['parameters'] = {
   actions: { argTypesRegex: '^on[A-Z].*' },
   controls: { matchers: { color: /(background|color)$/i, date: /Date$/ } },
   docs: {
-    canvas: { withToolbar: true },
+    canvas: { className: theme.base, withToolbar: true },
     page: DocsPage,
     source: { dark: !dark },
     theme
