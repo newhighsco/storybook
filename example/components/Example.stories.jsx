@@ -6,7 +6,7 @@ import { Example } from './Example'
 
 export default {
   component: Example,
-  parameters: { componentSubtitle: 'Some subtitle' }
+  parameters: { docs: { subtitle: 'Some subtitle' } }
 }
 
 export const Source = { args: { children: 'Source' } }
