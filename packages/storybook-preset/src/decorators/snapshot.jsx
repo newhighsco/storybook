@@ -1,6 +1,6 @@
-import { Spaced } from '@storybook/components'
-import { ensure, ThemeProvider, themes } from '@storybook/theming'
 import React from 'react'
+import { Spaced } from 'storybook/internal/components'
+import { ensure, ThemeProvider, themes } from 'storybook/theming'
 
 export const isSnapshotStory = context => {
   const { parameters, viewMode } = context
