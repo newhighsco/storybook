@@ -39,8 +39,8 @@
     "build": "tsup --silent"
   },
   "dependencies": {
-    "@newhighsco/storybook-addon-svgr": "2.0.60",
-    "@newhighsco/storybook-addon-transpile-modules": "2.0.60",
+    "@newhighsco/storybook-addon-svgr": "3.0.0",
+    "@newhighsco/storybook-addon-transpile-modules": "3.0.0",
     "@storybook/addon-a11y": "9.1.6",
     "@storybook/addon-docs": "9.1.6",
     "@storybook/addon-styling-webpack": "2.0.0",
