@@ -38,9 +38,6 @@
     "prebuild": "rm -rf dist",
     "build": "tsup --silent"
   },
-  "devDependencies": {
-    "@newhighsco/ts-config": "1.0.2"
-  },
   "dependencies": {
     "@newhighsco/storybook-addon-svgr": "2.0.60",
     "@newhighsco/storybook-addon-transpile-modules": "2.0.60",
