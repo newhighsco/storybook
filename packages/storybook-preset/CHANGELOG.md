@@ -1,3 +1,10 @@
+# @newhighsco/storybook-preset [8.1.0](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@8.0.0...@newhighsco/storybook-preset@8.1.0) (2025-09-19)
+
+
+### Features
+
+* **preset:** add current theme to `className` of `Canvas` ([ac5ee43](https://github.com/newhighsco/storybook/commit/ac5ee43650516393632dc093c3f2e2be6fc3f0b0))
+
 # @newhighsco/storybook-preset [8.0.0](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@7.1.7...@newhighsco/storybook-preset@8.0.0) (2025-09-19)
 
 
