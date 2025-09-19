@@ -8,16 +8,17 @@ import {
   Title
 } from '@storybook/addon-docs/blocks'
 import React, { type FC } from 'react'
+import { TabWrapper } from 'storybook/internal/components'
 
 const DocsPage: FC = () => (
   <>
     <Title />
     <Subtitle />
     <Description />
-    <Source dark />
-    <div style={{ display: 'none' }}>
+    <Source />
+    <TabWrapper>
       <Primary />
-    </div>
+    </TabWrapper>
     <Controls />
     <Stories includePrimary={false} />
   </>
