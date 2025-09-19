@@ -36,7 +36,6 @@
   "scripts": {
     "prepublishOnly": "yarn build",
     "prebuild": "rm -rf dist",
-    "buildSkip": "babel --root-mode upward src --out-dir dist --ignore '**/__tests__'",
     "build": "tsup --silent"
   },
   "devDependencies": {
