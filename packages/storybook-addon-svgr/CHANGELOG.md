@@ -1,3 +1,23 @@
+# @newhighsco/storybook-addon-svgr [3.0.0](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-addon-svgr@2.0.60...@newhighsco/storybook-addon-svgr@3.0.0) (2025-09-19)
+
+
+* feat(deps)!: upgrade storybook to v9 ([#2215](https://github.com/newhighsco/storybook/issues/2215)) ([7a1111d](https://github.com/newhighsco/storybook/commit/7a1111df8a6d78367dd803735db43c5e458503ae))
+
+
+### BREAKING CHANGES
+
+* Requires Storybook v9 peer dependencies
+
+* fix: update docs settings
+
+* chore: fix deprecated parameter
+
+* chore: cleanup
+
+* chore(deps): move ts-config
+
+* chore: dark mode improvements
+
 ## @newhighsco/storybook-addon-svgr [2.0.60](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-addon-svgr@2.0.59...@newhighsco/storybook-addon-svgr@2.0.60) (2025-05-18)
 
 
