@@ -1,64 +1,26 @@
 import {
-  Canvas,
   Controls,
   Description,
-  DocsContext,
-  Heading,
+  Primary,
   Source,
-  Story,
-  Subheading,
+  Stories,
   Subtitle,
   Title
 } from '@storybook/addon-docs/blocks'
-import { useDarkMode } from '@vueless/storybook-dark-mode'
-import React, { type FC, Fragment, useContext } from 'react'
-import { type Theme, withTheme } from 'storybook/theming'
+import React, { type FC } from 'react'
 
-interface Props {
-  theme?: Theme
-}
+const DocsPage: FC = () => (
+  <>
+    <Title />
+    <Subtitle />
+    <Description />
+    <Source dark />
+    <div style={{ display: 'none' }}>
+      <Primary />
+    </div>
+    <Controls />
+    <Stories includePrimary={false} />
+  </>
+)
 
-// eslint-disable-next-line tsc/config
-const DocsPage: FC<Props> = ({ theme }: Props) => {
-  const dark = useDarkMode()
-  const { componentStories } = useContext(DocsContext)
-  let stories = componentStories().filter(
-    story => !story.parameters?.docs?.disable
-  )
-  const sourceStory =
-    stories.find(({ name }) => name === 'Source') || stories[0]
-  const { moduleExport: source } = sourceStory
-
-  stories = stories.filter(
-    story =>
-      story !== sourceStory &&
-      story.parameters?.chromatic?.disableSnapshot !== false
-  )
-
-  return (
-    <>
-      <Title />
-      <Subtitle />
-      <Description />
-      <div style={{ display: 'none' }}>
-        <Story of={source} />
-      </div>
-      <Source of={source} dark={!dark} />
-      <Controls of={source} />
-      {!!stories?.length && (
-        <>
-          <Heading>Stories</Heading>
-          {stories.map(({ id, moduleExport, story }) => (
-            <Fragment key={id}>
-              <Subheading>{story}</Subheading>
-              <Description of={moduleExport} />
-              <Canvas of={moduleExport} withToolbar className={theme.base} />
-            </Fragment>
-          ))}
-        </>
-      )}
-    </>
-  )
-}
-
-export default withTheme(DocsPage)
+export default DocsPage

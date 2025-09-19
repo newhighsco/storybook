@@ -3928,16 +3928,6 @@
     loupe "^3.1.4"
     tinyrainbow "^2.0.0"
 
-"@vueless/storybook-dark-mode@9.0.8":
-  version "9.0.8"
-  resolved "https://registry.yarnpkg.com/@vueless/storybook-dark-mode/-/storybook-dark-mode-9.0.8.tgz#64385a1250fc3b433ba67eb1ce8403086a050506"
-  integrity sha512-VwYn0PnuZ4SIVZigU20FuUDadX++imsGP0w11CXchCjF6fqdrlEm4VrMCTF9tkh4U0ea2znl1ZYXAajUKyOJxw==
-  dependencies:
-    "@storybook/global" "^5.0.0"
-    "@storybook/icons" "^1.4.0"
-    fast-deep-equal "^3.1.3"
-    memoizerific "^1.11.3"
-
 "@webassemblyjs/ast@1.14.1", "@webassemblyjs/ast@^1.14.1":
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.14.1.tgz#a9f6a07f2b03c95c8d38c4536a1fdfb521ff55b6"
@@ -9198,11 +9188,6 @@ map-obj@^4.0.0:
   resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-4.3.0.tgz#9304f906e93faae70880da102a9f1df0ea8bb05a"
   integrity sha512-hdN1wVrZbb29eBGiGjJbeP8JbKjq1urkHJ/LIP/NY48MZ1QVXUsQBV1G1zvYFHn1XE06cwjBsOI2K3Ulnj1YXQ==
 
-map-or-similar@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/map-or-similar/-/map-or-similar-1.5.0.tgz#6de2653174adfb5d9edc33c69d3e92a1b76faf08"
-  integrity sha512-0aF7ZmVon1igznGI4VS30yugpduQW3y3GkcgGJOp7d8x8QrizhigUxjI/m2UojsXXto+jLAH3KSz+xOJTiORjg==
-
 marked-terminal@^5.1.1:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/marked-terminal/-/marked-terminal-5.2.0.tgz#c5370ec2bae24fb2b34e147b731c94fa933559d3"
@@ -9375,13 +9360,6 @@ memfs@^3.4.1, memfs@^3.4.12:
   integrity sha512-EGowvkkgbMcIChjMTMkESFDbZeSh8xZ7kNSF0hAiAN4Jh6jgHCRS0Ga/+C8y6Au+oqpezRHCfPsmJ2+DwAgiwQ==
   dependencies:
     fs-monkey "^1.0.4"
-
-memoizerific@^1.11.3:
-  version "1.11.3"
-  resolved "https://registry.yarnpkg.com/memoizerific/-/memoizerific-1.11.3.tgz#7c87a4646444c32d75438570905f2dbd1b1a805a"
-  integrity sha512-/EuHYwAPdLtXwAwSZkh/Gutery6pD2KYd44oQLhAvQp/50mpyduZh8Q7PYHXTCJ+wuXxt7oij2LXyIJOOYFPog==
-  dependencies:
-    map-or-similar "^1.5.0"
 
 meow@^12.0.1:
   version "12.1.1"

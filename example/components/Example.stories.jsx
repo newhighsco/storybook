@@ -9,6 +9,8 @@ export default {
   parameters: { componentSubtitle: 'Some subtitle' }
 }
 
+export const Source = { args: { children: 'Source' } }
+
 export const Text = { args: { children: 'Text' } }
 
 export const InlineSVG = {
@@ -28,8 +30,6 @@ export const BackgroundSVGSrc = { args: { background: 'svg' } }
 
 export const BackgroundPNGSrc = { args: { background: 'png' } }
 
-export const Source = { args: { children: 'Source' } }
-
 export const Snapshot = {
   render: () =>
     [
@@ -40,5 +40,6 @@ export const Snapshot = {
       BackgroundSVGSrc,
       BackgroundPNGSrc
     ].map((Story, index) => <Example key={index} {...Story.args} />),
-  parameters: { chromatic: { disableSnapshot: false } }
+  parameters: { chromatic: { disableSnapshot: false } },
+  tags: ['!autodocs']
 }

@@ -17,7 +17,7 @@
   },
   "scripts": {
     "prestart": "yarn build",
-    "start": "storybook dev --port 6006",
+    "start": "storybook dev --port 6006 --docs",
     "prepare": "husky",
     "build": "yarn workspaces run build",
     "prebuild:storybook": "yarn build",

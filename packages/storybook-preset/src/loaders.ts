@@ -13,9 +13,7 @@ export const cssLoaders = (
   importLoaders = [
     {
       loader: require.resolve('postcss-loader'),
-      options: {
-        implementation: require.resolve('postcss')
-      }
+      options: { implementation: require.resolve('postcss') }
     },
     ...importLoaders
   ]

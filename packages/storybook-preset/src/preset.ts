@@ -2,8 +2,6 @@ import type { StorybookConfig } from '@storybook/react-webpack5'
 
 import { cssLoaders } from './loaders'
 
-/** @typedef { import('@storybook/react-webpack5').StorybookConfig } StorybookConfig */
-
 export const addons: StorybookConfig['addons'] = [
   '@storybook/addon-webpack5-compiler-swc',
   '@storybook/addon-a11y',
@@ -22,7 +20,6 @@ export const addons: StorybookConfig['addons'] = [
       ]
     }
   },
-  '@vueless/storybook-dark-mode',
   '@newhighsco/storybook-addon-svgr',
   {
     name: '@newhighsco/storybook-addon-transpile-modules',
