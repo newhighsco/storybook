@@ -25,7 +25,7 @@
     "build": "babel --root-mode upward src --out-dir dist --ignore '**/__tests__'"
   },
   "peerDependencies": {
-    "@storybook/react-webpack5": "9.1.7",
-    "storybook": "9.1.7"
+    "@storybook/react-webpack5": "9.1.8",
+    "storybook": "9.1.8"
   }
 }
