@@ -1,3 +1,10 @@
+# @newhighsco/storybook-preset [8.2.0](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@8.1.4...@newhighsco/storybook-preset@8.2.0) (2025-09-26)
+
+
+### Features
+
+* **preset:** add `@newhighsco/press-start` to transpile modules ([#2224](https://github.com/newhighsco/storybook/issues/2224)) ([22b39ec](https://github.com/newhighsco/storybook/commit/22b39ecf5c9d1242ff6919d1b4152164f6181460))
+
 ## @newhighsco/storybook-preset [8.1.4](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@8.1.3...@newhighsco/storybook-preset@8.1.4) (2025-09-25)
 
 
