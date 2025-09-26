@@ -23,7 +23,9 @@ export const addons: StorybookConfig['addons'] = [
   '@newhighsco/storybook-addon-svgr',
   {
     name: '@newhighsco/storybook-addon-transpile-modules',
-    options: { transpileModules: ['@newhighsco/chipset'] }
+    options: {
+      transpileModules: ['@newhighsco/chipset', '@newhighsco/press-start']
+    }
   }
 ]
 
