@@ -49,7 +49,7 @@
     "@newhighsco/ts-config": "1.0.2",
     "@qiwi/multi-semantic-release": "7.1.2",
     "@storybook/react-webpack5": "9.1.8",
-    "chromatic": "13.2.0",
+    "chromatic": "13.2.1",
     "concurrently": "9.2.1",
     "eslint": "8.57.1",
     "husky": "9.1.7",
