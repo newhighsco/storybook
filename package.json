@@ -44,7 +44,7 @@
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "4.2.9",
     "@newhighsco/prettier-config": "2.1.32",
-    "@newhighsco/release-config": "1.4.15",
+    "@newhighsco/release-config": "1.4.16",
     "@newhighsco/stylelint-config": "4.0.18",
     "@newhighsco/ts-config": "1.0.2",
     "@qiwi/multi-semantic-release": "7.1.2",
