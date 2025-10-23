@@ -1,9 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "@newhighsco/ts-config",
-  "include": [
-    "**/*",
-    ".storybook/*"
-  ],
+  "include": ["**/*", ".storybook/*"],
   "exclude": []
 }

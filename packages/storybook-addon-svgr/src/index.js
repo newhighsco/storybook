@@ -41,10 +41,7 @@ export const webpackFinal = (config = {}, options = {}) => {
     options.assetLoader = {
       type: existing.type,
       ...assetModuleOptions,
-      generator: {
-        ...existing.generator,
-        ...assetModuleOptions?.generator
-      }
+      generator: { ...existing.generator, ...assetModuleOptions?.generator }
     }
   }
 

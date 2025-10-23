@@ -1,15 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "@newhighsco/ts-config",
-  "compilerOptions": {
-    "module": "preserve",
-    "moduleResolution": "bundler"
-  },
-  "include": [
-    "src"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist"
-  ]
+  "compilerOptions": { "module": "preserve", "moduleResolution": "bundler" },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }

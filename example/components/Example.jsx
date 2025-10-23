@@ -30,9 +30,7 @@ Example.propTypes = {
 
 const ExampleChild = ({ children }) => <div>{children}</div>
 
-ExampleChild.propTypes = {
-  children: node
-}
+ExampleChild.propTypes = { children: node }
 
 export default Example
 export { Example, ExampleChild }

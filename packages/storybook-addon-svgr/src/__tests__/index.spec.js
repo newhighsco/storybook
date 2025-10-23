@@ -58,10 +58,7 @@ describe('preset-svg', () => {
 
   it('should set SVG asset loader options', () => {
     const webpackConfig = preset.webpackFinal(baseConfig, {
-      assetModuleOptions: {
-        fizz: 'buzz',
-        generator: { foo: 'bar' }
-      }
+      assetModuleOptions: { fizz: 'buzz', generator: { foo: 'bar' } }
     })
     const { rules } = webpackConfig.module
     const { rules: baseConfigRules } = baseConfig.module
@@ -71,10 +68,7 @@ describe('preset-svg', () => {
 
     expect(rules[baseConfigRules.length].oneOf[1]).toEqual({
       type: rules[existingSvgRuleIndex].type,
-      generator: {
-        ...rules[existingSvgRuleIndex].generator,
-        foo: 'bar'
-      },
+      generator: { ...rules[existingSvgRuleIndex].generator, foo: 'bar' },
       fizz: 'buzz'
     })
   })
