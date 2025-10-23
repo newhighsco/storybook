@@ -14,9 +14,7 @@ export default defineConfig(async ({ watch }) => {
   const dts: Options['dts'] = { resolve: true }
   const targets: Partial<
     Record<NonNullable<Options['platform']>, Options['target']>
-  > = {
-    browser: BROWSER_TARGETS
-  }
+  > = { browser: BROWSER_TARGETS }
   const { exports = {} } = await readFile('./package.json', 'utf-8').then(
     JSON.parse
   )
