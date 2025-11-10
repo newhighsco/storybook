@@ -3,6 +3,7 @@ import { type StorybookConfig } from '@storybook/react-webpack5'
 const config: StorybookConfig = {
   framework: '@storybook/react-webpack5',
   stories: ['../example'],
+  // eslint-disable-next-line storybook/no-uninstalled-addons
   addons: ['@newhighsco/storybook-preset'],
   staticDirs: ['../public']
 }
