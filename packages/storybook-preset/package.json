@@ -43,7 +43,7 @@
     "@newhighsco/storybook-addon-transpile-modules": "3.0.6",
     "@storybook/addon-a11y": "9.1.16",
     "@storybook/addon-docs": "9.1.16",
-    "@storybook/addon-styling-webpack": "2.0.0",
+    "@storybook/addon-styling-webpack": "3.0.0",
     "@storybook/addon-webpack5-compiler-swc": "4.0.2",
     "css-loader": "7.1.2",
     "postcss": "8.5.6",
