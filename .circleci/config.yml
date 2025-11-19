@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  newhighsco: newhighsco/orb@1.11.0
+  newhighsco: newhighsco/orb@1.14.0
 
 only-version-tags: &only-version-tags
   filters:
@@ -18,6 +18,7 @@ build-parameters: &build-parameters
 setup-parameters: &setup-parameters
   name: setup
   cache-version: v3
+  checkout-method: full
 
 workflows:
   version: 2
