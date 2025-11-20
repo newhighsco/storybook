@@ -1,12 +1,5 @@
-import { readFile } from 'node:fs/promises'
 import { posix } from 'node:path'
 
-import {
-  BROWSER_TARGETS,
-  NODE_TARGET
-} from 'storybook/internal/builder-manager'
-import { globalPackages as managerExternals } from 'storybook/internal/manager/globals'
-import { globalPackages as previewExternals } from 'storybook/internal/preview/globals'
 import { defineConfig, type Options } from 'tsup'
 
 export default defineConfig(async ({ watch }) => {
@@ -14,61 +7,46 @@ export default defineConfig(async ({ watch }) => {
   const dts: Options['dts'] = { resolve: true }
   const targets: Partial<
     Record<NonNullable<Options['platform']>, Options['target']>
-  > = { browser: BROWSER_TARGETS }
-  const { exports = {} } = await readFile('./package.json', 'utf-8').then(
-    JSON.parse
-  )
+  > = { browser: 'esnext', node: 'node20.19' }
+  const { exports = {} } = (
+    await import('./package.json', { with: { type: 'json' } })
+  ).default
 
   const entries = Object.keys(exports)
 
   const entry = (
     fileName: string,
-    { format = ['esm', 'cjs'], platform = 'neutral', ...options }: Options
+    { format, platform = 'browser', ...options }: Options
   ): Options => {
     return {
       clean: !watch,
       entry: [posix.join(srcDir, fileName)],
-      format,
+      external: ['react', 'react-dom', '@storybook/icons'],
+      format: ['esm'],
       minify: !watch,
       platform,
       sourcemap: true,
       splitting: false,
-      target: targets[platform] ?? NODE_TARGET,
+      target: targets[platform],
       treeshake: true,
       ...options
     }
   }
 
-  const configs = [
-    entry('index.ts', {
-      dts,
-      external: [managerExternals, previewExternals].flat()
-    })
-  ]
+  const previewEntries = 'index.ts'
 
-  if (entries.includes('./preset')) {
-    configs.push(entry('preset.ts', { format: 'cjs', platform: 'node' }))
-  }
+  // if (entries.includes('./preview')) {
+  //   previewEntries.push('preview.ts')
+  // }
+
+  const configs = [entry(previewEntries, { dts })]
 
   if (entries.includes('./manager')) {
-    configs.push(
-      entry('manager.tsx', {
-        external: managerExternals,
-        format: 'esm',
-        outExtension: () => ({ js: '.js' }),
-        platform: 'browser'
-      })
-    )
+    configs.push(entry('manager.tsx', {}))
   }
 
-  if (entries.includes('./preview')) {
-    configs.push(
-      entry('preview.ts', {
-        dts,
-        external: previewExternals,
-        platform: 'browser'
-      })
-    )
+  if (entries.includes('./preset')) {
+    configs.push(entry('preset.ts', { platform: 'node' }))
   }
 
   return configs
