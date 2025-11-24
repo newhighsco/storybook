@@ -1,3 +1,13 @@
+# @newhighsco/storybook-addon-svgr [4.0.0](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-addon-svgr@3.0.6...@newhighsco/storybook-addon-svgr@4.0.0) (2025-11-24)
+
+
+* feat(deps)!: upgrade Storybook to v10 ([#2286](https://github.com/newhighsco/storybook/issues/2286)) ([7379bf6](https://github.com/newhighsco/storybook/commit/7379bf67b93ea489e590a6c58af55113fa31843e))
+
+
+### BREAKING CHANGES
+
+* Requires Storybook v10
+
 ## @newhighsco/storybook-addon-svgr [3.0.6](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-addon-svgr@3.0.5...@newhighsco/storybook-addon-svgr@3.0.6) (2025-10-30)
 
 
