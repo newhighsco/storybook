@@ -11,10 +11,7 @@ export const cssLoaders = (
   importLoaders = []
 ): RuleSetRule => {
   importLoaders = [
-    {
-      loader: require.resolve('postcss-loader'),
-      options: { implementation: require.resolve('postcss') }
-    },
+    { loader: 'postcss-loader', options: { implementation: 'postcss' } },
     ...importLoaders
   ]
 
@@ -22,9 +19,9 @@ export const cssLoaders = (
     test,
     sideEffects: true,
     use: [
-      require.resolve('style-loader'),
+      'style-loader',
       {
-        loader: require.resolve('css-loader'),
+        loader: 'css-loader',
         options: {
           esModule: false,
           import: { filter },

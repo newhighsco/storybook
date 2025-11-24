@@ -1,14 +1,14 @@
 import { getProjectRoot } from 'storybook/internal/common'
 
-import * as addon from '..'
+import { webpackFinal } from '../preset'
 
 describe('addon-transpile-modules', () => {
   it('should return webpackFinal', () => {
-    expect(typeof addon.webpackFinal).toEqual('function')
+    expect(typeof webpackFinal).toEqual('function')
   })
 
   it("should do nothing if 'transpileModules' is not set", () => {
-    const webpackConfig = addon.webpackFinal()
+    const webpackConfig = webpackFinal()
 
     expect(webpackConfig).toEqual({})
   })
@@ -16,7 +16,7 @@ describe('addon-transpile-modules', () => {
   it('should do nothing existing webpack rule is not found', () => {
     const baseConfig = { module: { rules: [] } }
     const { rules: baseConfigRules } = baseConfig.module
-    const webpackConfig = addon.webpackFinal(baseConfig, {
+    const webpackConfig = webpackFinal(baseConfig, {
       transpileModules: ['foo', 'bar']
     })
     const { rules } = webpackConfig.module
@@ -36,7 +36,7 @@ describe('addon-transpile-modules', () => {
     const existingRule = baseConfigRules.findIndex(rule =>
       rule.exclude.toString().includes('node_modules')
     )
-    const webpackConfig = addon.webpackFinal(baseConfig, {
+    const webpackConfig = webpackFinal(baseConfig, {
       transpileModules: ['foo', 'bar']
     })
     const { rules } = webpackConfig.module

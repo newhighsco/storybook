@@ -15,6 +15,7 @@
   "bugs": {
     "url": "https://github.com/newhighsco/storybook/issues"
   },
+  "type": "module",
   "scripts": {
     "prestart": "yarn build",
     "start": "storybook dev --port 6006 --docs",
@@ -34,21 +35,20 @@
     "format:js": "yarn lint:js --fix"
   },
   "devDependencies": {
-    "@babel/cli": "7.28.3",
-    "@babel/core": "7.28.5",
-    "@babel/preset-env": "7.28.5",
-    "@babel/preset-react": "7.28.5",
     "@commitlint/cli": "20.1.0",
     "@newhighsco/chipset": "6.25.4",
     "@newhighsco/commitlint-config": "1.1.46",
     "@newhighsco/editor-config": "1.2.0",
-    "@newhighsco/eslint-config": "5.4.3",
+    "@newhighsco/eslint-config": "6.0.0",
     "@newhighsco/prettier-config": "2.3.2",
     "@newhighsco/release-config": "1.4.19",
     "@newhighsco/stylelint-config": "4.0.18",
     "@newhighsco/ts-config": "1.0.2",
     "@qiwi/multi-semantic-release": "7.1.2",
-    "@storybook/react-webpack5": "9.1.16",
+    "@storybook/react-webpack5": "10.0.8",
+    "@swc/core": "1.15.3",
+    "@swc/jest": "0.2.39",
+    "@types/jest": "30.0.0",
     "chromatic": "13.3.4",
     "concurrently": "9.2.1",
     "eslint": "9.39.1",
@@ -59,7 +59,7 @@
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "semantic-release": "25.0.2",
-    "storybook": "9.1.16",
+    "storybook": "10.0.8",
     "stylelint": "16.26.0",
     "tsup": "8.5.1",
     "typescript": "5.9.3",

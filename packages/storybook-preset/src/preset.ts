@@ -1,8 +1,8 @@
-import type { StorybookConfig } from '@storybook/react-webpack5'
+import type { PresetProperty } from 'storybook/internal/types'
 
 import { cssLoaders } from './loaders'
 
-export const addons: StorybookConfig['addons'] = [
+export const addons: PresetProperty<'addons'> = [
   '@storybook/addon-webpack5-compiler-swc',
   '@storybook/addon-a11y',
   '@storybook/addon-docs',
@@ -12,10 +12,7 @@ export const addons: StorybookConfig['addons'] = [
       rules: [
         cssLoaders(),
         cssLoaders(/\.s[ac]ss$/, [
-          {
-            loader: require.resolve('sass-loader'),
-            options: { implementation: require.resolve('sass') }
-          }
+          { loader: 'sass-loader', options: { implementation: 'sass' } }
         ])
       ]
     }
@@ -29,7 +26,7 @@ export const addons: StorybookConfig['addons'] = [
   }
 ]
 
-export const core: StorybookConfig['core'] = config => ({
+export const core: PresetProperty<'core'> = config => ({
   ...config,
   disableTelemetry: true,
   enableCrashReports: false
