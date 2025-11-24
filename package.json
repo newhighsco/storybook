@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "20.1.0",
-    "@newhighsco/chipset": "6.25.3",
+    "@newhighsco/chipset": "6.25.4",
     "@newhighsco/commitlint-config": "1.1.46",
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "6.0.0",
@@ -60,7 +60,7 @@
     "react-dom": "19.2.0",
     "semantic-release": "25.0.2",
     "storybook": "10.0.8",
-    "stylelint": "16.25.0",
+    "stylelint": "16.26.0",
     "tsup": "8.5.1",
     "typescript": "5.9.3",
     "webpack": "5.103.0"
