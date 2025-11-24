@@ -1,3 +1,22 @@
+# @newhighsco/storybook-preset [9.0.0](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@8.2.11...@newhighsco/storybook-preset@9.0.0) (2025-11-24)
+
+
+* feat(deps)!: upgrade Storybook to v10 ([#2286](https://github.com/newhighsco/storybook/issues/2286)) ([7379bf6](https://github.com/newhighsco/storybook/commit/7379bf67b93ea489e590a6c58af55113fa31843e))
+
+
+### BREAKING CHANGES
+
+* Requires Storybook v10
+
+
+
+
+
+### Dependencies
+
+* **@newhighsco/storybook-addon-svgr:** upgraded to 4.0.0
+* **@newhighsco/storybook-addon-transpile-modules:** upgraded to 4.0.0
+
 ## @newhighsco/storybook-preset [8.2.11](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@8.2.10...@newhighsco/storybook-preset@8.2.11) (2025-11-20)
 
 
