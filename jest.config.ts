@@ -1,4 +1,6 @@
-module.exports = {
+import type { Config } from 'jest'
+
+const config: Config = {
   projects: ['<rootDir>/packages/*'],
   coverageReporters: ['json', 'text-summary'],
   reporters: [
@@ -13,3 +15,5 @@ module.exports = {
     ]
   ]
 }
+
+export default config

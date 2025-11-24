@@ -1,9 +1,12 @@
+import type { WebpackConfiguration } from '@storybook/core-webpack'
 import { getProjectRoot } from 'storybook/internal/common'
 
-/** @typedef { import('@storybook/react-webpack5').StorybookConfig } StorybookConfig */
+import { type TranspileModulesAddonOptions } from './types'
 
-/** @type { StorybookConfig['webpackFinal'] } */
-export const webpackFinal = (config = {}, options = {}) => {
+export const webpackFinal = (
+  config: WebpackConfiguration = {},
+  options: TranspileModulesAddonOptions = {}
+): WebpackConfiguration => {
   const { transpileModules = [] } = options
 
   if (transpileModules.length) {

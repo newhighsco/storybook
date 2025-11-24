@@ -1,6 +1,14 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "@newhighsco/ts-config",
-  "include": ["**/*", ".storybook/*"],
+  "compilerOptions": {
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "module": "preserve",
+    "moduleResolution": "bundler",
+    "rootDir": ".",
+    "target": "esnext",
+    "types": ["node", "jest"]
+  },
+  "include": ["**/*", ".storybook/*", "tsup.config.ts"],
   "exclude": []
 }

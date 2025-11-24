@@ -1,12 +1,15 @@
-/** @typedef { import('@storybook/react-webpack5').StorybookConfig } StorybookConfig */
+import type { WebpackConfiguration } from '@storybook/core-webpack'
+import type { RuleSetRule } from 'webpack'
+
+import { type SvgrAddonOptions } from './types'
 
 const svgRegExp = /\.svg$/
 
-const svgrLoaders = ({ svgrOptions, assetLoader }) => {
-  const svgrLoader = {
-    loader: require.resolve('@svgr/webpack'),
-    options: svgrOptions
-  }
+const svgrLoaders = ({
+  svgrOptions,
+  assetLoader
+}: SvgrAddonOptions): RuleSetRule[] => {
+  const svgrLoader = { loader: '@svgr/webpack', options: svgrOptions }
 
   return [
     {
@@ -14,10 +17,7 @@ const svgrLoaders = ({ svgrOptions, assetLoader }) => {
       oneOf: [
         {
           dependency: { not: ['url'] },
-          use: [
-            svgrLoader,
-            assetLoader && require.resolve('new-url-loader')
-          ].filter(Boolean)
+          use: [svgrLoader, assetLoader && 'new-url-loader'].filter(Boolean)
         },
         assetLoader
       ]
@@ -25,8 +25,10 @@ const svgrLoaders = ({ svgrOptions, assetLoader }) => {
   ]
 }
 
-/** @type { StorybookConfig['webpackFinal'] } */
-export const webpackFinal = (config = {}, options = {}) => {
+export const webpackFinal = (
+  config: WebpackConfiguration = {},
+  options: SvgrAddonOptions = {}
+): WebpackConfiguration => {
   const { module = {} } = config
   const { assetModuleOptions } = options
 

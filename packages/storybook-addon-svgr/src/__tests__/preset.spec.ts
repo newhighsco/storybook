@@ -1,4 +1,4 @@
-import * as preset from '..'
+import { webpackFinal } from '../preset'
 
 const baseConfig = {
   module: {
@@ -18,13 +18,13 @@ const baseConfig = {
   }
 }
 
-describe('preset-svg', () => {
+describe('addon-svgr', () => {
   it('should return webpackFinal', () => {
-    expect(typeof preset.webpackFinal).toEqual('function')
+    expect(typeof webpackFinal).toEqual('function')
   })
 
   it('should add SVG loader', () => {
-    const webpackConfig = preset.webpackFinal()
+    const webpackConfig = webpackFinal()
 
     expect(webpackConfig.module.rules.length).toEqual(1)
     expect(webpackConfig.module.rules[0].oneOf[0].use.options).toEqual(
@@ -33,10 +33,7 @@ describe('preset-svg', () => {
   })
 
   it('should set SVG loader options', () => {
-    const webpackConfig = preset.webpackFinal(
-      {},
-      { svgrOptions: { svgoConfig: {} } }
-    )
+    const webpackConfig = webpackFinal({}, { svgrOptions: { svgoConfig: {} } })
 
     expect(webpackConfig.module.rules.length).toEqual(1)
     expect(webpackConfig.module.rules[0].oneOf[0].use[0].options).toEqual({
@@ -49,7 +46,7 @@ describe('preset-svg', () => {
     const existingSvgRuleIndex = baseConfigRules.findIndex(rule =>
       rule.test?.toString().includes('svg')
     )
-    const webpackConfig = preset.webpackFinal(baseConfig)
+    const webpackConfig = webpackFinal(baseConfig, {})
     const { rules } = webpackConfig.module
 
     expect(rules.length).toEqual(baseConfigRules.length + 1)
@@ -57,7 +54,7 @@ describe('preset-svg', () => {
   })
 
   it('should set SVG asset loader options', () => {
-    const webpackConfig = preset.webpackFinal(baseConfig, {
+    const webpackConfig = webpackFinal(baseConfig, {
       assetModuleOptions: { fizz: 'buzz', generator: { foo: 'bar' } }
     })
     const { rules } = webpackConfig.module
