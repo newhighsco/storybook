@@ -1,5 +1,7 @@
+import type { Config } from '@svgr/core'
+import type { RuleSetRule } from 'webpack'
+
 export interface SvgrAddonOptions {
-  assetLoader?: any
-  assetModuleOptions?: any
-  svgrOptions?: any
+  assetModuleOptions?: RuleSetRule
+  svgrOptions?: Config
 }

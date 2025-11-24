@@ -5,10 +5,10 @@ import { type SvgrAddonOptions } from './types'
 
 const svgRegExp = /\.svg$/
 
-const svgrLoaders = ({
-  svgrOptions,
-  assetLoader
-}: SvgrAddonOptions): RuleSetRule[] => {
+const svgrLoaders = (
+  { svgrOptions }: SvgrAddonOptions,
+  assetLoader: RuleSetRule
+): RuleSetRule[] => {
   const svgrLoader = { loader: '@svgr/webpack', options: svgrOptions }
 
   return [
@@ -31,16 +31,19 @@ export const webpackFinal = (
 ): WebpackConfiguration => {
   const { module = {} } = config
   const { assetModuleOptions } = options
+  let assetLoader: RuleSetRule
 
   // Find existing rule that handles SVGs
-  const existing = module.rules?.find(({ test }) => test?.test('.svg'))
+  const existing: RuleSetRule = module.rules?.find(({ test }) =>
+    test?.test('.svg')
+  )
 
   if (existing) {
     // Tell existing rule to ignore SVGs
     existing.exclude = svgRegExp
 
     // Use existing loader to load SVG URLs
-    options.assetLoader = {
+    assetLoader = {
       type: existing.type,
       ...assetModuleOptions,
       generator: { ...existing.generator, ...assetModuleOptions?.generator }
@@ -51,7 +54,7 @@ export const webpackFinal = (
     ...config,
     module: {
       ...module,
-      rules: [...(module.rules || []), ...svgrLoaders(options)]
+      rules: [...(module.rules || []), ...svgrLoaders(options, assetLoader)]
     }
   }
 }
