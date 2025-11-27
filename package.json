@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "20.1.0",
-    "@newhighsco/chipset": "6.25.4",
+    "@newhighsco/chipset": "6.25.5",
     "@newhighsco/commitlint-config": "1.1.46",
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "6.0.0",
