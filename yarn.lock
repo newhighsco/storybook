@@ -1852,10 +1852,10 @@
     "@emnapi/runtime" "^1.4.3"
     "@tybys/wasm-util" "^0.10.0"
 
-"@newhighsco/chipset@6.25.5":
-  version "6.25.5"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.25.5.tgz#48696e59b247ad21d7db799a5f77f790cc801714"
-  integrity sha512-hCPXYuS89BCaBeQTUN55cqdqC73xhLUnpEStP/fFZVsw76Q0APeH5MveLVa1vGOpAbVitU6QtvF5NlmJbV1ALA==
+"@newhighsco/chipset@6.26.0":
+  version "6.26.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.26.0.tgz#446979a84548c9da14e4f64318a4e059ab5efe2c"
+  integrity sha512-egz6pOGJDaTBchKWh2q3A2nEppcZcWOfSs2OUfMcIzAldkhuI0bhiwrHw01mwlngij3EgAPnDqtO9va1RBJHWA==
   dependencies:
     "@dr.pogodin/react-themes" "1.10.1"
     classnames "2.5.1"
