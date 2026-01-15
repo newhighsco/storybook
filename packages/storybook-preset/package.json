@@ -53,6 +53,6 @@
   },
   "peerDependencies": {
     "@storybook/react-webpack5": "^10",
-    "storybook": "10.1.8"
+    "storybook": "10.1.10"
   }
 }
