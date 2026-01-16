@@ -10,7 +10,7 @@ export const decorators: Preview['decorators'] = [WithSnapshot]
 
 export const parameters: Preview['parameters'] = {
   actions: { argTypesRegex: '^on[A-Z].*' },
-  chromatic: { modes: modes.desktopLarge },
+  chromatic: { modes: modes(['desktopLarge']) },
   controls: { matchers: { color: /(background|color)$/i, date: /Date$/ } },
   docs: {
     canvas: { className: theme.base, withToolbar: true },

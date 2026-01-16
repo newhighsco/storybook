@@ -44,7 +44,7 @@ export const Snapshot = {
   parameters: {
     chromatic: {
       disableSnapshot: false,
-      modes: [modes.mobile, modes.desktopLarge]
+      modes: modes(['mobile', 'desktopLarge'])
     }
   },
   tags: ['!autodocs']
