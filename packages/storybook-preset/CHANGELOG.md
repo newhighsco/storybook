@@ -1,3 +1,13 @@
+# @newhighsco/storybook-preset [10.0.0](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@9.0.8...@newhighsco/storybook-preset@10.0.0) (2026-01-16)
+
+
+* feat!: use breakpoints for viewports ([#2339](https://github.com/newhighsco/storybook/issues/2339)) ([87eb4ce](https://github.com/newhighsco/storybook/commit/87eb4ce5897fddea20d576eca25fca078d140d9c))
+
+
+### BREAKING CHANGES
+
+* Configure Storybook viewports, and Chromatic modes, to match the [breakpoint sizes used by Chipset](https://github.com/newhighsco/chipset/blob/main/styles/_breakpoints.module.scss)
+
 ## @newhighsco/storybook-preset [9.0.8](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@9.0.7...@newhighsco/storybook-preset@9.0.8) (2026-01-15)
 
 
