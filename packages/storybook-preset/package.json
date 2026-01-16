@@ -38,6 +38,7 @@
     "build": "tsup --silent"
   },
   "dependencies": {
+    "@newhighsco/chipset": "6.27.0",
     "@newhighsco/storybook-addon-svgr": "4.0.0",
     "@newhighsco/storybook-addon-transpile-modules": "4.0.0",
     "@storybook/addon-a11y": "10.1.11",
