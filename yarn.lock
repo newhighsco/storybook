@@ -973,7 +973,7 @@
     "@babel/plugin-transform-modules-commonjs" "^7.27.1"
     "@babel/plugin-transform-typescript" "^7.28.5"
 
-"@babel/runtime@^7.28.4":
+"@babel/runtime@^7.28.6":
   version "7.28.6"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.28.6.tgz#d267a43cb1836dc4d182cce93ae75ba954ef6d2b"
   integrity sha512-05WQkdpL9COIMz4LjTxGpPNCdlpyimKppYNoJ5Di5EUObifl8t4tuLuUBBZEpoLYOmfvIWrsp9fCl0HoPRVTdA==
@@ -1213,12 +1213,12 @@
   resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-6.0.0.tgz#ef28e27c1ded1d8e5c54879a9399e7055aed1920"
   integrity sha512-4sSgl78OtOXEX/2d++8A83zHNTgwCJMaR24FvsYL7Uf/VS8HZk9PTwR51elTbGqMuwH3szLvvOXEaVnqn0Z3zA==
 
-"@dr.pogodin/react-themes@1.10.1":
-  version "1.10.1"
-  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.10.1.tgz#223c38b24f1cd6f6e0e31bad44621e719b6c4b72"
-  integrity sha512-BbdcwVJT7Pc8rDHXIjojnOvuhze9uAaUjkFSx4vJr3XMmvXSkxU7ehRm5XmqteLmI5aOdOHjupb+9Msd71Rl5w==
+"@dr.pogodin/react-themes@1.10.2":
+  version "1.10.2"
+  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.10.2.tgz#dd2591bb74c12141f5f03c14072e1ca99062f6e3"
+  integrity sha512-XQjUY7TqsVQSYPG9apebjA/PnBoVRkzviujQgBsV8uPplwuKchNNKHIZQ/JHBLKvsuj5bZneIEP12bJBvwuasw==
   dependencies:
-    "@babel/runtime" "^7.28.4"
+    "@babel/runtime" "^7.28.6"
 
 "@emnapi/core@^1.4.3":
   version "1.8.1"
@@ -1852,12 +1852,12 @@
     "@emnapi/runtime" "^1.4.3"
     "@tybys/wasm-util" "^0.10.0"
 
-"@newhighsco/chipset@6.27.0":
-  version "6.27.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.27.0.tgz#648b635f881ab9be524ab3c3bc39f8975403ddf6"
-  integrity sha512-vpjvyp/Ut1YIqdctmjY7WtCLfEW2pjIinQYQ3tt3ZcWqJV0tzRnPGPdutQCh1atcMHYIOy8oYB9qBKG2jXezYA==
+"@newhighsco/chipset@6.27.1":
+  version "6.27.1"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.27.1.tgz#4fdf450a8a99eb25c0583d044b2f7f6f9ee470b9"
+  integrity sha512-CDAeMos5LtUpp0twxoXbF8UOlVJ0G4brBFIDqp/60At77i5OUt8i/i3h6ObKhpolwOam5KBlLADagOEyR5n3oQ==
   dependencies:
-    "@dr.pogodin/react-themes" "1.10.1"
+    "@dr.pogodin/react-themes" "1.10.2"
     classnames "2.5.1"
     react-device-detect "2.2.3"
 
