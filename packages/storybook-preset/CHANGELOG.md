@@ -1,3 +1,10 @@
+## @newhighsco/storybook-preset [10.0.4](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@10.0.3...@newhighsco/storybook-preset@10.0.4) (2026-01-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency css-loader to v7.1.3 ([#2352](https://github.com/newhighsco/storybook/issues/2352)) ([561b5b6](https://github.com/newhighsco/storybook/commit/561b5b6b49bc5b6bce4ad983d78c07e6902aeca2))
+
 ## @newhighsco/storybook-preset [10.0.3](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@10.0.2...@newhighsco/storybook-preset@10.0.3) (2026-01-22)
 
 
