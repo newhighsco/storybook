@@ -1,4 +1,4 @@
-import { modes } from '@newhighsco/storybook-preset'
+import { modes, snapshot } from '@newhighsco/storybook-preset'
 import React from 'react'
 
 import logoPngUrl from '../images/logo.png'
@@ -31,21 +31,14 @@ export const BackgroundSVGSrc = { args: { background: 'svg' } }
 
 export const BackgroundPNGSrc = { args: { background: 'png' } }
 
-export const Snapshot = {
-  render: () =>
-    [
-      Text,
-      InlineSVG,
-      ImageSVGSrc,
-      ImagePNGSrc,
-      BackgroundSVGSrc,
-      BackgroundPNGSrc
-    ].map((Story, index) => <Example key={index} {...Story.args} />),
-  parameters: {
-    chromatic: {
-      disableSnapshot: false,
-      modes: modes(['mobile', 'desktopLarge'])
-    }
-  },
-  tags: ['!autodocs']
-}
+export const Snapshot = snapshot(
+  [
+    Text,
+    InlineSVG,
+    ImageSVGSrc,
+    ImagePNGSrc,
+    BackgroundSVGSrc,
+    BackgroundPNGSrc
+  ],
+  { parameters: { chromatic: { modes: modes(['mobile', 'desktopLarge']) } } }
+)
