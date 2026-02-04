@@ -1,3 +1,10 @@
+# @newhighsco/storybook-preset [10.1.0](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@10.0.9...@newhighsco/storybook-preset@10.1.0) (2026-02-04)
+
+
+### Features
+
+* **preset:** add `storybook-addon-pseudo-states` ([6a76ed8](https://github.com/newhighsco/storybook/commit/6a76ed815f9325e8df8fc03eea855bf1c7481d59))
+
 ## @newhighsco/storybook-preset [10.0.9](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@10.0.8...@newhighsco/storybook-preset@10.0.9) (2026-02-03)
 
 
