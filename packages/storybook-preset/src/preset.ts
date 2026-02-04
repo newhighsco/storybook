@@ -17,6 +17,7 @@ export const addons: PresetProperty<'addons'> = [
       ]
     }
   },
+  'storybook-addon-pseudo-states',
   '@newhighsco/storybook-addon-svgr',
   {
     name: '@newhighsco/storybook-addon-transpile-modules',
