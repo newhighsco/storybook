@@ -1,3 +1,10 @@
+# @newhighsco/storybook-preset [10.2.0](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@10.1.1...@newhighsco/storybook-preset@10.2.0) (2026-02-04)
+
+
+### Features
+
+* **preset:** add `snapshot()` helper ([#2374](https://github.com/newhighsco/storybook/issues/2374)) ([c25cda8](https://github.com/newhighsco/storybook/commit/c25cda8c0efdc56bf8172fb4b5bfabe0481895a5))
+
 ## @newhighsco/storybook-preset [10.1.1](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@10.1.0...@newhighsco/storybook-preset@10.1.1) (2026-02-04)
 
 
