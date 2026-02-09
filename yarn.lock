@@ -1212,10 +1212,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-6.0.0.tgz#ef28e27c1ded1d8e5c54879a9399e7055aed1920"
   integrity sha512-4sSgl78OtOXEX/2d++8A83zHNTgwCJMaR24FvsYL7Uf/VS8HZk9PTwR51elTbGqMuwH3szLvvOXEaVnqn0Z3zA==
 
-"@dr.pogodin/react-themes@1.10.2":
-  version "1.10.2"
-  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.10.2.tgz#dd2591bb74c12141f5f03c14072e1ca99062f6e3"
-  integrity sha512-XQjUY7TqsVQSYPG9apebjA/PnBoVRkzviujQgBsV8uPplwuKchNNKHIZQ/JHBLKvsuj5bZneIEP12bJBvwuasw==
+"@dr.pogodin/react-themes@1.10.3":
+  version "1.10.3"
+  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.10.3.tgz#61c1cbb8d1aa53bcbe8ffba7511c64a4e2a8ccf1"
+  integrity sha512-wLLFaGO3TFf7ZEvu6HDTs2Y9P5btwGrpfw5N3pFi9RLyIQEUMKjAVCPZiyk/KQFkNtJl8JapKZF2Yu1thhRfOA==
   dependencies:
     "@babel/runtime" "^7.28.6"
 
@@ -1854,12 +1854,12 @@
     "@emnapi/runtime" "^1.4.3"
     "@tybys/wasm-util" "^0.10.0"
 
-"@newhighsco/chipset@6.27.2":
-  version "6.27.2"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.27.2.tgz#7e68a6fa7eb7181affa0dcc778fa7b528f441ad2"
-  integrity sha512-8090t5XL9FImmh0/X6ywmlZF3fSycdh/oik/xoeCbkAnAJYROuQGQC9NGcfVG7N+1T0MJTcNtUzMdEzwdEeUbQ==
+"@newhighsco/chipset@6.27.3":
+  version "6.27.3"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.27.3.tgz#77f6ca762381673cf815a18ad4b564bb84b92408"
+  integrity sha512-a4WuxMqvI+RmQmN4Wa4UTYugcXoprDatGyZBKg3GfX2P7io0BP3ypTwOmVF8HpDWntJXjYtjjH+B3bbH8oIrFA==
   dependencies:
-    "@dr.pogodin/react-themes" "1.10.2"
+    "@dr.pogodin/react-themes" "1.10.3"
     classnames "2.5.1"
     react-device-detect "2.2.3"
 
