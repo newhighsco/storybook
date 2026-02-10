@@ -16,7 +16,7 @@ export default defineConfig(async ({ watch }) => {
 
   const entry = (
     fileNames: string | string[],
-    { format, platform = 'browser', ...options }: Options = {}
+    { platform = 'browser', ...options }: Options = {}
   ): Options => {
     if (!Array.isArray(fileNames)) fileNames = [fileNames]
 
