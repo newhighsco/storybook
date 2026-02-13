@@ -60,7 +60,7 @@
     "react-dom": "19.2.4",
     "semantic-release": "25.0.3",
     "storybook": "10.2.8",
-    "stylelint": "17.2.0",
+    "stylelint": "17.3.0",
     "tsup": "8.5.1",
     "typescript": "5.9.3",
     "webpack": "5.105.2"
