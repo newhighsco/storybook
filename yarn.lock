@@ -1479,6 +1479,18 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/retry/-/retry-0.4.3.tgz#c2b9d2e374ee62c586d3adbea87199b1d7a7a6ba"
   integrity sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==
 
+"@iconify/react@6.0.2":
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/@iconify/react/-/react-6.0.2.tgz#b6d9bd0e13f9cb85b3a7fddbc70bbf71f5da1d33"
+  integrity sha512-SMmC2sactfpJD427WJEDN6PMyznTFMhByK9yLW0gOTtnjzzbsi/Ke/XqsumsavFPwNiXs8jSiYeZTmLCLwO+Fg==
+  dependencies:
+    "@iconify/types" "^2.0.0"
+
+"@iconify/types@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@iconify/types/-/types-2.0.0.tgz#ab0e9ea681d6c8a1214f30cd741fe3a20cc57f57"
+  integrity sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==
+
 "@isaacs/cliui@^8.0.2":
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/@isaacs/cliui/-/cliui-8.0.2.tgz#b37667b7bc181c168782259bab42474fbf52b550"
@@ -1822,12 +1834,13 @@
     "@emnapi/runtime" "^1.4.3"
     "@tybys/wasm-util" "^0.10.0"
 
-"@newhighsco/chipset@6.27.3":
-  version "6.27.3"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.27.3.tgz#77f6ca762381673cf815a18ad4b564bb84b92408"
-  integrity sha512-a4WuxMqvI+RmQmN4Wa4UTYugcXoprDatGyZBKg3GfX2P7io0BP3ypTwOmVF8HpDWntJXjYtjjH+B3bbH8oIrFA==
+"@newhighsco/chipset@7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-7.0.0.tgz#8a056594e4642e9c4f8284e7a84d275b2e636324"
+  integrity sha512-NIZhBoZaglccg5ewfCe1IOVaXjHynhHLoIXiUQjhsxWHiTZ1C2cUkoHwbPBCNkcl7Ab0MfAAnsJ00/Fn8AgwuQ==
   dependencies:
     "@dr.pogodin/react-themes" "1.10.3"
+    "@iconify/react" "6.0.2"
     classnames "2.5.1"
     react-device-detect "2.2.3"
 
