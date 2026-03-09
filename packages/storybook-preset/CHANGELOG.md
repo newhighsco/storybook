@@ -1,3 +1,10 @@
+## @newhighsco/storybook-preset [10.2.18](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@10.2.17...@newhighsco/storybook-preset@10.2.18) (2026-03-09)
+
+
+### Bug Fixes
+
+* **deps:** update storybook monorepo to v10.2.17 ([#2450](https://github.com/newhighsco/storybook/issues/2450)) ([0819bac](https://github.com/newhighsco/storybook/commit/0819bac2ac114830367542f48a1fbe43b9ecfc81))
+
 ## @newhighsco/storybook-preset [10.2.17](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@10.2.16...@newhighsco/storybook-preset@10.2.17) (2026-03-06)
 
 
