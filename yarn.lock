@@ -1866,10 +1866,10 @@
     classnames "2.5.1"
     react-device-detect "2.2.3"
 
-"@newhighsco/commitlint-config@1.1.50":
-  version "1.1.50"
-  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.50.tgz#4440bb8fb1cd4b3b15da55eea57dbbf41f305062"
-  integrity sha512-xQ7dZZq3XH9nvC8lRD+JJ0YFc8/YMibuIIZBEwkgC2BME6w9OQEy/LOWFVZr1DX88cuAtZ8wcriBZ5X95SMxeA==
+"@newhighsco/commitlint-config@1.1.51":
+  version "1.1.51"
+  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.51.tgz#aaa20920182bdc5e16f5e1c4acbf9f1c0a19b4ca"
+  integrity sha512-z0DGca/JJOQVeuB6ALVJeAE1jQ03ukO8t+w2XJ3s3eNkxXdgjTYPVulbRYu0aLhZURc95xQvnjH6sQnQ+8Ielg==
 
 "@newhighsco/editor-config@1.2.0":
   version "1.2.0"
