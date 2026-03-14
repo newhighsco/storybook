@@ -1914,14 +1914,14 @@
     "@semantic-release/npm" "13.1.5"
     "@semantic-release/release-notes-generator" "14.1.0"
 
-"@newhighsco/stylelint-config@4.0.29":
-  version "4.0.29"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-4.0.29.tgz#d9eeef4a1391e679739205ddc47212bc70e6c413"
-  integrity sha512-DvoBd+1zgUeO34BQNZKL1/z0zPjCyzVSh9F6Mj804lTztCFxPas+rwifjUINCLL/+GkUBfUoD/zyn99u3+drSw==
+"@newhighsco/stylelint-config@4.0.30":
+  version "4.0.30"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-4.0.30.tgz#42bf27defaa5041a6cb12ea95b1a67190971e4a3"
+  integrity sha512-TTSrDrNv/rI10tl8Y5DAd0WrzY29lxqMEGwot19YHig5epEFfgsBrpgQbPiDpZhiSX3t70qKYPRzBStT6ESK3g==
   dependencies:
     stylelint-config-css-modules "4.6.0"
     stylelint-config-standard-scss "17.0.0"
-    stylelint-order "8.0.0"
+    stylelint-order "8.1.0"
     stylelint-prettier "5.0.3"
 
 "@newhighsco/ts-config@1.0.2":
@@ -11727,10 +11727,10 @@ stylelint-config-standard@^40.0.0:
   dependencies:
     stylelint-config-recommended "^18.0.0"
 
-stylelint-order@8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-8.0.0.tgz#608e572bab842f993110ed30354b2d7c83df7de7"
-  integrity sha512-1oAwPRz6Ba8u9LPjgvdbeMjZszHhjY6DBBK+xMlS3IC89GdTsvAPpGYvW+dkn6pxc4ZaI1S959g4c8CftZbhIg==
+stylelint-order@8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-8.1.0.tgz#f773b9512c38745048bcca606911211c37039296"
+  integrity sha512-ao2+VzToCqbAVGaEYEeSR2zNurvQx+86Kw1d0//kZDx3zlyjvb24dE4J0e4HQgOTruOwZpfaHHRtK58+lrsTAQ==
   dependencies:
     postcss "^8.5.8"
     postcss-sorting "^10.0.0"
