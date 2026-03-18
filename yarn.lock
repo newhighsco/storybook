@@ -3076,15 +3076,15 @@
     "@storybook/global" "^5.0.0"
     axe-core "^4.2.0"
 
-"@storybook/addon-docs@10.2.19":
-  version "10.2.19"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-docs/-/addon-docs-10.2.19.tgz#e6071ee91b4c326176367621d0ea76c759a918cb"
-  integrity sha512-tXugthdzjX5AkGWDSP4pnRgA/CWlOaEKp/+y9JOGXHLQmm1GHjW+4brNvNkKbjBl06LALXwlcTOyU4lyVRDLAw==
+"@storybook/addon-docs@10.3.0":
+  version "10.3.0"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-docs/-/addon-docs-10.3.0.tgz#574e38768615346b1ea693d26baa1863c825ef55"
+  integrity sha512-g9bc4YDiy4g/peLsUDmVcy2q/QXI3eHCQtHrVp2sHWef2SYjwUJ2+TOtJHScO8LuKhGnU3h2UeE59tPWTF2quw==
   dependencies:
     "@mdx-js/react" "^3.0.0"
-    "@storybook/csf-plugin" "10.2.19"
+    "@storybook/csf-plugin" "10.3.0"
     "@storybook/icons" "^2.0.1"
-    "@storybook/react-dom-shim" "10.2.19"
+    "@storybook/react-dom-shim" "10.3.0"
     react "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     react-dom "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     ts-dedent "^2.0.0"
@@ -3130,10 +3130,10 @@
   dependencies:
     ts-dedent "^2.0.0"
 
-"@storybook/csf-plugin@10.2.19":
-  version "10.2.19"
-  resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-10.2.19.tgz#2c08da16808eddf4b759488e812ae665b9ff9c53"
-  integrity sha512-BpjYIOdyQn/Rm6MjUAc5Gl8HlARZrskD/OhUNShiOh2fznb523dHjiE5mbU1kKM/+L1uvRlEqqih40rTx+xCrg==
+"@storybook/csf-plugin@10.3.0":
+  version "10.3.0"
+  resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-10.3.0.tgz#c4cfd86aa25e75067b3740798d47e79cb412e54d"
+  integrity sha512-zlBnNpv0wtmICdQPDoY91HNzn6BNqnS2hur580J+qJtcP+5ZOYU7+gNyU+vfAnQuLEWbPz34rx8b1cTzXZQCDg==
   dependencies:
     unplugin "^2.3.5"
 
@@ -3179,6 +3179,11 @@
   version "10.2.19"
   resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-10.2.19.tgz#7971868fc0eb6a3101190251c46640b44fbdde28"
   integrity sha512-BXCEfBGVBRYBTYeBeH/PJsy0Bq5MERe/HiaylR+ah/XrvIr2Z9bkne1J8yYiXCjiyq5HQa7Bj11roz0+vyUaEw==
+
+"@storybook/react-dom-shim@10.3.0":
+  version "10.3.0"
+  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-10.3.0.tgz#7d01be94a69828d6f77e3411b68de07203f6afbc"
+  integrity sha512-dmAnIjkMmUYZCdg3FUL83Lavybin3bYKRNRXFZq1okCH8SINa2J+zKEzJhPlqixAKkbd7x1PFDgXnxxM/Nisig==
 
 "@storybook/react-webpack5@10.2.19":
   version "10.2.19"
@@ -11448,10 +11453,10 @@ stop-iteration-iterator@^1.1.0:
     es-errors "^1.3.0"
     internal-slot "^1.1.0"
 
-storybook-addon-pseudo-states@10.2.19:
-  version "10.2.19"
-  resolved "https://registry.yarnpkg.com/storybook-addon-pseudo-states/-/storybook-addon-pseudo-states-10.2.19.tgz#0ff1c3c950dd57df7c485a68774f4829399c8854"
-  integrity sha512-5DC2gtgW4ErqwCTTGMy3CmFSXhRbqu289jvFcrYv8ToTxo6fFw/hDhltkSuQoy41r34B+Cf6yBGC8VyjQNpJtg==
+storybook-addon-pseudo-states@10.3.0:
+  version "10.3.0"
+  resolved "https://registry.yarnpkg.com/storybook-addon-pseudo-states/-/storybook-addon-pseudo-states-10.3.0.tgz#3c89e63c9b0b3e336eabaaa652c8bb080742bde6"
+  integrity sha512-sMVRc0/g1X1nqvJA7b/w4d9y7ness3Nt4wzv5tdvXrxQnqZnkXEnUeCpeC3N9TE7eeVR84bE/mreBDi+5l+soA==
 
 storybook@10.2.19:
   version "10.2.19"
