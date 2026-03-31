@@ -1,3 +1,10 @@
+## @newhighsco/storybook-preset [10.2.29](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@10.2.28...@newhighsco/storybook-preset@10.2.29) (2026-03-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @storybook/addon-styling-webpack to v3.0.2 ([#2497](https://github.com/newhighsco/storybook/issues/2497)) ([dbd04e2](https://github.com/newhighsco/storybook/commit/dbd04e2c754c8bdc95b5385485a2a1be06c0ca83))
+
 ## @newhighsco/storybook-preset [10.2.28](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@10.2.27...@newhighsco/storybook-preset@10.2.28) (2026-03-25)
 
 
