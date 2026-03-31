@@ -3075,10 +3075,10 @@
     react-dom "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-styling-webpack@3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-styling-webpack/-/addon-styling-webpack-3.0.1.tgz#2253d588aa47eca589f2cb193ead7b375c039093"
-  integrity sha512-UNrEkzMLPOtN46Glt4tafy0Z/+aSlNoZZsmTFDpmnyLbBHO78jEeKldQGawwmD/sE0QUjLQikVvuC75ZQZjLZQ==
+"@storybook/addon-styling-webpack@3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-styling-webpack/-/addon-styling-webpack-3.0.2.tgz#f3b0f376dd3d54ef40e1ebd54a9fb2023f242aa3"
+  integrity sha512-u7d5ur+It6XWSwd5yxHN6dTzIfj23as3zHJBf1IfDvi/GWmsW7zrmfsWpRIyBkIhBmdL+oSsTtLLTjuC9HeL8Q==
 
 "@storybook/addon-webpack5-compiler-swc@4.0.3":
   version "4.0.3"
