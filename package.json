@@ -51,7 +51,7 @@
     "@types/jest": "30.0.0",
     "chromatic": "16.1.0",
     "concurrently": "9.2.1",
-    "eslint": "10.1.0",
+    "eslint": "10.2.0",
     "husky": "9.1.7",
     "jest": "30.3.0",
     "jest-junit": "16.0.0",
