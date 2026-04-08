@@ -46,7 +46,7 @@
     "@storybook/addon-styling-webpack": "3.0.2",
     "@storybook/addon-webpack5-compiler-swc": "4.0.3",
     "css-loader": "7.1.4",
-    "postcss": "8.5.8",
+    "postcss": "8.5.9",
     "postcss-loader": "8.2.1",
     "sass": "1.99.0",
     "sass-loader": "16.0.7",
