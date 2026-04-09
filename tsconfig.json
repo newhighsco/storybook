@@ -9,6 +9,6 @@
     "target": "esnext",
     "types": ["node", "jest"]
   },
-  "include": ["**/*", ".storybook/*", "tsup.config.ts"],
+  "include": ["**/*", ".storybook/*", "tsdown.config.ts"],
   "exclude": []
 }

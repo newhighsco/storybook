@@ -26,7 +26,7 @@
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
     },
-    "./preset": "./dist/preset.js",
+    "./preset": "./dist/preset.mjs",
     "./package.json": "./package.json"
   },
   "files": [
@@ -36,7 +36,7 @@
   "scripts": {
     "prepublishOnly": "yarn build",
     "prebuild": "rm -rf dist",
-    "build": "tsup --silent"
+    "build": "tsdown --log-level error"
   },
   "dependencies": {
     "@svgr/webpack": "8.1.0",
