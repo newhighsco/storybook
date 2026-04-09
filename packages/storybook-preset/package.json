@@ -23,7 +23,7 @@
       "types": "./dist/preview.d.ts",
       "default": "./dist/preview.js"
     },
-    "./preset": "./dist/preset.js",
+    "./preset": "./dist/preset.mjs",
     "./package.json": "./package.json",
     "./*.md?raw": "./*.md"
   },
@@ -34,7 +34,7 @@
   "scripts": {
     "prepublishOnly": "yarn build",
     "prebuild": "rm -rf dist",
-    "build": "tsup --silent"
+    "build": "tsdown --log-level error"
   },
   "dependencies": {
     "@newhighsco/chipset": "7.0.0",
