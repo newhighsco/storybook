@@ -31,7 +31,7 @@ export const webpackFinal = (
 ): WebpackConfiguration => {
   const { module = {} } = config
   const { assetModuleOptions } = options
-  let assetLoader: RuleSetRule
+  let assetLoader: RuleSetRule = {}
 
   // Find existing rule that handles SVGs
   const existing: RuleSetRule = module.rules?.find(({ test }) =>

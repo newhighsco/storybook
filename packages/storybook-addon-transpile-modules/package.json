@@ -4,7 +4,6 @@
   "version": "4.0.0",
   "author": "New High Score",
   "license": "ISC",
-  "private": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/newhighsco/storybook.git",
@@ -30,7 +29,7 @@
   "scripts": {
     "prepublishOnly": "yarn build",
     "prebuild": "rm -rf dist",
-    "build": "tsup --silent"
+    "build": "tsdown --log-level error"
   },
   "peerDependencies": {
     "@storybook/react-webpack5": "^10",

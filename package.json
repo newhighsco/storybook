@@ -15,22 +15,23 @@
   "bugs": {
     "url": "https://github.com/newhighsco/storybook/issues"
   },
+  "packageManager": "yarn@4.13.0",
   "type": "module",
   "scripts": {
     "prestart": "yarn build",
     "start": "storybook dev --port 6006 --docs",
     "prepare": "husky",
-    "build": "yarn workspaces run build",
+    "build": "yarn workspaces foreach --all run build",
     "prebuild:storybook": "yarn build",
     "build:storybook": "storybook build --output-dir build --docs --quiet --webpack-stats-json",
     "pretest": "yarn lint",
     "test": "jest --runInBand",
     "test:list": "jest --listTests",
     "snapshot": "chromatic --storybook-build-dir build --auto-accept-changes main --exit-once-uploaded --only-changed",
-    "lint": "concurrently yarn:lint:*",
+    "lint": "concurrently 'yarn:lint:*'",
     "lint:css": "stylelint --cache --ignore-path .gitignore '**/*.?(s)css'",
     "lint:js": "eslint --cache .",
-    "format": "concurrently yarn:format:*",
+    "format": "concurrently 'yarn:format:*'",
     "format:css": "yarn lint:css --fix",
     "format:js": "yarn lint:js --fix"
   },
@@ -44,6 +45,7 @@
     "@newhighsco/release-config": "1.4.26",
     "@newhighsco/stylelint-config": "4.0.33",
     "@newhighsco/ts-config": "1.0.2",
+    "@newhighsco/yarn-plugin-preset": "1.1.2",
     "@qiwi/multi-semantic-release": "7.1.2",
     "@storybook/react-webpack5": "10.3.5",
     "@swc/core": "1.15.24",
@@ -61,8 +63,8 @@
     "semantic-release": "25.0.3",
     "storybook": "10.3.5",
     "stylelint": "17.6.0",
-    "tsup": "8.5.1",
-    "typescript": "5.9.3",
+    "tsdown": "0.21.7",
+    "typescript": "6.0.2",
     "webpack": "5.106.0"
   },
   "commitlint": {
