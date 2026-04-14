@@ -48,7 +48,7 @@
     "@newhighsco/yarn-plugin-preset": "1.1.2",
     "@qiwi/multi-semantic-release": "7.1.2",
     "@storybook/react-webpack5": "10.3.5",
-    "@swc/core": "1.15.24",
+    "@swc/core": "1.15.26",
     "@swc/jest": "0.2.39",
     "@types/jest": "30.0.0",
     "chromatic": "16.3.0",
