@@ -64,7 +64,7 @@
     "storybook": "10.3.5",
     "stylelint": "17.8.0",
     "tsdown": "0.21.9",
-    "typescript": "6.0.2",
+    "typescript": "6.0.3",
     "webpack": "5.106.2"
   },
   "commitlint": {
