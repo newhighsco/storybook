@@ -2788,7 +2788,7 @@ __metadata:
     "@newhighsco/eslint-config": "npm:7.0.52"
     "@newhighsco/prettier-config": "npm:2.3.5"
     "@newhighsco/release-config": "npm:1.4.27"
-    "@newhighsco/stylelint-config": "npm:4.0.38"
+    "@newhighsco/stylelint-config": "npm:4.0.39"
     "@newhighsco/ts-config": "npm:1.0.2"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.3"
     "@qiwi/multi-semantic-release": "npm:7.1.2"
@@ -2814,9 +2814,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@newhighsco/stylelint-config@npm:4.0.38":
-  version: 4.0.38
-  resolution: "@newhighsco/stylelint-config@npm:4.0.38"
+"@newhighsco/stylelint-config@npm:4.0.39":
+  version: 4.0.39
+  resolution: "@newhighsco/stylelint-config@npm:4.0.39"
   dependencies:
     stylelint-config-css-modules: "npm:4.6.0"
     stylelint-config-standard-scss: "npm:17.0.0"
@@ -2824,8 +2824,8 @@ __metadata:
     stylelint-prettier: "npm:5.0.3"
   peerDependencies:
     prettier: 3.8.3
-    stylelint: 17.9.0
-  checksum: 10c0/7a200570de0391c5035721f530b85af5817f2fae23b741c410e0e995ec13c67448580b2ad6e8f8ba346b5ccb6ada64193abe56b0e22ca2f65af73b5134422f08
+    stylelint: 17.9.1
+  checksum: 10c0/fa068a76a453ea897ac70eca842869da1cfa9980ceb7d12f2663fdeb7eed255964af82fb4ec2bcd435f82b4a753e77debe427fb3af3d0d3e256006eaa44bc877
   languageName: node
   linkType: hard
 
