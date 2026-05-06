@@ -1,3 +1,10 @@
+## @newhighsco/storybook-preset [10.2.40](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@10.2.39...@newhighsco/storybook-preset@10.2.40) (2026-05-06)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#2566](https://github.com/newhighsco/storybook/issues/2566)) ([d6e35e0](https://github.com/newhighsco/storybook/commit/d6e35e0c6b5f7c58b176b8c97363bd96d6483fbe))
+
 ## @newhighsco/storybook-preset [10.2.39](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@10.2.38...@newhighsco/storybook-preset@10.2.39) (2026-05-04)
 
 
