@@ -48,7 +48,7 @@
     "postcss": "8.5.15",
     "postcss-loader": "8.2.1",
     "sass": "1.99.0",
-    "sass-loader": "16.0.8",
+    "sass-loader": "17.0.0",
     "storybook-addon-pseudo-states": "10.4.0",
     "style-loader": "4.0.0"
   },
