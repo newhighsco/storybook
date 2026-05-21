@@ -1,3 +1,10 @@
+## @newhighsco/storybook-preset [10.2.44](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@10.2.43...@newhighsco/storybook-preset@10.2.44) (2026-05-21)
+
+
+### Bug Fixes
+
+* **deps:** manually update blocked dependencies ([#2612](https://github.com/newhighsco/storybook/issues/2612)) ([b25e0eb](https://github.com/newhighsco/storybook/commit/b25e0eb8ae1495af630b750d6c60cd4954547afe))
+
 ## @newhighsco/storybook-preset [10.2.43](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@10.2.42...@newhighsco/storybook-preset@10.2.43) (2026-05-19)
 
 
