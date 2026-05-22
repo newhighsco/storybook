@@ -2697,9 +2697,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/eslint-config@npm:7.0.63":
-  version: 7.0.63
-  resolution: "@newhighsco/eslint-config@npm:7.0.63"
+"@newhighsco/eslint-config@npm:7.1.1":
+  version: 7.1.1
+  resolution: "@newhighsco/eslint-config@npm:7.1.1"
   dependencies:
     "@eslint/compat": "npm:2.1.0"
     "@eslint/js": "npm:10.0.1"
@@ -2712,7 +2712,7 @@ __metadata:
     eslint-plugin-react: "npm:7.37.5"
     eslint-plugin-react-hooks: "npm:7.1.1"
     eslint-plugin-simple-import-sort: "npm:13.0.0"
-    eslint-plugin-storybook: "npm:10.4.0"
+    eslint-plugin-storybook: "npm:10.4.1"
     eslint-plugin-testing-library: "npm:7.16.2"
     find-up: "npm:8.0.0"
     typescript-eslint: "npm:8.59.4"
@@ -2726,7 +2726,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/919cd9465caae2cd2aa3848c7d528ba14b50297d836c5859d4168b053bebe88cfb61335f052129eff0c34625215bebef18104d8ac0956eef20e2c8c9d64144dc
+  checksum: 10c0/2676200b313fe84680c35daaf22c72f8b7564fa1d05f2df2e6786fb4b713aa7e557608e776e2d6f3ab061281f80e19f4879ae502a1a73826330de4a35f42bb30
   languageName: node
   linkType: hard
 
@@ -2812,11 +2812,11 @@ __metadata:
     "@newhighsco/chipset": "npm:7.0.1"
     "@newhighsco/commitlint-config": "npm:1.1.56"
     "@newhighsco/editor-config": "npm:1.2.0"
-    "@newhighsco/eslint-config": "npm:7.0.63"
+    "@newhighsco/eslint-config": "npm:7.1.1"
     "@newhighsco/prettier-config": "npm:2.3.5"
     "@newhighsco/release-config": "npm:1.4.28"
     "@newhighsco/stylelint-config": "npm:4.0.43"
-    "@newhighsco/ts-config": "npm:1.1.0"
+    "@newhighsco/ts-config": "npm:1.2.2"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.4"
     "@qiwi/multi-semantic-release": "npm:7.1.2"
     "@storybook/react-webpack5": "npm:10.4.0"
@@ -2856,10 +2856,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/ts-config@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@newhighsco/ts-config@npm:1.1.0"
-  checksum: 10c0/2e70894a5f282a3b9cec4b4abe77d1d80a25b5a0cbc1474c7ced0b31c150d0b4faf997106e4817212791155d72b116194d6c5489c52f691ade2ff5735e1120f6
+"@newhighsco/ts-config@npm:1.2.2":
+  version: 1.2.2
+  resolution: "@newhighsco/ts-config@npm:1.2.2"
+  dependencies:
+    "@tsconfig/next": "npm:2.0.6"
+    "@tsconfig/recommended": "npm:1.0.13"
+  checksum: 10c0/3f3aeabff4cd9ccf8b5ad8d9663410d8b171956b11565b2113b080c9776f1cfb7e61b166c43fcd2545c7629478b8e2288ab84dd0c9b2c6457a2a3ee7841e6a09
   languageName: node
   linkType: hard
 
@@ -5200,6 +5203,20 @@ __metadata:
   version: 2.0.1
   resolution: "@tootallnate/once@npm:2.0.1"
   checksum: 10c0/23b01a341485be711c602077936d70f8e695405bb88ab4433dc6d1e6cb4556401518789574d399eded790b70b27738136c9a8f02df7ae4219f4ba28bb22d586b
+  languageName: node
+  linkType: hard
+
+"@tsconfig/next@npm:2.0.6":
+  version: 2.0.6
+  resolution: "@tsconfig/next@npm:2.0.6"
+  checksum: 10c0/0baa997441df66db5adab715eb490f2ba9ccdfb8a1c0872a9178a779607e486bb8b5c7cd3cff7919fe87d4cf25995ffa535cd2a27106c26c2cfbafa08e66d72a
+  languageName: node
+  linkType: hard
+
+"@tsconfig/recommended@npm:1.0.13":
+  version: 1.0.13
+  resolution: "@tsconfig/recommended@npm:1.0.13"
+  checksum: 10c0/b0fae7ff8243621da68cd7a259499e1fd536e1aa3b3e3be233d30ab8d5bf046ec3dcc4ff68fc640435f421575e41e56bc735f61a1fe8a47b4475f3f2bf5ed882
   languageName: node
   linkType: hard
 
@@ -9000,15 +9017,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-storybook@npm:10.4.0":
-  version: 10.4.0
-  resolution: "eslint-plugin-storybook@npm:10.4.0"
+"eslint-plugin-storybook@npm:10.4.1":
+  version: 10.4.1
+  resolution: "eslint-plugin-storybook@npm:10.4.1"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.48.0"
   peerDependencies:
     eslint: ">=8"
-    storybook: ^10.4.0
-  checksum: 10c0/70391c7a8896990e091432cf58a90eaf01823d72b16fdf7c4c6e72a0466bc2ad45c24bad41b3da8e205a8db23a21f0c0b0d32ad7be01d1e7c26ee52b24bbcf99
+    storybook: ^10.4.1
+  checksum: 10c0/fa04c28a5818b879fdbc39a832672c329422e32729279d98905bfacb4dc232783c2b8f4230f1e278f15ec478fbd3869e109e1e60f921410c996a1254a4d15791
   languageName: node
   linkType: hard
 
