@@ -1464,7 +1464,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.28.6":
+"@babel/runtime@npm:^7.29.2":
   version: 7.29.2
   resolution: "@babel/runtime@npm:7.29.2"
   checksum: 10c0/30b80a0140d16467792e1bbeb06f655b0dab70407da38dfac7fedae9c859f9ae9d846ef14ad77bd3814c064295fe9b1bc551f1541ea14646ae9f22b71a8bc17a
@@ -1812,15 +1812,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@dr.pogodin/react-themes@npm:1.10.3":
-  version: 1.10.3
-  resolution: "@dr.pogodin/react-themes@npm:1.10.3"
+"@dr.pogodin/react-themes@npm:1.10.4":
+  version: 1.10.4
+  resolution: "@dr.pogodin/react-themes@npm:1.10.4"
   dependencies:
-    "@babel/runtime": "npm:^7.28.6"
+    "@babel/runtime": "npm:^7.29.2"
   peerDependencies:
-    react: ^19.2.4
-    react-dom: ^19.2.4
-  checksum: 10c0/a76523c9b4f3850e65e1011bda99970f26c7a97780b2fefbca878dad4ebd3dfd5a27e42afff88ed2797495a8a8645d313fba855baec7f6ee853b54df0edde530
+    react: ^19.2.6
+    react-dom: ^19.2.6
+  checksum: 10c0/009f8de22d091a10702201ec8d6cce92714c8f63135749b237e161860d432bc01fd3e5758ee2579342d70d16d78342e173983276cd603bc7b6600cbb61d58d91
   languageName: node
   linkType: hard
 
@@ -2666,18 +2666,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/chipset@npm:7.0.1":
-  version: 7.0.1
-  resolution: "@newhighsco/chipset@npm:7.0.1"
+"@newhighsco/chipset@npm:7.0.2":
+  version: 7.0.2
+  resolution: "@newhighsco/chipset@npm:7.0.2"
   dependencies:
-    "@dr.pogodin/react-themes": "npm:1.10.3"
+    "@dr.pogodin/react-themes": "npm:1.10.4"
     "@iconify/react": "npm:6.0.2"
     classnames: "npm:2.5.1"
     react-device-detect: "npm:2.2.3"
   peerDependencies:
-    react: 19.2.5
-    react-dom: 19.2.5
-  checksum: 10c0/0bcdda68962922c7bae4a12e0268fe97602e96b2e5c8a66b0f4061ecc322c0b87bd71cb9404e8bfaa0b3997ba8339c806dcecf5492e25ead44616fc513e9ed92
+    react: 19.2.6
+    react-dom: 19.2.6
+  checksum: 10c0/741ae1585a464a8bf1ffb0a8762b270a62f16562819d606bc77ef0609a5e448418fe390c1ad3bbb0732397bc2dba5e16b755cee8fb6a308b394acf6384867bd2
   languageName: node
   linkType: hard
 
@@ -2784,7 +2784,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@newhighsco/storybook-preset@workspace:packages/storybook-preset"
   dependencies:
-    "@newhighsco/chipset": "npm:7.0.1"
+    "@newhighsco/chipset": "npm:7.0.2"
     "@newhighsco/storybook-addon-svgr": "npm:4.0.0"
     "@newhighsco/storybook-addon-transpile-modules": "npm:4.0.0"
     "@storybook/addon-a11y": "npm:10.4.1"
@@ -2809,7 +2809,7 @@ __metadata:
   resolution: "@newhighsco/storybook@workspace:."
   dependencies:
     "@commitlint/cli": "npm:21.0.1"
-    "@newhighsco/chipset": "npm:7.0.1"
+    "@newhighsco/chipset": "npm:7.0.2"
     "@newhighsco/commitlint-config": "npm:1.1.56"
     "@newhighsco/editor-config": "npm:1.2.0"
     "@newhighsco/eslint-config": "npm:7.1.1"
