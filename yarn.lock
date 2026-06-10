@@ -2815,7 +2815,7 @@ __metadata:
     "@swc/core": "npm:1.15.41"
     "@swc/jest": "npm:0.2.39"
     "@types/jest": "npm:30.0.0"
-    chromatic: "npm:17.3.0"
+    chromatic: "npm:17.4.0"
     concurrently: "npm:10.0.3"
     eslint: "npm:10.4.1"
     husky: "npm:9.1.7"
@@ -7234,9 +7234,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromatic@npm:17.3.0":
-  version: 17.3.0
-  resolution: "chromatic@npm:17.3.0"
+"chromatic@npm:17.4.0":
+  version: 17.4.0
+  resolution: "chromatic@npm:17.4.0"
   dependencies:
     semver: "npm:^7.3.5"
   peerDependencies:
@@ -7254,7 +7254,7 @@ __metadata:
     chroma: dist/bin.cjs
     chromatic: dist/bin.cjs
     chromatic-cli: dist/bin.cjs
-  checksum: 10c0/03bbce143c34cbcb52d8ca5cd179880fe58f4d6bb77b2671050d3fed9f7a4b75ee9c13606287f67e5ad8a3394562bf773e509b4dc1d132e3e0d320f590907b27
+  checksum: 10c0/a0e12ed1d18f047d59432a96061ddd02452163e767a8f4161e9a7b32b48ae729cc439611c3b5e8cbc93abdb1e3fb6b97d232ede0427ed3db4b289473463de328
   languageName: node
   linkType: hard
 
