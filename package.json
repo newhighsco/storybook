@@ -65,7 +65,7 @@
     "stylelint": "17.14.0",
     "tsdown": "0.22.3",
     "typescript": "6.0.3",
-    "webpack": "5.108.0"
+    "webpack": "5.108.1"
   },
   "commitlint": {
     "extends": [
