@@ -42,7 +42,7 @@
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "7.1.17",
     "@newhighsco/prettier-config": "2.3.11",
-    "@newhighsco/release-config": "1.5.1",
+    "@newhighsco/release-config": "1.5.2",
     "@newhighsco/stylelint-config": "4.0.51",
     "@newhighsco/ts-config": "1.2.2",
     "@newhighsco/yarn-plugin-preset": "1.1.4",
