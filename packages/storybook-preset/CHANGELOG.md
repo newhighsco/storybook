@@ -1,3 +1,5 @@
+## @newhighsco/storybook-preset [10.2.57](https://github.com/newhighsco/storybook/compare/%40newhighsco%2Fstorybook-preset%4010.2.56...%40newhighsco%2Fstorybook-preset%4010.2.57) (2026-07-07)
+
 ## @newhighsco/storybook-preset [10.2.56](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@10.2.55...@newhighsco/storybook-preset@10.2.56) (2026-06-28)
 
 ### Bug Fixes
