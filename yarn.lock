@@ -2774,7 +2774,7 @@ __metadata:
     postcss-loader: "npm:8.2.1"
     sass: "npm:1.101.0"
     sass-loader: "npm:17.0.0"
-    storybook-addon-pseudo-states: "npm:10.4.6"
+    storybook-addon-pseudo-states: "npm:10.5.0"
     style-loader: "npm:4.0.0"
   peerDependencies:
     "@storybook/react-webpack5": ^10
@@ -16707,12 +16707,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"storybook-addon-pseudo-states@npm:10.4.6":
-  version: 10.4.6
-  resolution: "storybook-addon-pseudo-states@npm:10.4.6"
+"storybook-addon-pseudo-states@npm:10.5.0":
+  version: 10.5.0
+  resolution: "storybook-addon-pseudo-states@npm:10.5.0"
   peerDependencies:
-    storybook: ^10.4.6
-  checksum: 10c0/e2be324beccd425473b20c7a7fe8e8d7e2455d583828e82563a5dc4ed4f062d1bef7e7b6df591c9e8e86606f4e2714bd936fa8ae32699d9579b89fd733e8ceae
+    storybook: ^10.5.0
+  checksum: 10c0/260cbe112ee6a1e835518e0974ef1e004317b4c93da6900b43c91e92ba7ca6fabbeff0a689cf86057ae25b921bdea57aa1ce04599e5c84ce90d9824a007db420
   languageName: node
   linkType: hard
 
