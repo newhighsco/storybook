@@ -2640,9 +2640,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/chipset@npm:7.2.3":
-  version: 7.2.3
-  resolution: "@newhighsco/chipset@npm:7.2.3"
+"@newhighsco/chipset@npm:7.4.0":
+  version: 7.4.0
+  resolution: "@newhighsco/chipset@npm:7.4.0"
   dependencies:
     "@dr.pogodin/react-themes": "npm:1.11.0"
     "@iconify/react": "npm:6.0.2"
@@ -2652,7 +2652,7 @@ __metadata:
   peerDependencies:
     react: 19.2.7
     react-dom: 19.2.7
-  checksum: 10c0/8a34316a5f55456a797ba70f474b547cebb3d04470fb794d525c2977ef89b3456189625c952ec7b24a6c7ffc8afaba8c80a4117ef33552a90c10309101d65013
+  checksum: 10c0/d399baf8f1060b7cf6ada7b604dc71502a8ff2bef35d7c22ed70c12f1ee6c1c3e36ce2f7810d943b996b21d3d3a22c331d7af26df3f44f88894aeff41c50167b
   languageName: node
   linkType: hard
 
@@ -2675,9 +2675,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/eslint-config@npm:7.1.18":
-  version: 7.1.18
-  resolution: "@newhighsco/eslint-config@npm:7.1.18"
+"@newhighsco/eslint-config@npm:7.1.19":
+  version: 7.1.19
+  resolution: "@newhighsco/eslint-config@npm:7.1.19"
   dependencies:
     "@eslint/compat": "npm:2.1.0"
     "@eslint/js": "npm:10.0.1"
@@ -2690,7 +2690,7 @@ __metadata:
     eslint-plugin-react: "npm:7.37.5"
     eslint-plugin-react-hooks: "npm:7.1.1"
     eslint-plugin-simple-import-sort: "npm:13.0.0"
-    eslint-plugin-storybook: "npm:10.4.6"
+    eslint-plugin-storybook: "npm:10.5.0"
     eslint-plugin-testing-library: "npm:7.16.2"
     find-up: "npm:8.0.0"
     typescript-eslint: "npm:8.63.0"
@@ -2704,7 +2704,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/29266625f2f68e66c04410eef567e0c1dd192a6f89b5de84be449d2bf1e0760b2d5554bd95e55ff8d613cdf8318df12d84300452a4ef23f8ccab037108f59b76
+  checksum: 10c0/15bfe35b12271de377885cc04165f4df9f75d734bdd9e95a305885a8d89a61e51d1fd788f5770af6b31f63665edfbacb97c7fa5f2cc89b4ed14fc2a38696511b
   languageName: node
   linkType: hard
 
@@ -2762,7 +2762,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@newhighsco/storybook-preset@workspace:packages/storybook-preset"
   dependencies:
-    "@newhighsco/chipset": "npm:7.2.3"
+    "@newhighsco/chipset": "npm:7.4.0"
     "@newhighsco/storybook-addon-svgr": "npm:4.0.0"
     "@newhighsco/storybook-addon-transpile-modules": "npm:4.0.0"
     "@storybook/addon-a11y": "npm:10.5.0"
@@ -2787,10 +2787,10 @@ __metadata:
   resolution: "@newhighsco/storybook@workspace:."
   dependencies:
     "@commitlint/cli": "npm:21.2.1"
-    "@newhighsco/chipset": "npm:7.2.3"
+    "@newhighsco/chipset": "npm:7.4.0"
     "@newhighsco/commitlint-config": "npm:1.3.4"
     "@newhighsco/editor-config": "npm:1.2.0"
-    "@newhighsco/eslint-config": "npm:7.1.18"
+    "@newhighsco/eslint-config": "npm:7.1.19"
     "@newhighsco/prettier-config": "npm:2.3.12"
     "@newhighsco/release-config": "npm:1.5.2"
     "@newhighsco/stylelint-config": "npm:4.0.52"
@@ -5602,7 +5602,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/types@npm:8.63.0, @typescript-eslint/types@npm:^8.63.0":
+"@typescript-eslint/types@npm:8.63.0, @typescript-eslint/types@npm:^8.48.0, @typescript-eslint/types@npm:^8.63.0":
   version: 8.63.0
   resolution: "@typescript-eslint/types@npm:8.63.0"
   checksum: 10c0/270bd2b2affdc173dd7e9e1bf1419a6f7a2fa8ff1fca5c613da88f6e44c433a1412887e513d24233a4a6112bdc3439d3e4cadc4f492eb1a6dc2a377495a38836
@@ -9232,15 +9232,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-storybook@npm:10.4.6":
-  version: 10.4.6
-  resolution: "eslint-plugin-storybook@npm:10.4.6"
+"eslint-plugin-storybook@npm:10.5.0":
+  version: 10.5.0
+  resolution: "eslint-plugin-storybook@npm:10.5.0"
   dependencies:
+    "@typescript-eslint/types": "npm:^8.48.0"
     "@typescript-eslint/utils": "npm:^8.48.0"
   peerDependencies:
     eslint: ">=8"
-    storybook: ^10.4.6
-  checksum: 10c0/574baee7544f179ef986157b916a7e02790128f5377d4bb4da3f097d42f491479c9036350f263036c56f1cf7d98bf555868604091bcc545600b842a75e7a3b91
+    storybook: ^10.5.0
+  checksum: 10c0/c6ae8a9ea203604adab39672743335e7e1bdda7b8943994e33c322b1dea75b7f52ed9b4327fc3f584b56706b57817d7aeda687495c22778840ced22f7174eb06
   languageName: node
   linkType: hard
 
