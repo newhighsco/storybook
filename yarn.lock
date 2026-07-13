@@ -2813,7 +2813,7 @@ __metadata:
     semantic-release: "npm:25.0.7"
     storybook: "npm:10.5.0"
     stylelint: "npm:17.14.0"
-    tsdown: "npm:0.22.6"
+    tsdown: "npm:0.22.7"
     typescript: "npm:6.0.3"
     webpack: "npm:5.108.4"
   languageName: unknown
@@ -17667,9 +17667,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsdown@npm:0.22.6":
-  version: 0.22.6
-  resolution: "tsdown@npm:0.22.6"
+"tsdown@npm:0.22.7":
+  version: 0.22.7
+  resolution: "tsdown@npm:0.22.7"
   dependencies:
     ansis: "npm:^4.3.1"
     cac: "npm:^7.0.0"
@@ -17688,8 +17688,8 @@ __metadata:
     unconfig-core: "npm:^7.5.0"
   peerDependencies:
     "@arethetypeswrong/core": ^0.18.1
-    "@tsdown/css": 0.22.6
-    "@tsdown/exe": 0.22.6
+    "@tsdown/css": 0.22.7
+    "@tsdown/exe": 0.22.7
     "@vitejs/devtools": "*"
     publint: ^0.3.8
     tsx: "*"
@@ -17717,7 +17717,7 @@ __metadata:
       optional: true
   bin:
     tsdown: ./dist/run.mjs
-  checksum: 10c0/58b62a3be2ca5aedf2cb22c2ea1adbe9dacdddc5274de246f61b8c6441c845b0bef6df0a47d05ca8dcf547bb8d60bf7670b108a6f73c3783a0bcda1c46704e64
+  checksum: 10c0/9ae2daa2070a479381781d5b8de7013fb4dbbbdcf489bd3ac86dd6987f532018ebbfa9bf0ad19b5aa0d1df92bcb8d2e9810352a2f5803f57052c98d3b1bf05a6
   languageName: node
   linkType: hard
 
