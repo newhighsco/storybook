@@ -2832,7 +2832,7 @@ __metadata:
     semantic-release: "npm:25.0.8"
     storybook: "npm:10.5.2"
     stylelint: "npm:17.14.0"
-    tsdown: "npm:0.22.11"
+    tsdown: "npm:0.22.12"
     typescript: "npm:6.0.3"
     webpack: "npm:5.108.4"
   languageName: unknown
@@ -17686,9 +17686,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsdown@npm:0.22.11":
-  version: 0.22.11
-  resolution: "tsdown@npm:0.22.11"
+"tsdown@npm:0.22.12":
+  version: 0.22.12
+  resolution: "tsdown@npm:0.22.12"
   dependencies:
     ansis: "npm:^4.3.1"
     cac: "npm:^7.0.0"
@@ -17700,15 +17700,15 @@ __metadata:
     picomatch: "npm:^4.0.5"
     rolldown: "npm:~1.2.0"
     rolldown-plugin-dts: "npm:^0.27.9"
-    semver: "npm:^7.8.5"
     tinyexec: "npm:^1.2.4"
     tinyglobby: "npm:^0.2.17"
     tree-kill: "npm:^1.2.2"
     unconfig-core: "npm:^7.5.0"
+    verkit: "npm:^0.1.0"
   peerDependencies:
     "@arethetypeswrong/core": ^0.18.1
-    "@tsdown/css": 0.22.11
-    "@tsdown/exe": 0.22.11
+    "@tsdown/css": 0.22.12
+    "@tsdown/exe": 0.22.12
     "@vitejs/devtools": "*"
     publint: ^0.3.8
     tsx: "*"
@@ -17736,7 +17736,7 @@ __metadata:
       optional: true
   bin:
     tsdown: ./dist/run.mjs
-  checksum: 10c0/6a2bb5a39e884c28d09b785c3b31aeb865e0ff350eff1766a9559046e1415a99a601f77587f34f7da5cfbc8a990e9ba6f5cb38f2d2fca62750c6b62a1a28ad8c
+  checksum: 10c0/6dc1d79cd7a7531e088aafc556fe476ccafb7e009be7f6780624d78d0171de67bdb5093d947e5d2ae1f3b4c5afeb0c1db7d5ac31191750f0c8e011c18c95b5b5
   languageName: node
   linkType: hard
 
@@ -18327,6 +18327,13 @@ __metadata:
   version: 7.0.2
   resolution: "validate-npm-package-name@npm:7.0.2"
   checksum: 10c0/adf32e943148e13e8df13d06b855493908e6ae7a847610e8543c6291cbf42f40e653249a5b2275e2e615e3224c574ade5a9064a9e2d1ab629386284ea99e8f39
+  languageName: node
+  linkType: hard
+
+"verkit@npm:^0.1.0":
+  version: 0.1.2
+  resolution: "verkit@npm:0.1.2"
+  checksum: 10c0/84d3978df9007326caf86dde354467189224c2864ae5d03111af7f112ca64a47d50f40a113f853284e4c90475b35dc4ccab47db2a3be7fe02fc1d81eca4361b6
   languageName: node
   linkType: hard
 
