@@ -2798,7 +2798,7 @@ __metadata:
     style-loader: "npm:4.0.0"
   peerDependencies:
     "@storybook/react-webpack5": ^10
-    storybook: 10.5.4
+    storybook: ^10
   languageName: unknown
   linkType: soft
 
