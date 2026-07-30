@@ -2659,9 +2659,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/chipset@npm:7.4.1":
-  version: 7.4.1
-  resolution: "@newhighsco/chipset@npm:7.4.1"
+"@newhighsco/chipset@npm:7.4.2":
+  version: 7.4.2
+  resolution: "@newhighsco/chipset@npm:7.4.2"
   dependencies:
     "@dr.pogodin/react-themes": "npm:1.11.0"
     "@iconify/react": "npm:6.0.2"
@@ -2671,7 +2671,7 @@ __metadata:
   peerDependencies:
     react: ^19
     react-dom: ^19
-  checksum: 10c0/181cf42ac656ae7b4d8db59c0baa1522377780a8cb632d50735408b3cbabb39cd98df3874b23e261b2a203f2548cf823c1d5418f25e605965768b77f4e62cca7
+  checksum: 10c0/e036319652f250d6675a76df46098acb90241001a35d0db90de060f3fd1d4734eb5fbbaae6a7ab745c4f973ae701b498e133892944f95994153d7d047f4d4875
   languageName: node
   linkType: hard
 
@@ -2782,7 +2782,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@newhighsco/storybook-preset@workspace:packages/storybook-preset"
   dependencies:
-    "@newhighsco/chipset": "npm:7.4.1"
+    "@newhighsco/chipset": "npm:7.4.2"
     "@newhighsco/storybook-addon-svgr": "npm:4.0.0"
     "@newhighsco/storybook-addon-transpile-modules": "npm:4.0.0"
     "@storybook/addon-a11y": "npm:10.5.5"
@@ -2807,7 +2807,7 @@ __metadata:
   resolution: "@newhighsco/storybook@workspace:."
   dependencies:
     "@commitlint/cli": "npm:21.2.1"
-    "@newhighsco/chipset": "npm:7.4.1"
+    "@newhighsco/chipset": "npm:7.4.2"
     "@newhighsco/commitlint-config": "npm:1.3.5"
     "@newhighsco/editor-config": "npm:1.2.0"
     "@newhighsco/eslint-config": "npm:7.1.29"
