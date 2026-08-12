@@ -2821,7 +2821,7 @@ __metadata:
     "@swc/core": "npm:1.15.47"
     "@swc/jest": "npm:0.2.39"
     "@types/jest": "npm:30.0.0"
-    chromatic: "npm:18.1.0"
+    chromatic: "npm:18.2.0"
     concurrently: "npm:10.0.4"
     eslint: "npm:10.8.1"
     husky: "npm:9.1.7"
@@ -7405,15 +7405,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromatic@npm:18.1.0":
-  version: 18.1.0
-  resolution: "chromatic@npm:18.1.0"
+"chromatic@npm:18.2.0":
+  version: 18.2.0
+  resolution: "chromatic@npm:18.2.0"
   dependencies:
     semver: "npm:^7.3.5"
   peerDependencies:
     "@chromatic-com/cypress": ^0.*.* || ^1.0.0
     "@chromatic-com/playwright": ^0.*.* || ^1.0.0
     "@chromatic-com/vitest": ^0.*.* || ^1.0.0
+  dependenciesMeta:
+    "@sentry/cli":
+      built: true
+    esbuild:
+      built: true
   peerDependenciesMeta:
     "@chromatic-com/cypress":
       optional: true
@@ -7425,7 +7430,7 @@ __metadata:
     chroma: dist/bin.cjs
     chromatic: dist/bin.cjs
     chromatic-cli: dist/bin.cjs
-  checksum: 10c0/cf64a6b14d6d3a3c2cc51fd024d651b4f7c90c4647fe3d5d5dee7033108f0188157b32bb98432568bc3b0fafd42966f9c527d12f171d76f4e7cd9ea50cbb1606
+  checksum: 10c0/c530eb88761af134b8c15fae397729395db94c0e2c913267f0dbdb8553619cfbb38a12157bbd06386bfa6924deb64c074ad8979194e4e9d908ef47ae9dff93a7
   languageName: node
   linkType: hard
 
