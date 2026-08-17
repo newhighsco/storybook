@@ -1,3 +1,5 @@
+## @newhighsco/storybook-preset [10.2.85](https://github.com/newhighsco/storybook/compare/%40newhighsco%2Fstorybook-preset%4010.2.84...%40newhighsco%2Fstorybook-preset%4010.2.85) (2026-08-17)
+
 ## @newhighsco/storybook-preset [10.2.84](https://github.com/newhighsco/storybook/compare/%40newhighsco%2Fstorybook-preset%4010.2.83...%40newhighsco%2Fstorybook-preset%4010.2.84) (2026-08-06)
 
 ## @newhighsco/storybook-preset [10.2.83](https://github.com/newhighsco/storybook/compare/%40newhighsco%2Fstorybook-preset%4010.2.82...%40newhighsco%2Fstorybook-preset%4010.2.83) (2026-08-06)
