@@ -2665,19 +2665,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/chipset@npm:7.5.0":
-  version: 7.5.0
-  resolution: "@newhighsco/chipset@npm:7.5.0"
+"@newhighsco/chipset@npm:7.5.1":
+  version: 7.5.1
+  resolution: "@newhighsco/chipset@npm:7.5.1"
   dependencies:
     "@dr.pogodin/react-themes": "npm:1.11.0"
     "@iconify/react": "npm:6.0.2"
     classnames: "npm:2.5.1"
     react-device-detect: "npm:2.2.3"
-    url-join: "npm:5.0.0"
+    url-join: "npm:5.1.0"
   peerDependencies:
     react: ^19
     react-dom: ^19
-  checksum: 10c0/5be40a5922bd3eee7f12c66dc52e49e7f4ed5ff89ac9fd3cf7cc20f8630de73f6a13a9247d04087399bbb6d2ea55376543106834a08e832070826134a71da445
+  checksum: 10c0/60cc25c0cb23fb47dedc4315e3793539d58b08a21a39f7d9a38f2ffab745c53c33b664b3604b975aee97fd2c3c1eb41bc156853d3bcdc02896bd19b2087e41da
   languageName: node
   linkType: hard
 
@@ -2788,7 +2788,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@newhighsco/storybook-preset@workspace:packages/storybook-preset"
   dependencies:
-    "@newhighsco/chipset": "npm:7.5.0"
+    "@newhighsco/chipset": "npm:7.5.1"
     "@newhighsco/storybook-addon-svgr": "npm:4.0.0"
     "@newhighsco/storybook-addon-transpile-modules": "npm:4.0.0"
     "@storybook/addon-a11y": "npm:10.6.2"
@@ -2813,7 +2813,7 @@ __metadata:
   resolution: "@newhighsco/storybook@workspace:."
   dependencies:
     "@commitlint/cli": "npm:21.2.3"
-    "@newhighsco/chipset": "npm:7.5.0"
+    "@newhighsco/chipset": "npm:7.5.1"
     "@newhighsco/commitlint-config": "npm:1.3.6"
     "@newhighsco/editor-config": "npm:1.2.0"
     "@newhighsco/eslint-config": "npm:7.1.54"
@@ -18076,10 +18076,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"url-join@npm:5.0.0, url-join@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "url-join@npm:5.0.0"
-  checksum: 10c0/ed2b166b4b5a98adcf6828a48b6bd6df1dac4c8a464a73cf4d8e2457ed410dd8da6be0d24855b86026cd7f5c5a3657c1b7b2c7a7c5b8870af17635a41387b04c
+"url-join@npm:5.1.0, url-join@npm:^5.0.0":
+  version: 5.1.0
+  resolution: "url-join@npm:5.1.0"
+  checksum: 10c0/b9cdd7d25ffc3e81c71e71362ae69eed1e79253b4fd26c9785607d1d219565016a08ba4663b645878ec645d46bb09201576708c513d80de8f6816c9ecf26bd96
   languageName: node
   linkType: hard
 
