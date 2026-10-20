@@ -1,3 +1,9 @@
+## @newhighsco/storybook-preset [10.2.108](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@10.2.107...@newhighsco/storybook-preset@10.2.108) (2026-10-20)
+
+### Bug Fixes
+
+* **deps:** update dependency @storybook/addon-docs to v10.6.3 ([#2925](https://github.com/newhighsco/storybook/issues/2925)) ([fbe630f](https://github.com/newhighsco/storybook/commit/fbe630f8a0bfc0eca3ec763e407a1f4b1046bb14))
+
 ## @newhighsco/storybook-preset [10.2.107](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@10.2.106...@newhighsco/storybook-preset@10.2.107) (2026-10-20)
 
 ### Bug Fixes
