@@ -1,3 +1,9 @@
+## @newhighsco/storybook-preset [10.2.109](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@10.2.108...@newhighsco/storybook-preset@10.2.109) (2026-10-21)
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.106.0 ([#2926](https://github.com/newhighsco/storybook/issues/2926)) ([f993ed4](https://github.com/newhighsco/storybook/commit/f993ed4df17983a2fc3301f042922782609f70d5))
+
 ## @newhighsco/storybook-preset [10.2.108](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@10.2.107...@newhighsco/storybook-preset@10.2.108) (2026-10-20)
 
 ### Bug Fixes
