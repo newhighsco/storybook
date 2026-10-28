@@ -51,7 +51,7 @@
     "@swc/core": "1.16.20",
     "@swc/jest": "0.2.39",
     "@types/jest": "30.0.0",
-    "chromatic": "18.13.3",
+    "chromatic": "18.13.4",
     "concurrently": "10.0.6",
     "eslint": "10.13.0",
     "husky": "9.1.7",
