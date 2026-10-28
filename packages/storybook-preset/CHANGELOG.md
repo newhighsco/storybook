@@ -1,3 +1,9 @@
+## @newhighsco/storybook-preset [10.2.111](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@10.2.110...@newhighsco/storybook-preset@10.2.111) (2026-10-28)
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/chipset to v7.5.5 ([#2943](https://github.com/newhighsco/storybook/issues/2943)) ([225cb09](https://github.com/newhighsco/storybook/commit/225cb09766f7e7200b442ac8ad8405d37bec7ffc))
+
 ## @newhighsco/storybook-preset [10.2.110](https://github.com/newhighsco/storybook/compare/@newhighsco/storybook-preset@10.2.109...@newhighsco/storybook-preset@10.2.110) (2026-10-28)
 
 ### Bug Fixes
