@@ -76,7 +76,8 @@
     ]
   },
   "multi-release": {
-    "sequentialInit": true
+    "sequentialInit": true,
+    "debug": true
   },
   "prettier": "@newhighsco/prettier-config",
   "release": {
