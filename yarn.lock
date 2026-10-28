@@ -2665,19 +2665,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/chipset@npm:7.5.3":
-  version: 7.5.3
-  resolution: "@newhighsco/chipset@npm:7.5.3"
+"@newhighsco/chipset@npm:7.5.5":
+  version: 7.5.5
+  resolution: "@newhighsco/chipset@npm:7.5.5"
   dependencies:
     "@dr.pogodin/react-themes": "npm:1.11.0"
     "@iconify/react": "npm:6.0.3"
     classnames: "npm:2.5.1"
     react-device-detect: "npm:2.2.3"
-    url-join: "npm:5.1.1"
+    url-join: "npm:6.0.0"
   peerDependencies:
     react: ^19
     react-dom: ^19
-  checksum: 10c0/1efdc79f83e37df97c02fd94c24334cb6ef75509db79c30eee93bb4d49d54ae28100fb3b96cb0660aa2197d6d835eb59d545b254e28c8f7112f1075ca0bea569
+  checksum: 10c0/753d2af02e339d3ec2a67f89cce02e599ef9dc089b6d82cd5506f9551789732f067c92b38d306175b8817b8723140fa9179b6ff5bf4531f1dd398c047e5c3cef
   languageName: node
   linkType: hard
 
@@ -2788,7 +2788,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@newhighsco/storybook-preset@workspace:packages/storybook-preset"
   dependencies:
-    "@newhighsco/chipset": "npm:7.5.3"
+    "@newhighsco/chipset": "npm:7.5.5"
     "@newhighsco/storybook-addon-svgr": "npm:4.0.0"
     "@newhighsco/storybook-addon-transpile-modules": "npm:4.0.0"
     "@storybook/addon-a11y": "npm:10.6.5"
@@ -2813,7 +2813,7 @@ __metadata:
   resolution: "@newhighsco/storybook@workspace:."
   dependencies:
     "@commitlint/cli": "npm:21.2.4"
-    "@newhighsco/chipset": "npm:7.5.3"
+    "@newhighsco/chipset": "npm:7.5.5"
     "@newhighsco/commitlint-config": "npm:1.3.6"
     "@newhighsco/editor-config": "npm:1.2.0"
     "@newhighsco/eslint-config": "npm:7.1.54"
@@ -18136,10 +18136,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"url-join@npm:5.1.1":
-  version: 5.1.1
-  resolution: "url-join@npm:5.1.1"
-  checksum: 10c0/517e886d302527c7faa999f13e0d131a06dce3bb1577be210cf40f55d9cad83af07c0e2160e86ebe6d095cbbe992f9bb32811897b5fa5ddcc786ab02d03c109f
+"url-join@npm:6.0.0":
+  version: 6.0.0
+  resolution: "url-join@npm:6.0.0"
+  checksum: 10c0/671c8501119b632e3ed3e84afe7fa2e21f558069ad287261a20be5d42add9387dfa1960e9e841e123ed6887e0774b8f1508c94643815670c4e05c5d0d9eeea17
   languageName: node
   linkType: hard
 
