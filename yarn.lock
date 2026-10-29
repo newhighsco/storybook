@@ -2839,7 +2839,7 @@ __metadata:
     semantic-release: "npm:25.0.9"
     storybook: "npm:10.6.5"
     stylelint: "npm:17.16.0"
-    tsdown: "npm:0.23.3"
+    tsdown: "npm:0.23.4"
     typescript: "npm:6.0.3"
     webpack: "npm:5.112.2"
   languageName: unknown
@@ -17462,6 +17462,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tinyps@npm:^0.5.1":
+  version: 0.5.1
+  resolution: "tinyps@npm:0.5.1"
+  checksum: 10c0/5ff1f8c77bf74e75565ed4a017795371f27d3d0a5c6dd076078ea993253c1314ed13d43a6005b4e30aa446443003431478d3d0c5051fbe5b34ee047907ed7611
+  languageName: node
+  linkType: hard
+
 "tinyrainbow@npm:^2.0.0":
   version: 2.0.0
   resolution: "tinyrainbow@npm:2.0.0"
@@ -17499,7 +17506,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tree-kill@npm:1.2.2, tree-kill@npm:^1.2.2":
+"tree-kill@npm:1.2.2":
   version: 1.2.2
   resolution: "tree-kill@npm:1.2.2"
   bin:
@@ -17568,9 +17575,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsdown@npm:0.23.3":
-  version: 0.23.3
-  resolution: "tsdown@npm:0.23.3"
+"tsdown@npm:0.23.4":
+  version: 0.23.4
+  resolution: "tsdown@npm:0.23.4"
   dependencies:
     cac: "npm:^7.1.0"
     defu: "npm:^6.1.7"
@@ -17583,13 +17590,13 @@ __metadata:
     rolldown-plugin-dts: "npm:^0.28.8"
     tinyexec: "npm:^1.3.1"
     tinyglobby: "npm:^0.2.17"
-    tree-kill: "npm:^1.2.2"
+    tinyps: "npm:^0.5.1"
     unconfig-core: "npm:^7.5.0"
     verkit: "npm:^0.5.0"
   peerDependencies:
     "@arethetypeswrong/core": ^0.18.1
-    "@tsdown/css": 0.23.3
-    "@tsdown/exe": 0.23.3
+    "@tsdown/css": 0.23.4
+    "@tsdown/exe": 0.23.4
     "@vitejs/devtools": "*"
     publint: ^0.3.8
     tsx: "*"
@@ -17617,7 +17624,7 @@ __metadata:
       optional: true
   bin:
     tsdown: ./dist/run.mjs
-  checksum: 10c0/5e3bc074f88063be65814c0144797644e3913e12f4f5e799f0d0b28d16c367066b525af691a1ab9cfcf1d4ebb6fcc1cdfc147a46980f0fb961387ca1b5d2944d
+  checksum: 10c0/b614622cfe4c4bfd1d38ffc93343922bbdb78b3446abd02ad6d3736afbeb5986498854d3f7c7214d7117c658f1360983aafc45e85d9c7953409266f49e21cb47
   languageName: node
   linkType: hard
 
