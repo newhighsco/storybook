@@ -52,7 +52,7 @@
     "@swc/jest": "0.2.39",
     "@types/jest": "30.0.0",
     "chromatic": "18.14.2",
-    "concurrently": "10.0.6",
+    "concurrently": "10.0.7",
     "eslint": "10.14.0",
     "husky": "9.1.7",
     "jest": "30.5.2",
