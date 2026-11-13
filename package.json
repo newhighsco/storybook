@@ -43,7 +43,7 @@
     "@newhighsco/eslint-config": "7.1.54",
     "@newhighsco/prettier-config": "2.3.18",
     "@newhighsco/release-config": "1.5.11",
-    "@newhighsco/stylelint-config": "4.0.58",
+    "@newhighsco/stylelint-config": "5.0.0",
     "@newhighsco/ts-config": "1.2.2",
     "@newhighsco/yarn-plugin-preset": "1.1.4",
     "@qiwi/multi-semantic-release": "7.1.2",
@@ -62,7 +62,7 @@
     "react-dom": "19.3.1",
     "semantic-release": "25.0.9",
     "storybook": "10.6.7",
-    "stylelint": "17.16.0",
+    "stylelint": "18.0.0",
     "tsdown": "0.23.7",
     "typescript": "6.0.3",
     "webpack": "5.112.2"
