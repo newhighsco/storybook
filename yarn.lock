@@ -2826,7 +2826,7 @@ __metadata:
     "@storybook/addon-a11y": "npm:10.6.8"
     "@storybook/addon-docs": "npm:10.6.8"
     "@storybook/addon-styling-webpack": "npm:3.0.3"
-    "@storybook/addon-webpack5-compiler-swc": "npm:4.0.3"
+    "@storybook/addon-webpack5-compiler-swc": "npm:4.0.6"
     css-loader: "npm:7.1.5"
     postcss: "npm:8.5.33"
     postcss-loader: "npm:8.2.1"
@@ -5028,15 +5028,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-webpack5-compiler-swc@npm:4.0.3":
-  version: 4.0.3
-  resolution: "@storybook/addon-webpack5-compiler-swc@npm:4.0.3"
+"@storybook/addon-webpack5-compiler-swc@npm:4.0.6":
+  version: 4.0.6
+  resolution: "@storybook/addon-webpack5-compiler-swc@npm:4.0.6"
   dependencies:
     "@swc/core": "npm:^1.13.5"
     swc-loader: "npm:^0.2.6"
   peerDependencies:
-    storybook: ^9.0.0 || ^10.0.0-0 || ^10.1.0-0 || ^10.2.0-0 || ^10.3.0-0 || ^10.4.0-0
-  checksum: 10c0/f748ce4a00f353de2a805b6811cc9af7ab174c7b57e9e88edc5d192b42836a9e499cee5b814fe143613880b4d080fe92db490888a350f2a76db4d73750e8687b
+    storybook: ^0.0.0-0 || ^9.0.0 || ^10.0.0-0 || ^10.1.0-0 || ^10.2.0-0 || ^10.3.0-0 || ^10.4.0-0 || ^10.5.0-0 || ^10.6.0-0 || ^11.0.0-0
+  checksum: 10c0/d95ed7c0ed7c4bc4ef5f8c20786d561180f73208996227413e6802ea2fef1747fba14f654e679600649ef9c12303cdf6bda6a04dc0c55d0f0ca31f5634fccc28
   languageName: node
   linkType: hard
 
