@@ -2825,7 +2825,7 @@ __metadata:
     "@newhighsco/storybook-addon-transpile-modules": "npm:4.0.0"
     "@storybook/addon-a11y": "npm:10.6.8"
     "@storybook/addon-docs": "npm:10.6.8"
-    "@storybook/addon-styling-webpack": "npm:3.0.2"
+    "@storybook/addon-styling-webpack": "npm:3.0.3"
     "@storybook/addon-webpack5-compiler-swc": "npm:4.0.3"
     css-loader: "npm:7.1.5"
     postcss: "npm:8.5.33"
@@ -5018,13 +5018,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-styling-webpack@npm:3.0.2":
-  version: 3.0.2
-  resolution: "@storybook/addon-styling-webpack@npm:3.0.2"
+"@storybook/addon-styling-webpack@npm:3.0.3":
+  version: 3.0.3
+  resolution: "@storybook/addon-styling-webpack@npm:3.0.3"
   peerDependencies:
-    storybook: ^10.0.0 || ^10.0.0-0 || ^10.1.0-0 || ^10.2.0-0 || ^10.3.0-0 || ^10.4.0-0
+    storybook: ^0.0.0-0 || ^10.0.0 || ^10.0.0-0 || ^10.1.0-0 || ^10.2.0-0 || ^10.3.0-0 || ^10.4.0-0 || ^10.5.0-0 || ^10.6.0-0 || ^11.0.0-0
     webpack: ^5.0.0
-  checksum: 10c0/46967887851367856c28b60b6d3497159894954f3f8472a89ecbc8ebd17f7a9f5f34d48fdd281dbfd0f47ee03fb351aaa9aa4acac8d5e310918e2ec13af03ef2
+  checksum: 10c0/ebb9dc1e9c82c2667e8bee91d7ef8cf45f13c27c6a2f4b0483b4088e3181a614bafe1fa4eff27870633cb99b74c02ec05e13f904d0cce4a0c2424ae5239968b0
   languageName: node
   linkType: hard
 
